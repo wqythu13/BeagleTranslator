@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/wqy/CLionProjects/Verifier/cmake-build-debug"/>
+				<Option working_dir="/home/wqy/文档/BeagleTranslator/Verifier/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/wqy/CLionProjects/Verifier/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/wqy/CLionProjects/Verifier/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/wqy/CLionProjects/Verifier/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/wqy/CLionProjects/Verifier/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/wqy/文档/BeagleTranslator/Verifier/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/wqy/文档/BeagleTranslator/Verifier/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/wqy/文档/BeagleTranslator/Verifier/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/wqy/文档/BeagleTranslator/Verifier/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/wqy/CLionProjects/Verifier/cmake-build-debug"/>
+				<Option working_dir="/home/wqy/文档/BeagleTranslator/Verifier/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/wqy/CLionProjects/Verifier/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/wqy/CLionProjects/Verifier/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/wqy/CLionProjects/Verifier/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/wqy/CLionProjects/Verifier/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/wqy/文档/BeagleTranslator/Verifier/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/wqy/文档/BeagleTranslator/Verifier/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/wqy/文档/BeagleTranslator/Verifier/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/wqy/文档/BeagleTranslator/Verifier/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/wqy/CLionProjects/Verifier/cmake-build-debug"/>
+				<Option working_dir="/home/wqy/文档/BeagleTranslator/Verifier/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/wqy/CLionProjects/Verifier/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/wqy/CLionProjects/Verifier/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/wqy/CLionProjects/Verifier/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/wqy/CLionProjects/Verifier/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/wqy/文档/BeagleTranslator/Verifier/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/wqy/文档/BeagleTranslator/Verifier/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/wqy/文档/BeagleTranslator/Verifier/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/wqy/文档/BeagleTranslator/Verifier/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Verifier">
-				<Option output="/home/wqy/CLionProjects/Verifier/cmake-build-debug/Verifier" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/wqy/CLionProjects/Verifier/cmake-build-debug"/>
+				<Option output="/home/wqy/文档/BeagleTranslator/Verifier/cmake-build-debug/Verifier" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/wqy/文档/BeagleTranslator/Verifier/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -54,15 +54,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/wqy/CLionProjects/Verifier/cmake-build-debug/Makefile&quot;  VERBOSE=1 Verifier"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/wqy/CLionProjects/Verifier/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/wqy/CLionProjects/Verifier/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/wqy/CLionProjects/Verifier/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/wqy/文档/BeagleTranslator/Verifier/cmake-build-debug/Makefile&quot;  VERBOSE=1 Verifier"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/wqy/文档/BeagleTranslator/Verifier/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/wqy/文档/BeagleTranslator/Verifier/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/wqy/文档/BeagleTranslator/Verifier/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Verifier/fast">
-				<Option output="/home/wqy/CLionProjects/Verifier/cmake-build-debug/Verifier" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/wqy/CLionProjects/Verifier/cmake-build-debug"/>
+				<Option output="/home/wqy/文档/BeagleTranslator/Verifier/cmake-build-debug/Verifier" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/wqy/文档/BeagleTranslator/Verifier/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -77,83 +77,83 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/wqy/CLionProjects/Verifier/cmake-build-debug/Makefile&quot;  VERBOSE=1 Verifier/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/wqy/CLionProjects/Verifier/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/wqy/CLionProjects/Verifier/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/wqy/CLionProjects/Verifier/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/wqy/文档/BeagleTranslator/Verifier/cmake-build-debug/Makefile&quot;  VERBOSE=1 Verifier/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/wqy/文档/BeagleTranslator/Verifier/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/wqy/文档/BeagleTranslator/Verifier/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/wqy/文档/BeagleTranslator/Verifier/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/wqy/CLionProjects/Verifier/Model/FiniteStateMachine/Edge.cpp">
+		<Unit filename="/home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Edge.cpp">
 			<Option target="Verifier"/>
 		</Unit>
-		<Unit filename="/home/wqy/CLionProjects/Verifier/Model/FiniteStateMachine/Edge.h">
+		<Unit filename="/home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Edge.h">
 			<Option target="Verifier"/>
 		</Unit>
-		<Unit filename="/home/wqy/CLionProjects/Verifier/Model/FiniteStateMachine/FiniteStateMachine.cpp">
+		<Unit filename="/home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/FiniteStateMachine.cpp">
 			<Option target="Verifier"/>
 		</Unit>
-		<Unit filename="/home/wqy/CLionProjects/Verifier/Model/FiniteStateMachine/FiniteStateMachine.h">
+		<Unit filename="/home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/FiniteStateMachine.h">
 			<Option target="Verifier"/>
 		</Unit>
-		<Unit filename="/home/wqy/CLionProjects/Verifier/Model/FiniteStateMachine/Vertex.cpp">
+		<Unit filename="/home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Vertex.cpp">
 			<Option target="Verifier"/>
 		</Unit>
-		<Unit filename="/home/wqy/CLionProjects/Verifier/Model/FiniteStateMachine/Vertex.h">
+		<Unit filename="/home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Vertex.h">
 			<Option target="Verifier"/>
 		</Unit>
-		<Unit filename="/home/wqy/CLionProjects/Verifier/Model/Pragma/InitialKnowledge.cpp">
+		<Unit filename="/home/wqy/文档/BeagleTranslator/Verifier/Model/Pragma/InitialKnowledge.cpp">
 			<Option target="Verifier"/>
 		</Unit>
-		<Unit filename="/home/wqy/CLionProjects/Verifier/Model/Pragma/InitialKnowledge.h">
+		<Unit filename="/home/wqy/文档/BeagleTranslator/Verifier/Model/Pragma/InitialKnowledge.h">
 			<Option target="Verifier"/>
 		</Unit>
-		<Unit filename="/home/wqy/CLionProjects/Verifier/Model/Pragma/Property.cpp">
+		<Unit filename="/home/wqy/文档/BeagleTranslator/Verifier/Model/Pragma/Property.cpp">
 			<Option target="Verifier"/>
 		</Unit>
-		<Unit filename="/home/wqy/CLionProjects/Verifier/Model/Pragma/Property.h">
+		<Unit filename="/home/wqy/文档/BeagleTranslator/Verifier/Model/Pragma/Property.h">
 			<Option target="Verifier"/>
 		</Unit>
-		<Unit filename="/home/wqy/CLionProjects/Verifier/Model/Process/Attribute.cpp">
+		<Unit filename="/home/wqy/文档/BeagleTranslator/Verifier/Model/Process/Attribute.cpp">
 			<Option target="Verifier"/>
 		</Unit>
-		<Unit filename="/home/wqy/CLionProjects/Verifier/Model/Process/Attribute.h">
+		<Unit filename="/home/wqy/文档/BeagleTranslator/Verifier/Model/Process/Attribute.h">
 			<Option target="Verifier"/>
 		</Unit>
-		<Unit filename="/home/wqy/CLionProjects/Verifier/Model/Process/Method.cpp">
+		<Unit filename="/home/wqy/文档/BeagleTranslator/Verifier/Model/Process/Method.cpp">
 			<Option target="Verifier"/>
 		</Unit>
-		<Unit filename="/home/wqy/CLionProjects/Verifier/Model/Process/Method.h">
+		<Unit filename="/home/wqy/文档/BeagleTranslator/Verifier/Model/Process/Method.h">
 			<Option target="Verifier"/>
 		</Unit>
-		<Unit filename="/home/wqy/CLionProjects/Verifier/Model/Process/Process.cpp">
+		<Unit filename="/home/wqy/文档/BeagleTranslator/Verifier/Model/Process/Process.cpp">
 			<Option target="Verifier"/>
 		</Unit>
-		<Unit filename="/home/wqy/CLionProjects/Verifier/Model/Process/Process.h">
+		<Unit filename="/home/wqy/文档/BeagleTranslator/Verifier/Model/Process/Process.h">
 			<Option target="Verifier"/>
 		</Unit>
-		<Unit filename="/home/wqy/CLionProjects/Verifier/Model/Process/Signal.cpp">
+		<Unit filename="/home/wqy/文档/BeagleTranslator/Verifier/Model/Process/Signal.cpp">
 			<Option target="Verifier"/>
 		</Unit>
-		<Unit filename="/home/wqy/CLionProjects/Verifier/Model/Process/Signal.h">
+		<Unit filename="/home/wqy/文档/BeagleTranslator/Verifier/Model/Process/Signal.h">
 			<Option target="Verifier"/>
 		</Unit>
-		<Unit filename="/home/wqy/CLionProjects/Verifier/Model/Process/Type.cpp">
+		<Unit filename="/home/wqy/文档/BeagleTranslator/Verifier/Model/Process/Type.cpp">
 			<Option target="Verifier"/>
 		</Unit>
-		<Unit filename="/home/wqy/CLionProjects/Verifier/Model/Process/Type.h">
+		<Unit filename="/home/wqy/文档/BeagleTranslator/Verifier/Model/Process/Type.h">
 			<Option target="Verifier"/>
 		</Unit>
-		<Unit filename="/home/wqy/CLionProjects/Verifier/Translator/BeagleTranslator.cpp">
+		<Unit filename="/home/wqy/文档/BeagleTranslator/Verifier/Translator/BeagleTranslator.cpp">
 			<Option target="Verifier"/>
 		</Unit>
-		<Unit filename="/home/wqy/CLionProjects/Verifier/Translator/BeagleTranslator.h">
+		<Unit filename="/home/wqy/文档/BeagleTranslator/Verifier/Translator/BeagleTranslator.h">
 			<Option target="Verifier"/>
 		</Unit>
-		<Unit filename="/home/wqy/CLionProjects/Verifier/main.cpp">
+		<Unit filename="/home/wqy/文档/BeagleTranslator/Verifier/main.cpp">
 			<Option target="Verifier"/>
 		</Unit>
-		<Unit filename="/home/wqy/CLionProjects/Verifier/CMakeLists.txt">
+		<Unit filename="/home/wqy/文档/BeagleTranslator/Verifier/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

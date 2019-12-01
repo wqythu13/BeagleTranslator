@@ -1,4 +1,4 @@
-# Install script for directory: /home/wqy/CLionProjects/Verifier
+# Install script for directory: /home/wqy/文档/BeagleTranslator/Verifier
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/wqy/CLionProjects/Verifier/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/wqy/文档/BeagleTranslator/Verifier/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

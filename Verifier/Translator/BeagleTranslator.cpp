@@ -38,11 +38,11 @@ bool BeagleTranslator::saveInFile(string path) {
     //if (beagleFile == NULL)
     //    return false;
     //if (!fd) return false;
-    for (string col : beagleModelFile) {
-        fwrite(col.c_str(), 1, col.size()+1, beagleFile);
+    //for (string col : beagleModelFile) {
+    //    fwrite(col.c_str(), 1, col.size()+1, beagleFile);
         //cout << col.c_str() << endl;
-    }
-    fclose(beagleFile);
+    //}
+    //fclose(beagleFile);
     //close(fd);
     //fd=open(path.c_str(), O_RDONLY);
     char buffer[80];

@@ -1,3 +1,3 @@
-/home/wqy/CLionProjects/Verifier/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/wqy/CLionProjects/Verifier/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/wqy/CLionProjects/Verifier/cmake-build-debug/CMakeFiles/Verifier.dir
+/home/wqy/文档/BeagleTranslator/Verifier/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/wqy/文档/BeagleTranslator/Verifier/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/wqy/文档/BeagleTranslator/Verifier/cmake-build-debug/CMakeFiles/Verifier.dir
