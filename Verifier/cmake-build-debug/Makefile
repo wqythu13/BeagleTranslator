@@ -123,6 +123,33 @@ Verifier/fast:
 	$(MAKE) -f CMakeFiles/Verifier.dir/build.make CMakeFiles/Verifier.dir/build
 .PHONY : Verifier/fast
 
+BeagleModel/BeagleModel.o: BeagleModel/BeagleModel.cpp.o
+
+.PHONY : BeagleModel/BeagleModel.o
+
+# target to build an object file
+BeagleModel/BeagleModel.cpp.o:
+	$(MAKE) -f CMakeFiles/Verifier.dir/build.make CMakeFiles/Verifier.dir/BeagleModel/BeagleModel.cpp.o
+.PHONY : BeagleModel/BeagleModel.cpp.o
+
+BeagleModel/BeagleModel.i: BeagleModel/BeagleModel.cpp.i
+
+.PHONY : BeagleModel/BeagleModel.i
+
+# target to preprocess a source file
+BeagleModel/BeagleModel.cpp.i:
+	$(MAKE) -f CMakeFiles/Verifier.dir/build.make CMakeFiles/Verifier.dir/BeagleModel/BeagleModel.cpp.i
+.PHONY : BeagleModel/BeagleModel.cpp.i
+
+BeagleModel/BeagleModel.s: BeagleModel/BeagleModel.cpp.s
+
+.PHONY : BeagleModel/BeagleModel.s
+
+# target to generate assembly for a file
+BeagleModel/BeagleModel.cpp.s:
+	$(MAKE) -f CMakeFiles/Verifier.dir/build.make CMakeFiles/Verifier.dir/BeagleModel/BeagleModel.cpp.s
+.PHONY : BeagleModel/BeagleModel.cpp.s
+
 BeagleModel/BeagleModule.o: BeagleModel/BeagleModule.cpp.o
 
 .PHONY : BeagleModel/BeagleModule.o
@@ -537,6 +564,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Verifier"
+	@echo "... BeagleModel/BeagleModel.o"
+	@echo "... BeagleModel/BeagleModel.i"
+	@echo "... BeagleModel/BeagleModel.s"
 	@echo "... BeagleModel/BeagleModule.o"
 	@echo "... BeagleModel/BeagleModule.i"
 	@echo "... BeagleModel/BeagleModule.s"

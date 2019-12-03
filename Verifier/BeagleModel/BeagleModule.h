@@ -21,6 +21,8 @@ namespace esc {
     public:
         void setModuleName(string _moduleName);
         void addVariable(BeagleVariable* _variable);
+        void addLabel(string _label);
+        void addLocation(string _location);
     };
 }
 #endif //VERIFIER_BEAGLEMODULE_H

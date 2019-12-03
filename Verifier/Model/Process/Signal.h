@@ -12,6 +12,9 @@ namespace esc {
         string name;
         bool inout;
         Attribute* parameter;
+
+    public:
+        string getName() {return this->name;}
     };
 }
 

@@ -30,9 +30,19 @@ void BeagleTranslator::makeHeader() {
             beagleModule->addVariable(variable);
         }
         //add module labels
-
+        list<Signal*> moduleSignals = process->getSignals();
+        for (auto signal : moduleSignals)
+        {
+            string labelName = signal->getName();
+            beagleModule->addLabel(labelName);
+        }
         //add module locations
-
+        list<Vertex*> moduleVertices = process->getFST()->getVertices();
+        for (auto vertex : moduleVertices)
+        {
+            string locationName = vertex->getName();
+            beagleModule->addLocation(locationName);
+        }
         //add beagleModule into beagleModel list
         this->beagleModel->addModule(beagleModule);
     }

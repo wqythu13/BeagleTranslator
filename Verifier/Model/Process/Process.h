@@ -22,6 +22,8 @@ namespace esc {
     public:
         string getProcessName() {return this->processName;}
         list<Attribute*> getAttributes() {return this->attributes;}
+        FiniteStateMachine* getFST() {return this->fst;}
+        list<Signal*> getSignals() {return this->signals;}
     };
 }
 

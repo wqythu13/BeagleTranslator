@@ -9,7 +9,7 @@ int main() {
     //beagleTranslator->generateBeagle();
     BeagleTranslator beagleTranslator;
     beagleTranslator.generateBeagle();
-    char* filePath = "./Beagle/beagle.elt";
+    const char *filePath = "./Beagle/beagle.elt";
     //std::cout << beagleTranslator.saveInFile(filePath);
     return 0;
 }

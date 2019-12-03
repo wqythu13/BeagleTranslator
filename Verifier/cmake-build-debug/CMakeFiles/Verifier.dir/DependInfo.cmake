@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/wqy/文档/BeagleTranslator/Verifier/BeagleModel/BeagleModel.cpp" "/home/wqy/文档/BeagleTranslator/Verifier/cmake-build-debug/CMakeFiles/Verifier.dir/BeagleModel/BeagleModel.cpp.o"
   "/home/wqy/文档/BeagleTranslator/Verifier/BeagleModel/BeagleModule.cpp" "/home/wqy/文档/BeagleTranslator/Verifier/cmake-build-debug/CMakeFiles/Verifier.dir/BeagleModel/BeagleModule.cpp.o"
   "/home/wqy/文档/BeagleTranslator/Verifier/BeagleModel/BeagleProperty.cpp" "/home/wqy/文档/BeagleTranslator/Verifier/cmake-build-debug/CMakeFiles/Verifier.dir/BeagleModel/BeagleProperty.cpp.o"
   "/home/wqy/文档/BeagleTranslator/Verifier/BeagleModel/BeagleVariable.cpp" "/home/wqy/文档/BeagleTranslator/Verifier/cmake-build-debug/CMakeFiles/Verifier.dir/BeagleModel/BeagleVariable.cpp.o"

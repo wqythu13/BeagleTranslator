@@ -16,6 +16,8 @@ namespace esc {
     private:
         string name;
         list<Edge*> nexts;
+    public:
+        string getName(){return this->name;}
     };
 }
 

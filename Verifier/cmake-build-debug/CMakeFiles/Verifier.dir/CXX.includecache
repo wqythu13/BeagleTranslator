@@ -9,14 +9,24 @@
 /home/wqy/文档/BeagleTranslator/Verifier/BeagleModel/BeagleModel.h
 BeagleModule.h
 /home/wqy/文档/BeagleTranslator/Verifier/BeagleModel/BeagleModule.h
+BeagleProperty.h
+/home/wqy/文档/BeagleTranslator/Verifier/BeagleModel/BeagleProperty.h
 list
 -
 
-/home/wqy/文档/BeagleTranslator/Verifier/BeagleModel/BeagleModule.cpp
-BeagleModule.h
 /home/wqy/文档/BeagleTranslator/Verifier/BeagleModel/BeagleModule.h
+string
+-
+list
+-
+BeagleVariable.h
+/home/wqy/文档/BeagleTranslator/Verifier/BeagleModel/BeagleVariable.h
 
-/home/wqy/文档/BeagleTranslator/Verifier/BeagleModel/BeagleModule.h
+/home/wqy/文档/BeagleTranslator/Verifier/BeagleModel/BeagleProperty.h
+
+/home/wqy/文档/BeagleTranslator/Verifier/BeagleModel/BeagleVariable.h
+string
+-
 
 /home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Edge.h
 Vertex.h
@@ -80,20 +90,6 @@ Attribute.h
 
 /home/wqy/文档/BeagleTranslator/Verifier/Model/Process/Type.h
 string
--
-
-/home/wqy/文档/BeagleTranslator/Verifier/Translator/BeagleTranslator.cpp
-BeagleTranslator.h
-/home/wqy/文档/BeagleTranslator/Verifier/Translator/BeagleTranslator.h
-iostream
--
-unistd.h
--
-sys/types.h
--
-sys/stat.h
--
-fcntl.h
 -
 
 /home/wqy/文档/BeagleTranslator/Verifier/Translator/BeagleTranslator.h

@@ -84,6 +84,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/wqy/文档/BeagleTranslator/Verifier/BeagleModel/BeagleModel.cpp">
+			<Option target="Verifier"/>
+		</Unit>
+		<Unit filename="/home/wqy/文档/BeagleTranslator/Verifier/BeagleModel/BeagleModel.h">
+			<Option target="Verifier"/>
+		</Unit>
 		<Unit filename="/home/wqy/文档/BeagleTranslator/Verifier/BeagleModel/BeagleModule.cpp">
 			<Option target="Verifier"/>
 		</Unit>
