@@ -21,6 +21,7 @@ namespace esc {
 
     public:
         string getProcessName() {return this->processName;}
+        list<Attribute*> getAttributes() {return this->attributes;}
     };
 }
 

@@ -96,6 +96,12 @@
 		<Unit filename="/home/wqy/文档/BeagleTranslator/Verifier/BeagleModel/BeagleProperty.h">
 			<Option target="Verifier"/>
 		</Unit>
+		<Unit filename="/home/wqy/文档/BeagleTranslator/Verifier/BeagleModel/BeagleVariable.cpp">
+			<Option target="Verifier"/>
+		</Unit>
+		<Unit filename="/home/wqy/文档/BeagleTranslator/Verifier/BeagleModel/BeagleVariable.h">
+			<Option target="Verifier"/>
+		</Unit>
 		<Unit filename="/home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Edge.cpp">
 			<Option target="Verifier"/>
 		</Unit>

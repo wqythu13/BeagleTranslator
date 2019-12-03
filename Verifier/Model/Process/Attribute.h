@@ -11,6 +11,9 @@ namespace esc {
     private:
         Type* type;
         string identifier;
+
+    public:
+        string getIdentifier(){return this->identifier;}
     };
 }
 

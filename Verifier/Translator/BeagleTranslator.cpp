@@ -16,9 +16,25 @@ void BeagleTranslator::makeHeader() {
     mProcesses = this->model->getProcesses();
     for (auto process : mProcesses)
     {
-        this->beagleModelFile;
+        BeagleModule* beagleModule = new BeagleModule();
+        //get and set moduleName
         string moduleName = process->getProcessName();
+        beagleModule->setModuleName(moduleName);
+        //add module variables
+        list<Attribute*> moduleAttributes = process->getAttributes();
+        for (auto attribute : moduleAttributes)
+        {
+            BeagleVariable* variable = new BeagleVariable();
+            variable->setName(attribute->getIdentifier());
+            variable->setLen(256);
+            beagleModule->addVariable(variable);
+        }
+        //add module labels
 
+        //add module locations
+
+        //add beagleModule into beagleModel list
+        this->beagleModel->addModule(beagleModule);
     }
 }
 

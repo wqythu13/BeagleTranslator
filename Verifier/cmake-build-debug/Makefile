@@ -177,6 +177,33 @@ BeagleModel/BeagleProperty.cpp.s:
 	$(MAKE) -f CMakeFiles/Verifier.dir/build.make CMakeFiles/Verifier.dir/BeagleModel/BeagleProperty.cpp.s
 .PHONY : BeagleModel/BeagleProperty.cpp.s
 
+BeagleModel/BeagleVariable.o: BeagleModel/BeagleVariable.cpp.o
+
+.PHONY : BeagleModel/BeagleVariable.o
+
+# target to build an object file
+BeagleModel/BeagleVariable.cpp.o:
+	$(MAKE) -f CMakeFiles/Verifier.dir/build.make CMakeFiles/Verifier.dir/BeagleModel/BeagleVariable.cpp.o
+.PHONY : BeagleModel/BeagleVariable.cpp.o
+
+BeagleModel/BeagleVariable.i: BeagleModel/BeagleVariable.cpp.i
+
+.PHONY : BeagleModel/BeagleVariable.i
+
+# target to preprocess a source file
+BeagleModel/BeagleVariable.cpp.i:
+	$(MAKE) -f CMakeFiles/Verifier.dir/build.make CMakeFiles/Verifier.dir/BeagleModel/BeagleVariable.cpp.i
+.PHONY : BeagleModel/BeagleVariable.cpp.i
+
+BeagleModel/BeagleVariable.s: BeagleModel/BeagleVariable.cpp.s
+
+.PHONY : BeagleModel/BeagleVariable.s
+
+# target to generate assembly for a file
+BeagleModel/BeagleVariable.cpp.s:
+	$(MAKE) -f CMakeFiles/Verifier.dir/build.make CMakeFiles/Verifier.dir/BeagleModel/BeagleVariable.cpp.s
+.PHONY : BeagleModel/BeagleVariable.cpp.s
+
 Model/FiniteStateMachine/Edge.o: Model/FiniteStateMachine/Edge.cpp.o
 
 .PHONY : Model/FiniteStateMachine/Edge.o
@@ -516,6 +543,9 @@ help:
 	@echo "... BeagleModel/BeagleProperty.o"
 	@echo "... BeagleModel/BeagleProperty.i"
 	@echo "... BeagleModel/BeagleProperty.s"
+	@echo "... BeagleModel/BeagleVariable.o"
+	@echo "... BeagleModel/BeagleVariable.i"
+	@echo "... BeagleModel/BeagleVariable.s"
 	@echo "... Model/FiniteStateMachine/Edge.o"
 	@echo "... Model/FiniteStateMachine/Edge.i"
 	@echo "... Model/FiniteStateMachine/Edge.s"
