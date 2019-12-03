@@ -16,7 +16,9 @@ void BeagleTranslator::makeHeader() {
     mProcesses = this->model->getProcesses();
     for (auto process : mProcesses)
     {
-        
+        this->beagleModelFile;
+        string moduleName = process->getProcessName();
+
     }
 }
 

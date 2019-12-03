@@ -17,6 +17,10 @@ namespace esc {
         list<Signal*> signals;
         FiniteStateMachine* fst;
         Model* model;
+        string processName;
+
+    public:
+        string getProcessName() {return this->processName;}
     };
 }
 
