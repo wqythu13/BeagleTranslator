@@ -7,6 +7,16 @@
 #IncludeRegexTransform: 
 
 /home/wqy/文档/BeagleTranslator/Verifier/BeagleModel/BeagleModel.h
+BeagleModule.h
+/home/wqy/文档/BeagleTranslator/Verifier/BeagleModel/BeagleModule.h
+list
+-
+
+/home/wqy/文档/BeagleTranslator/Verifier/BeagleModel/BeagleModule.cpp
+BeagleModule.h
+/home/wqy/文档/BeagleTranslator/Verifier/BeagleModel/BeagleModule.h
+
+/home/wqy/文档/BeagleTranslator/Verifier/BeagleModel/BeagleModule.h
 
 /home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Edge.h
 Vertex.h
@@ -101,4 +111,12 @@ vector
 /home/wqy/文档/BeagleTranslator/Verifier/Translator/Translator.h
 ../Model/Model.h
 /home/wqy/文档/BeagleTranslator/Verifier/Model/Model.h
+
+/home/wqy/文档/BeagleTranslator/Verifier/main.cpp
+iostream
+-
+Translator/Translator.h
+/home/wqy/文档/BeagleTranslator/Verifier/Translator/Translator.h
+Translator/BeagleTranslator.h
+/home/wqy/文档/BeagleTranslator/Verifier/Translator/BeagleTranslator.h
 

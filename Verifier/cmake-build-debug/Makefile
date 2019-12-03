@@ -123,6 +123,33 @@ Verifier/fast:
 	$(MAKE) -f CMakeFiles/Verifier.dir/build.make CMakeFiles/Verifier.dir/build
 .PHONY : Verifier/fast
 
+BeagleModel/BeagleModule.o: BeagleModel/BeagleModule.cpp.o
+
+.PHONY : BeagleModel/BeagleModule.o
+
+# target to build an object file
+BeagleModel/BeagleModule.cpp.o:
+	$(MAKE) -f CMakeFiles/Verifier.dir/build.make CMakeFiles/Verifier.dir/BeagleModel/BeagleModule.cpp.o
+.PHONY : BeagleModel/BeagleModule.cpp.o
+
+BeagleModel/BeagleModule.i: BeagleModel/BeagleModule.cpp.i
+
+.PHONY : BeagleModel/BeagleModule.i
+
+# target to preprocess a source file
+BeagleModel/BeagleModule.cpp.i:
+	$(MAKE) -f CMakeFiles/Verifier.dir/build.make CMakeFiles/Verifier.dir/BeagleModel/BeagleModule.cpp.i
+.PHONY : BeagleModel/BeagleModule.cpp.i
+
+BeagleModel/BeagleModule.s: BeagleModel/BeagleModule.cpp.s
+
+.PHONY : BeagleModel/BeagleModule.s
+
+# target to generate assembly for a file
+BeagleModel/BeagleModule.cpp.s:
+	$(MAKE) -f CMakeFiles/Verifier.dir/build.make CMakeFiles/Verifier.dir/BeagleModel/BeagleModule.cpp.s
+.PHONY : BeagleModel/BeagleModule.cpp.s
+
 Model/FiniteStateMachine/Edge.o: Model/FiniteStateMachine/Edge.cpp.o
 
 .PHONY : Model/FiniteStateMachine/Edge.o
@@ -456,6 +483,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Verifier"
+	@echo "... BeagleModel/BeagleModule.o"
+	@echo "... BeagleModel/BeagleModule.i"
+	@echo "... BeagleModel/BeagleModule.s"
 	@echo "... Model/FiniteStateMachine/Edge.o"
 	@echo "... Model/FiniteStateMachine/Edge.i"
 	@echo "... Model/FiniteStateMachine/Edge.s"
