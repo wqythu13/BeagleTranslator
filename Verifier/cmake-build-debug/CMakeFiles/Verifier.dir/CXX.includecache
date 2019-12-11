@@ -23,10 +23,28 @@ BeagleVariable.h
 /home/wqy/文档/BeagleTranslator/Verifier/BeagleModel/BeagleVariable.h
 
 /home/wqy/文档/BeagleTranslator/Verifier/BeagleModel/BeagleProperty.h
+string
+-
 
 /home/wqy/文档/BeagleTranslator/Verifier/BeagleModel/BeagleVariable.h
 string
 -
+
+/home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Action/Action.cpp
+Action.h
+/home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Action/Action.h
+
+/home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Action/Action.h
+../Term/AttributeTerm.h
+/home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Term/AttributeTerm.h
+
+/home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Action/AssignmentAction.cpp
+AssignmentAction.h
+/home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Action/AssignmentAction.h
+
+/home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Action/AssignmentAction.h
+Action.h
+/home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Action/Action.h
 
 /home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Edge.h
 Vertex.h
@@ -39,6 +57,24 @@ Vertex.h
 /home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Vertex.h
 Edge.h
 /home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Edge.h
+
+/home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Term/AttributeTerm.cpp
+AttributeTerm.h
+/home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Term/AttributeTerm.h
+
+/home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Term/AttributeTerm.h
+Term.h
+/home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Term/Term.h
+../../Process/Attribute.h
+/home/wqy/文档/BeagleTranslator/Verifier/Model/Process/Attribute.h
+
+/home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Term/Term.cpp
+Term.h
+/home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Term/Term.h
+
+/home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Term/Term.h
+string
+-
 
 /home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Vertex.h
 string
@@ -92,6 +128,24 @@ Attribute.h
 string
 -
 
+/home/wqy/文档/BeagleTranslator/Verifier/Translator/BeagleTranslator.cpp
+BeagleTranslator.h
+/home/wqy/文档/BeagleTranslator/Verifier/Translator/BeagleTranslator.h
+iostream
+-
+unistd.h
+-
+sys/types.h
+-
+sys/stat.h
+-
+fcntl.h
+-
+cstring
+-
+typeinfo
+-
+
 /home/wqy/文档/BeagleTranslator/Verifier/Translator/BeagleTranslator.h
 Translator.h
 /home/wqy/文档/BeagleTranslator/Verifier/Translator/Translator.h
@@ -107,12 +161,4 @@ vector
 /home/wqy/文档/BeagleTranslator/Verifier/Translator/Translator.h
 ../Model/Model.h
 /home/wqy/文档/BeagleTranslator/Verifier/Model/Model.h
-
-/home/wqy/文档/BeagleTranslator/Verifier/main.cpp
-iostream
--
-Translator/Translator.h
-/home/wqy/文档/BeagleTranslator/Verifier/Translator/Translator.h
-Translator/BeagleTranslator.h
-/home/wqy/文档/BeagleTranslator/Verifier/Translator/BeagleTranslator.h
 

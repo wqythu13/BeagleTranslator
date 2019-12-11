@@ -3,3 +3,8 @@
 //
 
 #include "BeagleProperty.h"
+using namespace esc;
+
+void BeagleProperty::setProperty(string _property) {
+    this->property = _property;
+}

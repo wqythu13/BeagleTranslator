@@ -11,6 +11,15 @@ namespace esc {
     private:
     };
 
+    class SafetyProperty : public Property {
+    private:
+        string safetyProperty;
+
+    public:
+        string getSafetyProperty() {return this->safetyProperty;}
+        void setSafetyProperty(string _safetyProperty);
+    };
+
     class ConfidentialProperty : public Property {
     private:
         Process* process;

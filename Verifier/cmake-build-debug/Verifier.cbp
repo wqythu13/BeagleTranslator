@@ -108,6 +108,18 @@
 		<Unit filename="/home/wqy/文档/BeagleTranslator/Verifier/BeagleModel/BeagleVariable.h">
 			<Option target="Verifier"/>
 		</Unit>
+		<Unit filename="/home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Action/Action.cpp">
+			<Option target="Verifier"/>
+		</Unit>
+		<Unit filename="/home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Action/Action.h">
+			<Option target="Verifier"/>
+		</Unit>
+		<Unit filename="/home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Action/AssignmentAction.cpp">
+			<Option target="Verifier"/>
+		</Unit>
+		<Unit filename="/home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Action/AssignmentAction.h">
+			<Option target="Verifier"/>
+		</Unit>
 		<Unit filename="/home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Edge.cpp">
 			<Option target="Verifier"/>
 		</Unit>
@@ -118,6 +130,18 @@
 			<Option target="Verifier"/>
 		</Unit>
 		<Unit filename="/home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/FiniteStateMachine.h">
+			<Option target="Verifier"/>
+		</Unit>
+		<Unit filename="/home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Term/AttributeTerm.cpp">
+			<Option target="Verifier"/>
+		</Unit>
+		<Unit filename="/home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Term/AttributeTerm.h">
+			<Option target="Verifier"/>
+		</Unit>
+		<Unit filename="/home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Term/Term.cpp">
+			<Option target="Verifier"/>
+		</Unit>
+		<Unit filename="/home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Term/Term.h">
 			<Option target="Verifier"/>
 		</Unit>
 		<Unit filename="/home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Vertex.cpp">

@@ -15,6 +15,10 @@ file(REMOVE_RECURSE
   "CMakeFiles/Verifier.dir/BeagleModel/BeagleProperty.cpp.o"
   "CMakeFiles/Verifier.dir/BeagleModel/BeagleVariable.cpp.o"
   "CMakeFiles/Verifier.dir/BeagleModel/BeagleModel.cpp.o"
+  "CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Action/Action.cpp.o"
+  "CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Action/AssignmentAction.cpp.o"
+  "CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Term/AttributeTerm.cpp.o"
+  "CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Term/Term.cpp.o"
   "Verifier.pdb"
   "Verifier"
 )

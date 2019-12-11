@@ -17,6 +17,7 @@ namespace esc {
 
     public:
         void addModule(BeagleModule* _module);
+        void addProperty(BeagleProperty* _property);
         list<BeagleModule*> getModules() {return this->modules;}
     };
 }

@@ -8,6 +8,9 @@
 #include<sys/types.h>
 #include<sys/stat.h>
 #include<fcntl.h>
+#include <cstring>
+#include <typeinfo>
+
 using namespace esc;
 using namespace std;
 
@@ -53,6 +56,7 @@ void BeagleTranslator::makeModules() {
     for (auto process : processes)
     {
         // find the module correspond to the process in beagleModel
+        // TODO update initialKnowledge
         BeagleModule* module;
         for (auto searchModule : this->beagleModel->getModules())
         {
@@ -69,20 +73,33 @@ void BeagleTranslator::makeModules() {
         module->getInitState()->setLocation(initStateName);
         list<Edge*> edges = process->getFST()->getEdges();
         // add Transitions converted by Edges
-        for (auto edge : edges) {
+        for (auto edge : edges)
+        {
             string fromLocationName = edge->getFrom()->getName();
             string toLocationName = edge->getTo()->getName();
             Transition *transition = new Transition();
             transition->setFromLoc(fromLocationName);
             transition->setToLoc(toLocationName);
-            //TODO transition guard & actions
             module->addTransition(transition);
         }
     }
 }
 
 void BeagleTranslator::makeProperties() {
-
+    list<Property*> properties = this->model->getProperties();
+    // add SafetyProperty from Pragma
+    char* safetyTypeID;
+    strcpy(safetyTypeID, typeid(SafetyProperty).name());
+    for (auto property : properties)
+    {
+        if (strcmp(safetyTypeID, typeid(*property).name()) == 0)
+        {
+            BeagleProperty* beagleProperty = new BeagleProperty();
+            string propertyName = ((SafetyProperty*)property)->getSafetyProperty();
+            beagleProperty->setProperty(propertyName);
+            this->beagleModel->addProperty(beagleProperty);
+        }
+    }
 }
 
 /// \brief save the beagleModelFile into the file in path.

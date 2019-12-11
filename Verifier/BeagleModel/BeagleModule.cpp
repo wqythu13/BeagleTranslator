@@ -17,6 +17,10 @@ void Transition::setToLoc(string _toLocation) {
     this->toLocation = _toLocation;
 }
 
+void Transition::setLabel(string _label) {
+    this->label = _label;
+}
+
 BeagleModule::BeagleModule() {
     this->initStatement = new InitStatement();
 }

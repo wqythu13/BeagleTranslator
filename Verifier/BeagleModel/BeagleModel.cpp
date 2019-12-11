@@ -8,3 +8,7 @@ void BeagleModel::addModule(BeagleModule* _module)
 {
     this->modules.push_back(_module);
 }
+
+void BeagleModel::addProperty(esc::BeagleProperty *_property) {
+    this->properties.push_back(_property);
+}

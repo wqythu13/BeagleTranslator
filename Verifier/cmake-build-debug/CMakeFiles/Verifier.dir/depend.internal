@@ -17,6 +17,21 @@ CMakeFiles/Verifier.dir/BeagleModel/BeagleProperty.cpp.o
 CMakeFiles/Verifier.dir/BeagleModel/BeagleVariable.cpp.o
  /home/wqy/文档/BeagleTranslator/Verifier/BeagleModel/BeagleVariable.cpp
  /home/wqy/文档/BeagleTranslator/Verifier/BeagleModel/BeagleVariable.h
+CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Action/Action.cpp.o
+ /home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Action/Action.cpp
+ /home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Action/Action.h
+ /home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Term/AttributeTerm.h
+ /home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Term/Term.h
+ /home/wqy/文档/BeagleTranslator/Verifier/Model/Process/Attribute.h
+ /home/wqy/文档/BeagleTranslator/Verifier/Model/Process/Type.h
+CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Action/AssignmentAction.cpp.o
+ /home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Action/Action.h
+ /home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Action/AssignmentAction.cpp
+ /home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Action/AssignmentAction.h
+ /home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Term/AttributeTerm.h
+ /home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Term/Term.h
+ /home/wqy/文档/BeagleTranslator/Verifier/Model/Process/Attribute.h
+ /home/wqy/文档/BeagleTranslator/Verifier/Model/Process/Type.h
 CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Edge.cpp.o
  /home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Edge.cpp
  /home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Edge.h
@@ -26,6 +41,15 @@ CMakeFiles/Verifier.dir/Model/FiniteStateMachine/FiniteStateMachine.cpp.o
  /home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/FiniteStateMachine.cpp
  /home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/FiniteStateMachine.h
  /home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Vertex.h
+CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Term/AttributeTerm.cpp.o
+ /home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Term/AttributeTerm.cpp
+ /home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Term/AttributeTerm.h
+ /home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Term/Term.h
+ /home/wqy/文档/BeagleTranslator/Verifier/Model/Process/Attribute.h
+ /home/wqy/文档/BeagleTranslator/Verifier/Model/Process/Type.h
+CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Term/Term.cpp.o
+ /home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Term/Term.cpp
+ /home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Term/Term.h
 CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Vertex.cpp.o
  /home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Vertex.cpp
  /home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Vertex.h

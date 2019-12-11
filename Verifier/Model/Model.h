@@ -23,6 +23,7 @@ namespace esc {
     public:
         string getName() {return this->name;}
         list<Process*> getProcesses() {return this->processes;}
+        list<Property*> getProperties() {return this->properties;}
     };
 }
 

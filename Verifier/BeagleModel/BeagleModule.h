@@ -24,14 +24,17 @@ namespace esc {
     class Transition {
     private:
         string fromLocation, toLocation;
+        string label;
         //Guard* guard;
         //list<Action*> actions;
 
     public:
         string getFromLoc() {return this->fromLocation;}
         string getToLoc() {return this->toLocation;}
+        string getLabel() {return this->label;}
         void setFromLoc(string _fromLocation);
         void setToLoc(string _toLocation);
+        void setLabel(string _label);
     };
 
     class BeagleModule {
