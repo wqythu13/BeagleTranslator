@@ -14,6 +14,10 @@ namespace esc {
         Vertex* to;
         //Guard* guard;
         //list<Action*> actions;
+
+    public:
+        Vertex* getFrom() {return this->from;}
+        Vertex* getTo() {return this->to;}
     };
 }
 

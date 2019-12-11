@@ -5,6 +5,22 @@
 #include "BeagleModule.h"
 using namespace esc;
 
+void InitStatement::setLocation(string _location) {
+    this->location = _location;
+}
+
+void Transition::setFromLoc(string _fromLocation) {
+    this->fromLocation = _fromLocation;
+}
+
+void Transition::setToLoc(string _toLocation) {
+    this->toLocation = _toLocation;
+}
+
+BeagleModule::BeagleModule() {
+    this->initStatement = new InitStatement();
+}
+
 void BeagleModule::setModuleName(string _moduleName){
     this->moduleName = _moduleName;
 }
@@ -21,4 +37,8 @@ void BeagleModule::addLabel(string _label)
 void BeagleModule::addLocation(string _location)
 {
     this->locations.push_back(_location);
+}
+
+void BeagleModule::addTransition(esc::Transition *_transition) {
+    this->transitions.push_back(_transition);
 }

@@ -49,7 +49,36 @@ void BeagleTranslator::makeHeader() {
 }
 
 void BeagleTranslator::makeModules() {
-
+    list<Process*> processes = this->model->getProcesses();
+    for (auto process : processes)
+    {
+        // find the module correspond to the process in beagleModel
+        BeagleModule* module;
+        for (auto searchModule : this->beagleModel->getModules())
+        {
+            if (searchModule->getModuleName() == process->getProcessName())
+            {
+                module = searchModule;
+                break;
+            }
+        }
+        if (module == NULL)
+            continue;
+        //set init state
+        string initStateName = process->getFST()->getStartVertex()->getName();
+        module->getInitState()->setLocation(initStateName);
+        list<Edge*> edges = process->getFST()->getEdges();
+        // add Transitions converted by Edges
+        for (auto edge : edges) {
+            string fromLocationName = edge->getFrom()->getName();
+            string toLocationName = edge->getTo()->getName();
+            Transition *transition = new Transition();
+            transition->setFromLoc(fromLocationName);
+            transition->setToLoc(toLocationName);
+            //TODO transition guard & actions
+            module->addTransition(transition);
+        }
+    }
 }
 
 void BeagleTranslator::makeProperties() {

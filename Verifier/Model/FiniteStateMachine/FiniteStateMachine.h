@@ -21,6 +21,8 @@ namespace esc {
 
     public:
         list<Vertex*> getVertices() {return this->vertices;}
+        list<Edge*> getEdges() {return this->edges;}
+        Vertex* getStartVertex() {return this->startVertex;}
     };
 }
 #endif //VERIFIER_FINITESTATEMACHINE_H
