@@ -366,6 +366,33 @@ Model/FiniteStateMachine/Term/AttributeTerm.cpp.s:
 	$(MAKE) -f CMakeFiles/Verifier.dir/build.make CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Term/AttributeTerm.cpp.s
 .PHONY : Model/FiniteStateMachine/Term/AttributeTerm.cpp.s
 
+Model/FiniteStateMachine/Term/MethodTerm.o: Model/FiniteStateMachine/Term/MethodTerm.cpp.o
+
+.PHONY : Model/FiniteStateMachine/Term/MethodTerm.o
+
+# target to build an object file
+Model/FiniteStateMachine/Term/MethodTerm.cpp.o:
+	$(MAKE) -f CMakeFiles/Verifier.dir/build.make CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Term/MethodTerm.cpp.o
+.PHONY : Model/FiniteStateMachine/Term/MethodTerm.cpp.o
+
+Model/FiniteStateMachine/Term/MethodTerm.i: Model/FiniteStateMachine/Term/MethodTerm.cpp.i
+
+.PHONY : Model/FiniteStateMachine/Term/MethodTerm.i
+
+# target to preprocess a source file
+Model/FiniteStateMachine/Term/MethodTerm.cpp.i:
+	$(MAKE) -f CMakeFiles/Verifier.dir/build.make CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Term/MethodTerm.cpp.i
+.PHONY : Model/FiniteStateMachine/Term/MethodTerm.cpp.i
+
+Model/FiniteStateMachine/Term/MethodTerm.s: Model/FiniteStateMachine/Term/MethodTerm.cpp.s
+
+.PHONY : Model/FiniteStateMachine/Term/MethodTerm.s
+
+# target to generate assembly for a file
+Model/FiniteStateMachine/Term/MethodTerm.cpp.s:
+	$(MAKE) -f CMakeFiles/Verifier.dir/build.make CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Term/MethodTerm.cpp.s
+.PHONY : Model/FiniteStateMachine/Term/MethodTerm.cpp.s
+
 Model/FiniteStateMachine/Term/Term.o: Model/FiniteStateMachine/Term/Term.cpp.o
 
 .PHONY : Model/FiniteStateMachine/Term/Term.o
@@ -699,6 +726,9 @@ help:
 	@echo "... Model/FiniteStateMachine/Term/AttributeTerm.o"
 	@echo "... Model/FiniteStateMachine/Term/AttributeTerm.i"
 	@echo "... Model/FiniteStateMachine/Term/AttributeTerm.s"
+	@echo "... Model/FiniteStateMachine/Term/MethodTerm.o"
+	@echo "... Model/FiniteStateMachine/Term/MethodTerm.i"
+	@echo "... Model/FiniteStateMachine/Term/MethodTerm.s"
 	@echo "... Model/FiniteStateMachine/Term/Term.o"
 	@echo "... Model/FiniteStateMachine/Term/Term.i"
 	@echo "... Model/FiniteStateMachine/Term/Term.s"

@@ -6,10 +6,22 @@ CMakeFiles/Verifier.dir/BeagleModel/BeagleModel.cpp.o: ../BeagleModel/BeagleMode
 CMakeFiles/Verifier.dir/BeagleModel/BeagleModel.cpp.o: ../BeagleModel/BeagleModule.h
 CMakeFiles/Verifier.dir/BeagleModel/BeagleModel.cpp.o: ../BeagleModel/BeagleProperty.h
 CMakeFiles/Verifier.dir/BeagleModel/BeagleModel.cpp.o: ../BeagleModel/BeagleVariable.h
+CMakeFiles/Verifier.dir/BeagleModel/BeagleModel.cpp.o: ../Model/FiniteStateMachine/Action/Action.h
+CMakeFiles/Verifier.dir/BeagleModel/BeagleModel.cpp.o: ../Model/FiniteStateMachine/Action/AssignmentAction.h
+CMakeFiles/Verifier.dir/BeagleModel/BeagleModel.cpp.o: ../Model/FiniteStateMachine/Term/AttributeTerm.h
+CMakeFiles/Verifier.dir/BeagleModel/BeagleModel.cpp.o: ../Model/FiniteStateMachine/Term/Term.h
+CMakeFiles/Verifier.dir/BeagleModel/BeagleModel.cpp.o: ../Model/Process/Attribute.h
+CMakeFiles/Verifier.dir/BeagleModel/BeagleModel.cpp.o: ../Model/Process/Type.h
 
 CMakeFiles/Verifier.dir/BeagleModel/BeagleModule.cpp.o: ../BeagleModel/BeagleModule.cpp
 CMakeFiles/Verifier.dir/BeagleModel/BeagleModule.cpp.o: ../BeagleModel/BeagleModule.h
 CMakeFiles/Verifier.dir/BeagleModel/BeagleModule.cpp.o: ../BeagleModel/BeagleVariable.h
+CMakeFiles/Verifier.dir/BeagleModel/BeagleModule.cpp.o: ../Model/FiniteStateMachine/Action/Action.h
+CMakeFiles/Verifier.dir/BeagleModel/BeagleModule.cpp.o: ../Model/FiniteStateMachine/Action/AssignmentAction.h
+CMakeFiles/Verifier.dir/BeagleModel/BeagleModule.cpp.o: ../Model/FiniteStateMachine/Term/AttributeTerm.h
+CMakeFiles/Verifier.dir/BeagleModel/BeagleModule.cpp.o: ../Model/FiniteStateMachine/Term/Term.h
+CMakeFiles/Verifier.dir/BeagleModel/BeagleModule.cpp.o: ../Model/Process/Attribute.h
+CMakeFiles/Verifier.dir/BeagleModel/BeagleModule.cpp.o: ../Model/Process/Type.h
 
 CMakeFiles/Verifier.dir/BeagleModel/BeagleProperty.cpp.o: ../BeagleModel/BeagleProperty.cpp
 CMakeFiles/Verifier.dir/BeagleModel/BeagleProperty.cpp.o: ../BeagleModel/BeagleProperty.h
@@ -46,6 +58,13 @@ CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Term/AttributeTerm.cpp.o: ../Mo
 CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Term/AttributeTerm.cpp.o: ../Model/FiniteStateMachine/Term/Term.h
 CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Term/AttributeTerm.cpp.o: ../Model/Process/Attribute.h
 CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Term/AttributeTerm.cpp.o: ../Model/Process/Type.h
+
+CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Term/MethodTerm.cpp.o: ../Model/FiniteStateMachine/Term/MethodTerm.cpp
+CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Term/MethodTerm.cpp.o: ../Model/FiniteStateMachine/Term/MethodTerm.h
+CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Term/MethodTerm.cpp.o: ../Model/FiniteStateMachine/Term/Term.h
+CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Term/MethodTerm.cpp.o: ../Model/Process/Attribute.h
+CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Term/MethodTerm.cpp.o: ../Model/Process/Method.h
+CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Term/MethodTerm.cpp.o: ../Model/Process/Type.h
 
 CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Term/Term.cpp.o: ../Model/FiniteStateMachine/Term/Term.cpp
 CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Term/Term.cpp.o: ../Model/FiniteStateMachine/Term/Term.h
@@ -106,8 +125,12 @@ CMakeFiles/Verifier.dir/Translator/BeagleTranslator.cpp.o: ../BeagleModel/Beagle
 CMakeFiles/Verifier.dir/Translator/BeagleTranslator.cpp.o: ../BeagleModel/BeagleModule.h
 CMakeFiles/Verifier.dir/Translator/BeagleTranslator.cpp.o: ../BeagleModel/BeagleProperty.h
 CMakeFiles/Verifier.dir/Translator/BeagleTranslator.cpp.o: ../BeagleModel/BeagleVariable.h
+CMakeFiles/Verifier.dir/Translator/BeagleTranslator.cpp.o: ../Model/FiniteStateMachine/Action/Action.h
+CMakeFiles/Verifier.dir/Translator/BeagleTranslator.cpp.o: ../Model/FiniteStateMachine/Action/AssignmentAction.h
 CMakeFiles/Verifier.dir/Translator/BeagleTranslator.cpp.o: ../Model/FiniteStateMachine/Edge.h
 CMakeFiles/Verifier.dir/Translator/BeagleTranslator.cpp.o: ../Model/FiniteStateMachine/FiniteStateMachine.h
+CMakeFiles/Verifier.dir/Translator/BeagleTranslator.cpp.o: ../Model/FiniteStateMachine/Term/AttributeTerm.h
+CMakeFiles/Verifier.dir/Translator/BeagleTranslator.cpp.o: ../Model/FiniteStateMachine/Term/Term.h
 CMakeFiles/Verifier.dir/Translator/BeagleTranslator.cpp.o: ../Model/FiniteStateMachine/Vertex.h
 CMakeFiles/Verifier.dir/Translator/BeagleTranslator.cpp.o: ../Model/Model.h
 CMakeFiles/Verifier.dir/Translator/BeagleTranslator.cpp.o: ../Model/Pragma/InitialKnowledge.h
@@ -125,8 +148,12 @@ CMakeFiles/Verifier.dir/main.cpp.o: ../BeagleModel/BeagleModel.h
 CMakeFiles/Verifier.dir/main.cpp.o: ../BeagleModel/BeagleModule.h
 CMakeFiles/Verifier.dir/main.cpp.o: ../BeagleModel/BeagleProperty.h
 CMakeFiles/Verifier.dir/main.cpp.o: ../BeagleModel/BeagleVariable.h
+CMakeFiles/Verifier.dir/main.cpp.o: ../Model/FiniteStateMachine/Action/Action.h
+CMakeFiles/Verifier.dir/main.cpp.o: ../Model/FiniteStateMachine/Action/AssignmentAction.h
 CMakeFiles/Verifier.dir/main.cpp.o: ../Model/FiniteStateMachine/Edge.h
 CMakeFiles/Verifier.dir/main.cpp.o: ../Model/FiniteStateMachine/FiniteStateMachine.h
+CMakeFiles/Verifier.dir/main.cpp.o: ../Model/FiniteStateMachine/Term/AttributeTerm.h
+CMakeFiles/Verifier.dir/main.cpp.o: ../Model/FiniteStateMachine/Term/Term.h
 CMakeFiles/Verifier.dir/main.cpp.o: ../Model/FiniteStateMachine/Vertex.h
 CMakeFiles/Verifier.dir/main.cpp.o: ../Model/Model.h
 CMakeFiles/Verifier.dir/main.cpp.o: ../Model/Pragma/InitialKnowledge.h

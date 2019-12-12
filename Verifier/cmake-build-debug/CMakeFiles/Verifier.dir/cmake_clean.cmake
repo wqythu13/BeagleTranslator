@@ -19,6 +19,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Action/AssignmentAction.cpp.o"
   "CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Term/AttributeTerm.cpp.o"
   "CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Term/Term.cpp.o"
+  "CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Term/MethodTerm.cpp.o"
   "Verifier.pdb"
   "Verifier"
 )

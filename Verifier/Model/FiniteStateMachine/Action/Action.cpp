@@ -3,3 +3,12 @@
 //
 
 #include "Action.h"
+using namespace esc;
+
+/*Action::Action() {
+
+}*/
+
+string Action::to_string() const {
+    return "";
+}

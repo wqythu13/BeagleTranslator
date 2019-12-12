@@ -11,8 +11,8 @@ namespace esc {
     class Term {
     private:
     public:
-        Term();
-        Term(const string& toParse);
+        //Term();
+        //Term(const string& toParse);
 
         //bool isValidName(string _name);
         //bool containAMethodCall(); //< check if the term has a MethodTerm subclass

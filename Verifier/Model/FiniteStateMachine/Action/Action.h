@@ -9,8 +9,8 @@
 namespace esc {
     class Action {
     public:
-        Action();
-        Action(const string& toParse);
+        //Action();
+        //Action(const string& toParse);
         virtual string to_string() const;
     };
 }

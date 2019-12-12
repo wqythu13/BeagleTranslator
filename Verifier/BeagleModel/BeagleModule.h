@@ -7,6 +7,8 @@
 #include <string>
 #include <list>
 #include "BeagleVariable.h"
+#include "../Model/FiniteStateMachine/Action/AssignmentAction.h"
+
 using std::string;
 using std::list;
 
@@ -14,11 +16,12 @@ namespace esc {
     class InitStatement {
     private:
         string location;
-        //list<Action*> actions;
+        list<Action*> actions;
 
     public:
         string getLocation() {return this->location;}
         void setLocation(string _location);
+        void addActions(Action* _action);
     };
 
     class Transition {

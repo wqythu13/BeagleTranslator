@@ -12,6 +12,8 @@ namespace esc {
     private:
         Attribute* attribute;
     public:
+        AttributeTerm();
+        AttributeTerm(Attribute* _attribute) {this->attribute = _attribute;}
         string to_string() const;
     };
 }

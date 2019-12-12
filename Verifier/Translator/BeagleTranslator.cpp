@@ -56,7 +56,6 @@ void BeagleTranslator::makeModules() {
     for (auto process : processes)
     {
         // find the module correspond to the process in beagleModel
-        // TODO update initialKnowledge
         BeagleModule* module;
         for (auto searchModule : this->beagleModel->getModules())
         {
@@ -71,10 +70,24 @@ void BeagleTranslator::makeModules() {
         //set init state
         string initStateName = process->getFST()->getStartVertex()->getName();
         module->getInitState()->setLocation(initStateName);
-        list<Edge*> edges = process->getFST()->getEdges();
+        list<InitialKnowledge*> initialKnowledges = this->model->getInitialKnowledge();
+        for (auto initialKnowledge : initialKnowledges) {
+            if (initialKnowledge->getProcess()->getProcessName() == process->getProcessName())
+            {
+                Attribute* lhs = initialKnowledge->getAttribute();
+                AssignmentAction* initAction = new AssignmentAction();
+                initAction->setLhs(lhs);
+                // TODO add rhs Term
+                Term* term = new Term();
+                initAction->setRhs(term);
+                module->getInitState()->addActions(initAction);
+            }
+        }
         // add Transitions converted by Edges
+        list<Edge*> edges = process->getFST()->getEdges();
         for (auto edge : edges)
         {
+            // TODO add guard & label & actions
             string fromLocationName = edge->getFrom()->getName();
             string toLocationName = edge->getTo()->getName();
             Transition *transition = new Transition();

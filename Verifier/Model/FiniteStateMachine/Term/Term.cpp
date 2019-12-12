@@ -3,3 +3,6 @@
 //
 
 #include "Term.h"
+using namespace esc;
+
+//Term::Term() {}

@@ -11,6 +11,10 @@ namespace  esc {
     private:
         Process* process;
         Attribute* attribute;
+
+    public:
+        Process* getProcess() {return this->process;}
+        Attribute* getAttribute() {return this->attribute;}
     };
 }
 

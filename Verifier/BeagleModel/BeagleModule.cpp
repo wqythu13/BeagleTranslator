@@ -9,6 +9,10 @@ void InitStatement::setLocation(string _location) {
     this->location = _location;
 }
 
+void InitStatement::addActions(esc::Action *_action) {
+    this->actions.push_back(_action);
+}
+
 void Transition::setFromLoc(string _fromLocation) {
     this->fromLocation = _fromLocation;
 }

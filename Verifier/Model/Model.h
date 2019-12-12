@@ -24,6 +24,7 @@ namespace esc {
         string getName() {return this->name;}
         list<Process*> getProcesses() {return this->processes;}
         list<Property*> getProperties() {return this->properties;}
+        list<InitialKnowledge*> getInitialKnowledge() {return this->initialKnowledges;}
     };
 }
 

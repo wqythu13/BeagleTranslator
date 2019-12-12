@@ -13,7 +13,7 @@ namespace esc {
         string identifier;
 
     public:
-        string getIdentifier(){return this->identifier;}
+        string getIdentifier() {return this->identifier;}
     };
 }
 
