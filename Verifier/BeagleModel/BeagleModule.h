@@ -29,7 +29,7 @@ namespace esc {
         string fromLocation, toLocation;
         string label;
         //Guard* guard;
-        //list<Action*> actions;
+        list<Action*> actions;
 
     public:
         string getFromLoc() {return this->fromLocation;}
@@ -38,6 +38,8 @@ namespace esc {
         void setFromLoc(string _fromLocation);
         void setToLoc(string _toLocation);
         void setLabel(string _label);
+        void setActions(list<Action*> _actions);
+        void addAction(Action* _action);
     };
 
     class BeagleModule {

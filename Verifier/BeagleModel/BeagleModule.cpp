@@ -25,6 +25,16 @@ void Transition::setLabel(string _label) {
     this->label = _label;
 }
 
+void Transition::setActions(list<esc::Action *> _actions) {
+    this->actions.clear();
+    for (auto _action : _actions)
+        this->actions.push_back(_action);
+}
+
+void Transition::addAction(esc::Action *_action) {
+    this->actions.push_back(_action);
+}
+
 BeagleModule::BeagleModule() {
     this->initStatement = new InitStatement();
 }

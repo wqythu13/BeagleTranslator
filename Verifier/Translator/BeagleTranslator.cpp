@@ -3,6 +3,7 @@
 //
 
 #include "BeagleTranslator.h"
+#include "../Model/FiniteStateMachine/Term/ConstantTerm.h"
 #include <iostream>
 #include<unistd.h>
 #include<sys/types.h>
@@ -77,8 +78,8 @@ void BeagleTranslator::makeModules() {
                 Attribute* lhs = initialKnowledge->getAttribute();
                 AssignmentAction* initAction = new AssignmentAction();
                 initAction->setLhs(lhs);
-                // TODO add rhs Term
-                Term* term = new Term();
+                ConstantTerm* term = new ConstantTerm();
+                term->setValue(0);
                 initAction->setRhs(term);
                 module->getInitState()->addActions(initAction);
             }
@@ -87,12 +88,13 @@ void BeagleTranslator::makeModules() {
         list<Edge*> edges = process->getFST()->getEdges();
         for (auto edge : edges)
         {
-            // TODO add guard & label & actions
+            // TODO add guard & label
             string fromLocationName = edge->getFrom()->getName();
             string toLocationName = edge->getTo()->getName();
             Transition *transition = new Transition();
             transition->setFromLoc(fromLocationName);
             transition->setToLoc(toLocationName);
+            transition->setActions(edge->getActions());
             module->addTransition(transition);
         }
     }

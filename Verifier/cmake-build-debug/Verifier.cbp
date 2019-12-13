@@ -138,6 +138,12 @@
 		<Unit filename="/home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Term/AttributeTerm.h">
 			<Option target="Verifier"/>
 		</Unit>
+		<Unit filename="/home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Term/ConstantTerm.cpp">
+			<Option target="Verifier"/>
+		</Unit>
+		<Unit filename="/home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Term/ConstantTerm.h">
+			<Option target="Verifier"/>
+		</Unit>
 		<Unit filename="/home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Term/MethodTerm.cpp">
 			<Option target="Verifier"/>
 		</Unit>

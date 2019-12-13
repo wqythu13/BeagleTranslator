@@ -44,20 +44,34 @@ CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Action/AssignmentAction.cpp.o: 
 CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Action/AssignmentAction.cpp.o: ../Model/Process/Attribute.h
 CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Action/AssignmentAction.cpp.o: ../Model/Process/Type.h
 
+CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Edge.cpp.o: ../Model/FiniteStateMachine/Action/Action.h
 CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Edge.cpp.o: ../Model/FiniteStateMachine/Edge.cpp
 CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Edge.cpp.o: ../Model/FiniteStateMachine/Edge.h
+CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Edge.cpp.o: ../Model/FiniteStateMachine/Term/AttributeTerm.h
+CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Edge.cpp.o: ../Model/FiniteStateMachine/Term/Term.h
 CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Edge.cpp.o: ../Model/FiniteStateMachine/Vertex.h
+CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Edge.cpp.o: ../Model/Process/Attribute.h
+CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Edge.cpp.o: ../Model/Process/Type.h
 
+CMakeFiles/Verifier.dir/Model/FiniteStateMachine/FiniteStateMachine.cpp.o: ../Model/FiniteStateMachine/Action/Action.h
 CMakeFiles/Verifier.dir/Model/FiniteStateMachine/FiniteStateMachine.cpp.o: ../Model/FiniteStateMachine/Edge.h
 CMakeFiles/Verifier.dir/Model/FiniteStateMachine/FiniteStateMachine.cpp.o: ../Model/FiniteStateMachine/FiniteStateMachine.cpp
 CMakeFiles/Verifier.dir/Model/FiniteStateMachine/FiniteStateMachine.cpp.o: ../Model/FiniteStateMachine/FiniteStateMachine.h
+CMakeFiles/Verifier.dir/Model/FiniteStateMachine/FiniteStateMachine.cpp.o: ../Model/FiniteStateMachine/Term/AttributeTerm.h
+CMakeFiles/Verifier.dir/Model/FiniteStateMachine/FiniteStateMachine.cpp.o: ../Model/FiniteStateMachine/Term/Term.h
 CMakeFiles/Verifier.dir/Model/FiniteStateMachine/FiniteStateMachine.cpp.o: ../Model/FiniteStateMachine/Vertex.h
+CMakeFiles/Verifier.dir/Model/FiniteStateMachine/FiniteStateMachine.cpp.o: ../Model/Process/Attribute.h
+CMakeFiles/Verifier.dir/Model/FiniteStateMachine/FiniteStateMachine.cpp.o: ../Model/Process/Type.h
 
 CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Term/AttributeTerm.cpp.o: ../Model/FiniteStateMachine/Term/AttributeTerm.cpp
 CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Term/AttributeTerm.cpp.o: ../Model/FiniteStateMachine/Term/AttributeTerm.h
 CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Term/AttributeTerm.cpp.o: ../Model/FiniteStateMachine/Term/Term.h
 CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Term/AttributeTerm.cpp.o: ../Model/Process/Attribute.h
 CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Term/AttributeTerm.cpp.o: ../Model/Process/Type.h
+
+CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Term/ConstantTerm.cpp.o: ../Model/FiniteStateMachine/Term/ConstantTerm.cpp
+CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Term/ConstantTerm.cpp.o: ../Model/FiniteStateMachine/Term/ConstantTerm.h
+CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Term/ConstantTerm.cpp.o: ../Model/FiniteStateMachine/Term/Term.h
 
 CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Term/MethodTerm.cpp.o: ../Model/FiniteStateMachine/Term/MethodTerm.cpp
 CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Term/MethodTerm.cpp.o: ../Model/FiniteStateMachine/Term/MethodTerm.h
@@ -72,8 +86,11 @@ CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Term/Term.cpp.o: ../Model/Finit
 CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Vertex.cpp.o: ../Model/FiniteStateMachine/Vertex.cpp
 CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Vertex.cpp.o: ../Model/FiniteStateMachine/Vertex.h
 
+CMakeFiles/Verifier.dir/Model/Pragma/InitialKnowledge.cpp.o: ../Model/FiniteStateMachine/Action/Action.h
 CMakeFiles/Verifier.dir/Model/Pragma/InitialKnowledge.cpp.o: ../Model/FiniteStateMachine/Edge.h
 CMakeFiles/Verifier.dir/Model/Pragma/InitialKnowledge.cpp.o: ../Model/FiniteStateMachine/FiniteStateMachine.h
+CMakeFiles/Verifier.dir/Model/Pragma/InitialKnowledge.cpp.o: ../Model/FiniteStateMachine/Term/AttributeTerm.h
+CMakeFiles/Verifier.dir/Model/Pragma/InitialKnowledge.cpp.o: ../Model/FiniteStateMachine/Term/Term.h
 CMakeFiles/Verifier.dir/Model/Pragma/InitialKnowledge.cpp.o: ../Model/FiniteStateMachine/Vertex.h
 CMakeFiles/Verifier.dir/Model/Pragma/InitialKnowledge.cpp.o: ../Model/Pragma/InitialKnowledge.cpp
 CMakeFiles/Verifier.dir/Model/Pragma/InitialKnowledge.cpp.o: ../Model/Pragma/InitialKnowledge.h
@@ -83,8 +100,11 @@ CMakeFiles/Verifier.dir/Model/Pragma/InitialKnowledge.cpp.o: ../Model/Process/Pr
 CMakeFiles/Verifier.dir/Model/Pragma/InitialKnowledge.cpp.o: ../Model/Process/Signal.h
 CMakeFiles/Verifier.dir/Model/Pragma/InitialKnowledge.cpp.o: ../Model/Process/Type.h
 
+CMakeFiles/Verifier.dir/Model/Pragma/Property.cpp.o: ../Model/FiniteStateMachine/Action/Action.h
 CMakeFiles/Verifier.dir/Model/Pragma/Property.cpp.o: ../Model/FiniteStateMachine/Edge.h
 CMakeFiles/Verifier.dir/Model/Pragma/Property.cpp.o: ../Model/FiniteStateMachine/FiniteStateMachine.h
+CMakeFiles/Verifier.dir/Model/Pragma/Property.cpp.o: ../Model/FiniteStateMachine/Term/AttributeTerm.h
+CMakeFiles/Verifier.dir/Model/Pragma/Property.cpp.o: ../Model/FiniteStateMachine/Term/Term.h
 CMakeFiles/Verifier.dir/Model/Pragma/Property.cpp.o: ../Model/FiniteStateMachine/Vertex.h
 CMakeFiles/Verifier.dir/Model/Pragma/Property.cpp.o: ../Model/Pragma/Property.cpp
 CMakeFiles/Verifier.dir/Model/Pragma/Property.cpp.o: ../Model/Pragma/Property.h
@@ -103,8 +123,11 @@ CMakeFiles/Verifier.dir/Model/Process/Method.cpp.o: ../Model/Process/Method.cpp
 CMakeFiles/Verifier.dir/Model/Process/Method.cpp.o: ../Model/Process/Method.h
 CMakeFiles/Verifier.dir/Model/Process/Method.cpp.o: ../Model/Process/Type.h
 
+CMakeFiles/Verifier.dir/Model/Process/Process.cpp.o: ../Model/FiniteStateMachine/Action/Action.h
 CMakeFiles/Verifier.dir/Model/Process/Process.cpp.o: ../Model/FiniteStateMachine/Edge.h
 CMakeFiles/Verifier.dir/Model/Process/Process.cpp.o: ../Model/FiniteStateMachine/FiniteStateMachine.h
+CMakeFiles/Verifier.dir/Model/Process/Process.cpp.o: ../Model/FiniteStateMachine/Term/AttributeTerm.h
+CMakeFiles/Verifier.dir/Model/Process/Process.cpp.o: ../Model/FiniteStateMachine/Term/Term.h
 CMakeFiles/Verifier.dir/Model/Process/Process.cpp.o: ../Model/FiniteStateMachine/Vertex.h
 CMakeFiles/Verifier.dir/Model/Process/Process.cpp.o: ../Model/Process/Attribute.h
 CMakeFiles/Verifier.dir/Model/Process/Process.cpp.o: ../Model/Process/Method.h
@@ -130,6 +153,7 @@ CMakeFiles/Verifier.dir/Translator/BeagleTranslator.cpp.o: ../Model/FiniteStateM
 CMakeFiles/Verifier.dir/Translator/BeagleTranslator.cpp.o: ../Model/FiniteStateMachine/Edge.h
 CMakeFiles/Verifier.dir/Translator/BeagleTranslator.cpp.o: ../Model/FiniteStateMachine/FiniteStateMachine.h
 CMakeFiles/Verifier.dir/Translator/BeagleTranslator.cpp.o: ../Model/FiniteStateMachine/Term/AttributeTerm.h
+CMakeFiles/Verifier.dir/Translator/BeagleTranslator.cpp.o: ../Model/FiniteStateMachine/Term/ConstantTerm.h
 CMakeFiles/Verifier.dir/Translator/BeagleTranslator.cpp.o: ../Model/FiniteStateMachine/Term/Term.h
 CMakeFiles/Verifier.dir/Translator/BeagleTranslator.cpp.o: ../Model/FiniteStateMachine/Vertex.h
 CMakeFiles/Verifier.dir/Translator/BeagleTranslator.cpp.o: ../Model/Model.h
