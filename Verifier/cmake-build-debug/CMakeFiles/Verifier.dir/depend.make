@@ -44,6 +44,15 @@ CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Action/AssignmentAction.cpp.o: 
 CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Action/AssignmentAction.cpp.o: ../Model/Process/Attribute.h
 CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Action/AssignmentAction.cpp.o: ../Model/Process/Type.h
 
+CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Action/SignalAction.cpp.o: ../Model/FiniteStateMachine/Action/Action.h
+CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Action/SignalAction.cpp.o: ../Model/FiniteStateMachine/Action/SignalAction.cpp
+CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Action/SignalAction.cpp.o: ../Model/FiniteStateMachine/Action/SignalAction.h
+CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Action/SignalAction.cpp.o: ../Model/FiniteStateMachine/Term/AttributeTerm.h
+CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Action/SignalAction.cpp.o: ../Model/FiniteStateMachine/Term/Term.h
+CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Action/SignalAction.cpp.o: ../Model/Process/Attribute.h
+CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Action/SignalAction.cpp.o: ../Model/Process/Signal.h
+CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Action/SignalAction.cpp.o: ../Model/Process/Type.h
+
 CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Edge.cpp.o: ../Model/FiniteStateMachine/Action/Action.h
 CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Edge.cpp.o: ../Model/FiniteStateMachine/Edge.cpp
 CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Edge.cpp.o: ../Model/FiniteStateMachine/Edge.h
@@ -150,6 +159,7 @@ CMakeFiles/Verifier.dir/Translator/BeagleTranslator.cpp.o: ../BeagleModel/Beagle
 CMakeFiles/Verifier.dir/Translator/BeagleTranslator.cpp.o: ../BeagleModel/BeagleVariable.h
 CMakeFiles/Verifier.dir/Translator/BeagleTranslator.cpp.o: ../Model/FiniteStateMachine/Action/Action.h
 CMakeFiles/Verifier.dir/Translator/BeagleTranslator.cpp.o: ../Model/FiniteStateMachine/Action/AssignmentAction.h
+CMakeFiles/Verifier.dir/Translator/BeagleTranslator.cpp.o: ../Model/FiniteStateMachine/Action/SignalAction.h
 CMakeFiles/Verifier.dir/Translator/BeagleTranslator.cpp.o: ../Model/FiniteStateMachine/Edge.h
 CMakeFiles/Verifier.dir/Translator/BeagleTranslator.cpp.o: ../Model/FiniteStateMachine/FiniteStateMachine.h
 CMakeFiles/Verifier.dir/Translator/BeagleTranslator.cpp.o: ../Model/FiniteStateMachine/Term/AttributeTerm.h

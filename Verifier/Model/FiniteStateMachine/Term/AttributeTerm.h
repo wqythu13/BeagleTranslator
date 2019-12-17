@@ -8,7 +8,7 @@
 #include "../../Process/Attribute.h"
 
 namespace esc {
-    class AttributeTerm {
+    class AttributeTerm : public Term{
     private:
         Attribute* attribute;
     public:

@@ -285,6 +285,33 @@ Model/FiniteStateMachine/Action/AssignmentAction.cpp.s:
 	$(MAKE) -f CMakeFiles/Verifier.dir/build.make CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Action/AssignmentAction.cpp.s
 .PHONY : Model/FiniteStateMachine/Action/AssignmentAction.cpp.s
 
+Model/FiniteStateMachine/Action/SignalAction.o: Model/FiniteStateMachine/Action/SignalAction.cpp.o
+
+.PHONY : Model/FiniteStateMachine/Action/SignalAction.o
+
+# target to build an object file
+Model/FiniteStateMachine/Action/SignalAction.cpp.o:
+	$(MAKE) -f CMakeFiles/Verifier.dir/build.make CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Action/SignalAction.cpp.o
+.PHONY : Model/FiniteStateMachine/Action/SignalAction.cpp.o
+
+Model/FiniteStateMachine/Action/SignalAction.i: Model/FiniteStateMachine/Action/SignalAction.cpp.i
+
+.PHONY : Model/FiniteStateMachine/Action/SignalAction.i
+
+# target to preprocess a source file
+Model/FiniteStateMachine/Action/SignalAction.cpp.i:
+	$(MAKE) -f CMakeFiles/Verifier.dir/build.make CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Action/SignalAction.cpp.i
+.PHONY : Model/FiniteStateMachine/Action/SignalAction.cpp.i
+
+Model/FiniteStateMachine/Action/SignalAction.s: Model/FiniteStateMachine/Action/SignalAction.cpp.s
+
+.PHONY : Model/FiniteStateMachine/Action/SignalAction.s
+
+# target to generate assembly for a file
+Model/FiniteStateMachine/Action/SignalAction.cpp.s:
+	$(MAKE) -f CMakeFiles/Verifier.dir/build.make CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Action/SignalAction.cpp.s
+.PHONY : Model/FiniteStateMachine/Action/SignalAction.cpp.s
+
 Model/FiniteStateMachine/Edge.o: Model/FiniteStateMachine/Edge.cpp.o
 
 .PHONY : Model/FiniteStateMachine/Edge.o
@@ -744,6 +771,9 @@ help:
 	@echo "... Model/FiniteStateMachine/Action/AssignmentAction.o"
 	@echo "... Model/FiniteStateMachine/Action/AssignmentAction.i"
 	@echo "... Model/FiniteStateMachine/Action/AssignmentAction.s"
+	@echo "... Model/FiniteStateMachine/Action/SignalAction.o"
+	@echo "... Model/FiniteStateMachine/Action/SignalAction.i"
+	@echo "... Model/FiniteStateMachine/Action/SignalAction.s"
 	@echo "... Model/FiniteStateMachine/Edge.o"
 	@echo "... Model/FiniteStateMachine/Edge.i"
 	@echo "... Model/FiniteStateMachine/Edge.s"

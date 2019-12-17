@@ -17,6 +17,7 @@ namespace esc {
         void setLhs(Attribute* _attribute);
         void setRhs(Term* _rhs);
         string to_string() const;
+        int getID();
     };
 }
 

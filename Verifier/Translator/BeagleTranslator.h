@@ -28,5 +28,4 @@ namespace esc {
     };
 }
 
-
 #endif //VERIFIER_BEAGLETRANSLATOR_H

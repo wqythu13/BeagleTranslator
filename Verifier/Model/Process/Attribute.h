@@ -14,6 +14,9 @@ namespace esc {
 
     public:
         string getIdentifier() {return this->identifier;}
+        Type* getType() {return this->type;}
+        void setIdentifier(string _identifier);
+        void setType(Type* _type);
     };
 }
 

@@ -28,7 +28,10 @@ void Transition::setLabel(string _label) {
 void Transition::setActions(list<esc::Action *> _actions) {
     this->actions.clear();
     for (auto _action : _actions)
-        this->actions.push_back(_action);
+    {
+        if (_action->getID() == 1) // _action == AssignmentAction
+            this->actions.push_back(_action);
+    }
 }
 
 void Transition::addAction(esc::Action *_action) {

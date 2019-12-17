@@ -12,6 +12,7 @@ namespace esc {
         //Action();
         //Action(const string& toParse);
         virtual string to_string() const;
+        virtual int getID() = 0; // ID : {1 : AssignmentAction, 2 : SignalAction}
     };
 }
 #endif //VERIFIER_ACTION_H

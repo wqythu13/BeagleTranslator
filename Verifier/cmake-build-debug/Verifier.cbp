@@ -120,6 +120,12 @@
 		<Unit filename="/home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Action/AssignmentAction.h">
 			<Option target="Verifier"/>
 		</Unit>
+		<Unit filename="/home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Action/SignalAction.cpp">
+			<Option target="Verifier"/>
+		</Unit>
+		<Unit filename="/home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Action/SignalAction.h">
+			<Option target="Verifier"/>
+		</Unit>
 		<Unit filename="/home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Edge.cpp">
 			<Option target="Verifier"/>
 		</Unit>

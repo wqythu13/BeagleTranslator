@@ -21,3 +21,7 @@ void AssignmentAction::setRhs(esc::Term *_rhs) {
 string AssignmentAction::to_string() const {
     return "";
 }
+
+int AssignmentAction::getID() {
+    return 1;
+}

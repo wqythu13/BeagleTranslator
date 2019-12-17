@@ -4,6 +4,7 @@
 
 #include "BeagleTranslator.h"
 #include "../Model/FiniteStateMachine/Term/ConstantTerm.h"
+#include "../Model/FiniteStateMachine/Action/SignalAction.h"
 #include <iostream>
 #include<unistd.h>
 #include<sys/types.h>
@@ -72,7 +73,8 @@ void BeagleTranslator::makeModules() {
         string initStateName = process->getFST()->getStartVertex()->getName();
         module->getInitState()->setLocation(initStateName);
         list<InitialKnowledge*> initialKnowledges = this->model->getInitialKnowledge();
-        for (auto initialKnowledge : initialKnowledges) {
+        for (auto initialKnowledge : initialKnowledges)
+        {
             if (initialKnowledge->getProcess()->getProcessName() == process->getProcessName())
             {
                 Attribute* lhs = initialKnowledge->getAttribute();
@@ -88,13 +90,54 @@ void BeagleTranslator::makeModules() {
         list<Edge*> edges = process->getFST()->getEdges();
         for (auto edge : edges)
         {
-            // TODO add guard & label
+            // TODO add guard
+            // get from & to location
             string fromLocationName = edge->getFrom()->getName();
             string toLocationName = edge->getTo()->getName();
             Transition *transition = new Transition();
             transition->setFromLoc(fromLocationName);
             transition->setToLoc(toLocationName);
+            // set edge actions
             transition->setActions(edge->getActions());
+            // find if this edge has a signal action
+            bool hasSignal = false;
+            Signal* signal;
+            for (auto action : edge->getActions()) {
+                if (action->getID() == 2) {
+                    hasSignal = true;
+                    signal = ((SignalAction *) action)->getSignal();
+                    break;
+                }
+            }
+            // set transition label from edge's signal action
+            if (signal->getInout() == true)
+                transition->setLabel(signal->getName());{
+                string srcProcessName = "";
+                bool hasSrcProcess = false;
+                Signal* srcSignal;
+                for (auto srcProcess : processes)
+                {
+                    for (auto _srcSignal : srcProcess->getSignals())
+                    {
+                        if (_srcSignal->getName() == signal->getName() && _srcSignal->getInout() == false)
+                        {
+                            hasSrcProcess = true;
+                            srcProcessName = srcProcess->getProcessName();
+                            srcSignal = _srcSignal;
+                            break;
+                        }
+                    }
+                    if (hasSrcProcess == true) break;
+                }
+                AssignmentAction* assignmentAction = new AssignmentAction();
+                assignmentAction->setLhs(signal->getParameter());
+                Attribute* rhsAttribute = new Attribute();
+                rhsAttribute->setType(srcSignal->getParameter()->getType());
+                rhsAttribute->setIdentifier(srcProcessName+"."+srcSignal->getParameter()->getIdentifier());
+                AttributeTerm* term = new AttributeTerm(rhsAttribute);
+                assignmentAction->setRhs(term);
+                transition->addAction(assignmentAction);
+            }
             module->addTransition(transition);
         }
     }

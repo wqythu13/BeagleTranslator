@@ -44,6 +44,15 @@ CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Action/AssignmentAction.cpp.o
  /home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Term/Term.h
  /home/wqy/文档/BeagleTranslator/Verifier/Model/Process/Attribute.h
  /home/wqy/文档/BeagleTranslator/Verifier/Model/Process/Type.h
+CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Action/SignalAction.cpp.o
+ /home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Action/Action.h
+ /home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Action/SignalAction.cpp
+ /home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Action/SignalAction.h
+ /home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Term/AttributeTerm.h
+ /home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Term/Term.h
+ /home/wqy/文档/BeagleTranslator/Verifier/Model/Process/Attribute.h
+ /home/wqy/文档/BeagleTranslator/Verifier/Model/Process/Signal.h
+ /home/wqy/文档/BeagleTranslator/Verifier/Model/Process/Type.h
 CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Edge.cpp.o
  /home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Action/Action.h
  /home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Edge.cpp
@@ -151,6 +160,7 @@ CMakeFiles/Verifier.dir/Translator/BeagleTranslator.cpp.o
  /home/wqy/文档/BeagleTranslator/Verifier/BeagleModel/BeagleVariable.h
  /home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Action/Action.h
  /home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Action/AssignmentAction.h
+ /home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Action/SignalAction.h
  /home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Edge.h
  /home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/FiniteStateMachine.h
  /home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Term/AttributeTerm.h
