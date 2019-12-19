@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/Translator/BeagleTranslator.cpp" line="63" mnemonic="0" />
+    <bookmark url="file://$PROJECT_DIR$/Translator/BeagleTranslator.cpp" line="70" mnemonic="0" />
   </component>
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
@@ -15,33 +15,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4738a9b-05b4-4f7a-88e6-e203888683b0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BeagleModel/BeagleModule.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/BeagleModel/BeagleModule.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/FiniteStateMachine/Action/Action.h" beforeDir="false" afterPath="$PROJECT_DIR$/Model/FiniteStateMachine/Action/Action.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/FiniteStateMachine/Action/AssignmentAction.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Model/FiniteStateMachine/Action/AssignmentAction.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/FiniteStateMachine/Action/AssignmentAction.h" beforeDir="false" afterPath="$PROJECT_DIR$/Model/FiniteStateMachine/Action/AssignmentAction.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/FiniteStateMachine/Term/AttributeTerm.h" beforeDir="false" afterPath="$PROJECT_DIR$/Model/FiniteStateMachine/Term/AttributeTerm.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/Process/Attribute.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Model/Process/Attribute.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/Process/Attribute.h" beforeDir="false" afterPath="$PROJECT_DIR$/Model/Process/Attribute.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/Process/Signal.h" beforeDir="false" afterPath="$PROJECT_DIR$/Model/Process/Signal.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Translator/BeagleTranslator.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Translator/BeagleTranslator.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Translator/BeagleTranslator.h" beforeDir="false" afterPath="$PROJECT_DIR$/Translator/BeagleTranslator.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verifier.dir/BeagleModel/BeagleModel.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verifier.dir/BeagleModel/BeagleModel.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verifier.dir/BeagleModel/BeagleModule.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verifier.dir/BeagleModel/BeagleModule.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verifier.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verifier.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verifier.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verifier.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verifier.dir/Translator/BeagleTranslator.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verifier.dir/Translator/BeagleTranslator.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verifier.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verifier.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verifier.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verifier.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verifier.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verifier.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verifier.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verifier.dir/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verifier.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verifier.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Verifier" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Verifier" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Verifier.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Verifier.cbp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -119,14 +93,15 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="5388" />
+          <entry key="cpp" value="6008" />
           <entry key="h" value="5010" />
           <entry key="txt" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="ObjectiveC" value="10398" />
+          <entry key="Doxygen file" value="5" />
+          <entry key="ObjectiveC" value="11013" />
           <entry key="PLAIN_TEXT" value="27" />
         </counts>
       </usages-collector>
@@ -150,8 +125,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Translator/BeagleTranslator.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="92" column="29" lean-forward="true" selection-start-line="92" selection-start-column="29" selection-end-line="92" selection-end-column="29" />
+            <state relative-caret-position="327">
+              <caret line="65" column="5" lean-forward="true" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="5" />
               <folding>
                 <element signature="e#38#67#0" expanded="true" />
               </folding>
@@ -425,7 +400,7 @@
       <workItem from="1575276160185" duration="10859000" />
       <workItem from="1575364980688" duration="56739000" />
       <workItem from="1576555118235" duration="1133000" />
-      <workItem from="1576566242591" duration="8263000" />
+      <workItem from="1576566242591" duration="11771000" />
     </task>
     <task id="LOCAL-00001" summary="add beagleProperty">
       <created>1575358846181</created>
@@ -459,7 +434,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="124917000" />
+    <option name="totallyTimeSpent" value="128425000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -474,7 +449,7 @@
     <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2636514" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2636514" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -523,12 +498,12 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/Translator/BeagleTranslator.cpp</url>
-          <line>180</line>
+          <line>188</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/Translator/BeagleTranslator.cpp</url>
-          <line>166</line>
+          <line>174</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
@@ -901,8 +876,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Translator/BeagleTranslator.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="92" column="29" lean-forward="true" selection-start-line="92" selection-start-column="29" selection-end-line="92" selection-end-column="29" />
+        <state relative-caret-position="327">
+          <caret line="65" column="5" lean-forward="true" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="5" />
           <folding>
             <element signature="e#38#67#0" expanded="true" />
           </folding>

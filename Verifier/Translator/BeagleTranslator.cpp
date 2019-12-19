@@ -16,6 +16,7 @@
 using namespace esc;
 using namespace std;
 
+/// \breif make module header info from model, including variables', labels' and locations' definition
 void BeagleTranslator::makeHeader() {
     list<Process*> mProcesses;
     mProcesses = this->model->getProcesses();
@@ -53,6 +54,12 @@ void BeagleTranslator::makeHeader() {
     }
 }
 
+/// \brief make beagle modules from model processes
+/// 1. set the inti state from initialknowledge
+/// 2. add transitions converted by edges
+/// 2.1 get from & to locations
+/// 2.2 get assignment actions from edge's actions
+/// 2.3 get label info from edge's signal action
 void BeagleTranslator::makeModules() {
     list<Process*> processes = this->model->getProcesses();
     for (auto process : processes)
@@ -90,7 +97,6 @@ void BeagleTranslator::makeModules() {
         list<Edge*> edges = process->getFST()->getEdges();
         for (auto edge : edges)
         {
-            // TODO add guard
             // get from & to location
             string fromLocationName = edge->getFrom()->getName();
             string toLocationName = edge->getTo()->getName();
@@ -138,11 +144,13 @@ void BeagleTranslator::makeModules() {
                 assignmentAction->setRhs(term);
                 transition->addAction(assignmentAction);
             }
+            // TODO add transition guard
             module->addTransition(transition);
         }
     }
 }
 
+/// \breif make beagle properties from model's safety properties
 void BeagleTranslator::makeProperties() {
     list<Property*> properties = this->model->getProperties();
     // add SafetyProperty from Pragma
@@ -184,6 +192,7 @@ bool BeagleTranslator::saveInFile(string path) {
     return true;
 }
 
+/// BeagleTranslator's construct function
 BeagleTranslator::BeagleTranslator()
 {
     this->beagleModel = new BeagleModel();
