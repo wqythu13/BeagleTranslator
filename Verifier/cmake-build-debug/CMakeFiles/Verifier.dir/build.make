@@ -356,6 +356,45 @@ CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Action/SignalAction.cpp.s: cmak
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Action/SignalAction.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Action/SignalAction.cpp -o CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Action/SignalAction.cpp.s
 
+CMakeFiles/Verifier.dir/BeagleModel/BeagleGuard.cpp.o: CMakeFiles/Verifier.dir/flags.make
+CMakeFiles/Verifier.dir/BeagleModel/BeagleGuard.cpp.o: ../BeagleModel/BeagleGuard.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wqy/文档/BeagleTranslator/Verifier/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/Verifier.dir/BeagleModel/BeagleGuard.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Verifier.dir/BeagleModel/BeagleGuard.cpp.o -c /home/wqy/文档/BeagleTranslator/Verifier/BeagleModel/BeagleGuard.cpp
+
+CMakeFiles/Verifier.dir/BeagleModel/BeagleGuard.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Verifier.dir/BeagleModel/BeagleGuard.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wqy/文档/BeagleTranslator/Verifier/BeagleModel/BeagleGuard.cpp > CMakeFiles/Verifier.dir/BeagleModel/BeagleGuard.cpp.i
+
+CMakeFiles/Verifier.dir/BeagleModel/BeagleGuard.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Verifier.dir/BeagleModel/BeagleGuard.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wqy/文档/BeagleTranslator/Verifier/BeagleModel/BeagleGuard.cpp -o CMakeFiles/Verifier.dir/BeagleModel/BeagleGuard.cpp.s
+
+CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Guard/Guard.cpp.o: CMakeFiles/Verifier.dir/flags.make
+CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Guard/Guard.cpp.o: ../Model/FiniteStateMachine/Guard/Guard.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wqy/文档/BeagleTranslator/Verifier/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Guard/Guard.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Guard/Guard.cpp.o -c /home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Guard/Guard.cpp
+
+CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Guard/Guard.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Guard/Guard.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Guard/Guard.cpp > CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Guard/Guard.cpp.i
+
+CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Guard/Guard.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Guard/Guard.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Guard/Guard.cpp -o CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Guard/Guard.cpp.s
+
+CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Expression.cpp.o: CMakeFiles/Verifier.dir/flags.make
+CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Expression.cpp.o: ../Model/FiniteStateMachine/Expression.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wqy/文档/BeagleTranslator/Verifier/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Expression.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Expression.cpp.o -c /home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Expression.cpp
+
+CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Expression.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Expression.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Expression.cpp > CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Expression.cpp.i
+
+CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Expression.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Expression.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Expression.cpp -o CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Expression.cpp.s
+
 # Object files for target Verifier
 Verifier_OBJECTS = \
 "CMakeFiles/Verifier.dir/main.cpp.o" \
@@ -380,7 +419,10 @@ Verifier_OBJECTS = \
 "CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Term/Term.cpp.o" \
 "CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Term/MethodTerm.cpp.o" \
 "CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Term/ConstantTerm.cpp.o" \
-"CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Action/SignalAction.cpp.o"
+"CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Action/SignalAction.cpp.o" \
+"CMakeFiles/Verifier.dir/BeagleModel/BeagleGuard.cpp.o" \
+"CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Guard/Guard.cpp.o" \
+"CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Expression.cpp.o"
 
 # External object files for target Verifier
 Verifier_EXTERNAL_OBJECTS =
@@ -408,9 +450,12 @@ Verifier: CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Term/Term.cpp.o
 Verifier: CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Term/MethodTerm.cpp.o
 Verifier: CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Term/ConstantTerm.cpp.o
 Verifier: CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Action/SignalAction.cpp.o
+Verifier: CMakeFiles/Verifier.dir/BeagleModel/BeagleGuard.cpp.o
+Verifier: CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Guard/Guard.cpp.o
+Verifier: CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Expression.cpp.o
 Verifier: CMakeFiles/Verifier.dir/build.make
 Verifier: CMakeFiles/Verifier.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/wqy/文档/BeagleTranslator/Verifier/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Linking CXX executable Verifier"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/wqy/文档/BeagleTranslator/Verifier/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Linking CXX executable Verifier"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Verifier.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -22,6 +22,9 @@ file(REMOVE_RECURSE
   "CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Term/MethodTerm.cpp.o"
   "CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Term/ConstantTerm.cpp.o"
   "CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Action/SignalAction.cpp.o"
+  "CMakeFiles/Verifier.dir/BeagleModel/BeagleGuard.cpp.o"
+  "CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Guard/Guard.cpp.o"
+  "CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Expression.cpp.o"
   "Verifier.pdb"
   "Verifier"
 )

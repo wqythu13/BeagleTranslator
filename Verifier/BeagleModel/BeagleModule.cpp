@@ -25,6 +25,10 @@ void Transition::setLabel(string _label) {
     this->label = _label;
 }
 
+void Transition::setGuard(esc::BeagleGuard *_guard) {
+    this->guard = _guard;
+}
+
 void Transition::setActions(list<esc::Action *> _actions) {
     this->actions.clear();
     for (auto _action : _actions)

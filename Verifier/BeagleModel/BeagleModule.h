@@ -8,6 +8,7 @@
 #include <list>
 #include "BeagleVariable.h"
 #include "../Model/FiniteStateMachine/Action/AssignmentAction.h"
+#include "BeagleGuard.h"
 
 using std::string;
 using std::list;
@@ -28,7 +29,7 @@ namespace esc {
     private:
         string fromLocation, toLocation;
         string label;
-        //Guard* guard;
+        BeagleGuard* guard;
         list<Action*> actions;
 
     public:
@@ -38,6 +39,7 @@ namespace esc {
         void setFromLoc(string _fromLocation);
         void setToLoc(string _toLocation);
         void setLabel(string _label);
+        void setGuard(BeagleGuard* _guard);
         void setActions(list<Action*> _actions);
         void addAction(Action* _action);
     };

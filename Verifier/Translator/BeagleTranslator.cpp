@@ -5,6 +5,7 @@
 #include "BeagleTranslator.h"
 #include "../Model/FiniteStateMachine/Term/ConstantTerm.h"
 #include "../Model/FiniteStateMachine/Action/SignalAction.h"
+#include "../BeagleModel/BeagleGuard.h"
 #include <iostream>
 #include<unistd.h>
 #include<sys/types.h>
@@ -132,6 +133,7 @@ void BeagleTranslator::makeModules() {
                             srcSignal = _srcSignal;
                             break;
                         }
+
                     }
                     if (hasSrcProcess == true) break;
                 }
@@ -144,7 +146,14 @@ void BeagleTranslator::makeModules() {
                 assignmentAction->setRhs(term);
                 transition->addAction(assignmentAction);
             }
-            // TODO add transition guard
+            // add transition guard
+            Guard* guard = edge->getGuard();
+            BeagleGuard* beagleGuard = new BeagleGuard();
+            beagleGuard->setLhs(guard->getExpression()->getLhs());
+            beagleGuard->setRhs(guard->getExpression()->getRhs());
+            beagleGuard->setOpByString(guard->getExpression()->getOp());
+            transition->setGuard(beagleGuard);
+            // add transition into module
             module->addTransition(transition);
         }
     }
@@ -170,6 +179,7 @@ void BeagleTranslator::makeProperties() {
 
 /// \brief save the beagleModelFile into the file in path.
 bool BeagleTranslator::saveInFile(string path) {
+    // TODO get beagle model file from beagleModel & save into file
     //fopen(path, "w");
     FILE* beagleFile;
     beagleFile = fopen(path.c_str(), "w");

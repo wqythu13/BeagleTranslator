@@ -123,6 +123,33 @@ Verifier/fast:
 	$(MAKE) -f CMakeFiles/Verifier.dir/build.make CMakeFiles/Verifier.dir/build
 .PHONY : Verifier/fast
 
+BeagleModel/BeagleGuard.o: BeagleModel/BeagleGuard.cpp.o
+
+.PHONY : BeagleModel/BeagleGuard.o
+
+# target to build an object file
+BeagleModel/BeagleGuard.cpp.o:
+	$(MAKE) -f CMakeFiles/Verifier.dir/build.make CMakeFiles/Verifier.dir/BeagleModel/BeagleGuard.cpp.o
+.PHONY : BeagleModel/BeagleGuard.cpp.o
+
+BeagleModel/BeagleGuard.i: BeagleModel/BeagleGuard.cpp.i
+
+.PHONY : BeagleModel/BeagleGuard.i
+
+# target to preprocess a source file
+BeagleModel/BeagleGuard.cpp.i:
+	$(MAKE) -f CMakeFiles/Verifier.dir/build.make CMakeFiles/Verifier.dir/BeagleModel/BeagleGuard.cpp.i
+.PHONY : BeagleModel/BeagleGuard.cpp.i
+
+BeagleModel/BeagleGuard.s: BeagleModel/BeagleGuard.cpp.s
+
+.PHONY : BeagleModel/BeagleGuard.s
+
+# target to generate assembly for a file
+BeagleModel/BeagleGuard.cpp.s:
+	$(MAKE) -f CMakeFiles/Verifier.dir/build.make CMakeFiles/Verifier.dir/BeagleModel/BeagleGuard.cpp.s
+.PHONY : BeagleModel/BeagleGuard.cpp.s
+
 BeagleModel/BeagleModel.o: BeagleModel/BeagleModel.cpp.o
 
 .PHONY : BeagleModel/BeagleModel.o
@@ -339,6 +366,33 @@ Model/FiniteStateMachine/Edge.cpp.s:
 	$(MAKE) -f CMakeFiles/Verifier.dir/build.make CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Edge.cpp.s
 .PHONY : Model/FiniteStateMachine/Edge.cpp.s
 
+Model/FiniteStateMachine/Expression.o: Model/FiniteStateMachine/Expression.cpp.o
+
+.PHONY : Model/FiniteStateMachine/Expression.o
+
+# target to build an object file
+Model/FiniteStateMachine/Expression.cpp.o:
+	$(MAKE) -f CMakeFiles/Verifier.dir/build.make CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Expression.cpp.o
+.PHONY : Model/FiniteStateMachine/Expression.cpp.o
+
+Model/FiniteStateMachine/Expression.i: Model/FiniteStateMachine/Expression.cpp.i
+
+.PHONY : Model/FiniteStateMachine/Expression.i
+
+# target to preprocess a source file
+Model/FiniteStateMachine/Expression.cpp.i:
+	$(MAKE) -f CMakeFiles/Verifier.dir/build.make CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Expression.cpp.i
+.PHONY : Model/FiniteStateMachine/Expression.cpp.i
+
+Model/FiniteStateMachine/Expression.s: Model/FiniteStateMachine/Expression.cpp.s
+
+.PHONY : Model/FiniteStateMachine/Expression.s
+
+# target to generate assembly for a file
+Model/FiniteStateMachine/Expression.cpp.s:
+	$(MAKE) -f CMakeFiles/Verifier.dir/build.make CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Expression.cpp.s
+.PHONY : Model/FiniteStateMachine/Expression.cpp.s
+
 Model/FiniteStateMachine/FiniteStateMachine.o: Model/FiniteStateMachine/FiniteStateMachine.cpp.o
 
 .PHONY : Model/FiniteStateMachine/FiniteStateMachine.o
@@ -365,6 +419,33 @@ Model/FiniteStateMachine/FiniteStateMachine.s: Model/FiniteStateMachine/FiniteSt
 Model/FiniteStateMachine/FiniteStateMachine.cpp.s:
 	$(MAKE) -f CMakeFiles/Verifier.dir/build.make CMakeFiles/Verifier.dir/Model/FiniteStateMachine/FiniteStateMachine.cpp.s
 .PHONY : Model/FiniteStateMachine/FiniteStateMachine.cpp.s
+
+Model/FiniteStateMachine/Guard/Guard.o: Model/FiniteStateMachine/Guard/Guard.cpp.o
+
+.PHONY : Model/FiniteStateMachine/Guard/Guard.o
+
+# target to build an object file
+Model/FiniteStateMachine/Guard/Guard.cpp.o:
+	$(MAKE) -f CMakeFiles/Verifier.dir/build.make CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Guard/Guard.cpp.o
+.PHONY : Model/FiniteStateMachine/Guard/Guard.cpp.o
+
+Model/FiniteStateMachine/Guard/Guard.i: Model/FiniteStateMachine/Guard/Guard.cpp.i
+
+.PHONY : Model/FiniteStateMachine/Guard/Guard.i
+
+# target to preprocess a source file
+Model/FiniteStateMachine/Guard/Guard.cpp.i:
+	$(MAKE) -f CMakeFiles/Verifier.dir/build.make CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Guard/Guard.cpp.i
+.PHONY : Model/FiniteStateMachine/Guard/Guard.cpp.i
+
+Model/FiniteStateMachine/Guard/Guard.s: Model/FiniteStateMachine/Guard/Guard.cpp.s
+
+.PHONY : Model/FiniteStateMachine/Guard/Guard.s
+
+# target to generate assembly for a file
+Model/FiniteStateMachine/Guard/Guard.cpp.s:
+	$(MAKE) -f CMakeFiles/Verifier.dir/build.make CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Guard/Guard.cpp.s
+.PHONY : Model/FiniteStateMachine/Guard/Guard.cpp.s
 
 Model/FiniteStateMachine/Term/AttributeTerm.o: Model/FiniteStateMachine/Term/AttributeTerm.cpp.o
 
@@ -753,6 +834,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Verifier"
+	@echo "... BeagleModel/BeagleGuard.o"
+	@echo "... BeagleModel/BeagleGuard.i"
+	@echo "... BeagleModel/BeagleGuard.s"
 	@echo "... BeagleModel/BeagleModel.o"
 	@echo "... BeagleModel/BeagleModel.i"
 	@echo "... BeagleModel/BeagleModel.s"
@@ -777,9 +861,15 @@ help:
 	@echo "... Model/FiniteStateMachine/Edge.o"
 	@echo "... Model/FiniteStateMachine/Edge.i"
 	@echo "... Model/FiniteStateMachine/Edge.s"
+	@echo "... Model/FiniteStateMachine/Expression.o"
+	@echo "... Model/FiniteStateMachine/Expression.i"
+	@echo "... Model/FiniteStateMachine/Expression.s"
 	@echo "... Model/FiniteStateMachine/FiniteStateMachine.o"
 	@echo "... Model/FiniteStateMachine/FiniteStateMachine.i"
 	@echo "... Model/FiniteStateMachine/FiniteStateMachine.s"
+	@echo "... Model/FiniteStateMachine/Guard/Guard.o"
+	@echo "... Model/FiniteStateMachine/Guard/Guard.i"
+	@echo "... Model/FiniteStateMachine/Guard/Guard.s"
 	@echo "... Model/FiniteStateMachine/Term/AttributeTerm.o"
 	@echo "... Model/FiniteStateMachine/Term/AttributeTerm.i"
 	@echo "... Model/FiniteStateMachine/Term/AttributeTerm.s"

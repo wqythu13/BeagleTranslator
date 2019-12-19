@@ -84,6 +84,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/wqy/文档/BeagleTranslator/Verifier/BeagleModel/BeagleGuard.cpp">
+			<Option target="Verifier"/>
+		</Unit>
+		<Unit filename="/home/wqy/文档/BeagleTranslator/Verifier/BeagleModel/BeagleGuard.h">
+			<Option target="Verifier"/>
+		</Unit>
 		<Unit filename="/home/wqy/文档/BeagleTranslator/Verifier/BeagleModel/BeagleModel.cpp">
 			<Option target="Verifier"/>
 		</Unit>
@@ -132,10 +138,22 @@
 		<Unit filename="/home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Edge.h">
 			<Option target="Verifier"/>
 		</Unit>
+		<Unit filename="/home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Expression.cpp">
+			<Option target="Verifier"/>
+		</Unit>
+		<Unit filename="/home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Expression.h">
+			<Option target="Verifier"/>
+		</Unit>
 		<Unit filename="/home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/FiniteStateMachine.cpp">
 			<Option target="Verifier"/>
 		</Unit>
 		<Unit filename="/home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/FiniteStateMachine.h">
+			<Option target="Verifier"/>
+		</Unit>
+		<Unit filename="/home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Guard/Guard.cpp">
+			<Option target="Verifier"/>
+		</Unit>
+		<Unit filename="/home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Guard/Guard.h">
 			<Option target="Verifier"/>
 		</Unit>
 		<Unit filename="/home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Term/AttributeTerm.cpp">
