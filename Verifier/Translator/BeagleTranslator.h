@@ -24,6 +24,7 @@ namespace esc {
         void makeHeader();
         void makeModules();
         void makeProperties();
+        void generateBeagleModelFile();
         bool saveInFile(string path);
     };
 }

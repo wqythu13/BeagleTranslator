@@ -14,6 +14,7 @@ namespace esc {
     public:
         AttributeTerm();
         AttributeTerm(Attribute* _attribute) {this->attribute = _attribute;}
+        Attribute* getAttribute() {return this->attribute;}
         string to_string() const;
     };
 }

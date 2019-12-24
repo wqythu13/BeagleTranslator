@@ -177,11 +177,86 @@ void BeagleTranslator::makeProperties() {
     }
 }
 
+void BeagleTranslator::generateBeagleModelFile()
+{
+    vector<string> file;
+    file.push_back("system");
+    string tab = "    ";
+    // make beagle model file from beagle model
+    for (auto module : this->beagleModel->getModules())
+    {
+        file.push_back(tab+"module "+module->getModuleName());
+        // add module variables
+        for (auto variable : module->getVariables())
+        {
+            string exp = tab+tab+"int[0:256] "+variable->getName()+";";
+            file.push_back(exp);
+        }
+        // add module labels
+        string exp = tab+tab+"label ";
+        list<string> labels = module->getLabels();
+        for (auto label = labels.begin(); label != labels.end(); label++)
+        {
+            if (label == labels.begin())
+            {
+                exp += *label;
+            }
+            else
+            {
+                exp += ", "+*label;
+            }
+        }
+        exp += ";";
+        file.push_back(exp);
+        // add module locations
+        string locationExp = tab+tab+"location INIT";
+        list<string> locations = module->getLocations();
+        for (auto location = locations.begin(); location != locations.end(); location++)
+        {
+
+            locationExp += ", "+*location;
+        }
+        locationExp += ";";
+        file.push_back(locationExp);
+        file.push_back("");
+        // add init state
+        file.push_back(tab+tab+"inti INIT;");
+        InitStatement* initStatement = module->getInitState();
+        exp = tab+tab+"from INIT to "+initStatement->getLocation();
+        if (initStatement->getActions().empty())
+        {
+            exp += ";";
+            file.push_back(exp);
+        }
+        else
+        {
+            file.push_back(exp+" do");
+            file.push_back(tab+tab+"{");
+            for (auto action : initStatement->getActions())
+            {
+                if (action->getID() == 1)
+                {
+                    exp = tab+tab+tab;
+                    exp += ((AssignmentAction*)action)->getLhs()->getAttribute()->getIdentifier();
+                    exp += " = 0;";
+                    file.push_back(exp);
+                }
+            }
+            file.push_back(tab+tab+"};");
+        }
+        // add module transitions
+        file.push_back(tab+"end");
+    }
+    // get property from beagle model
+    file.push_back("end");
+}
+
 /// \brief save the beagleModelFile into the file in path.
 bool BeagleTranslator::saveInFile(string path) {
     // TODO get beagle model file from beagleModel & save into file
     //fopen(path, "w");
     FILE* beagleFile;
+    generateBeagleModelFile();
     beagleFile = fopen(path.c_str(), "w");
 
     //int fd = open(path.c_str(), O_WRONLY|O_CREAT);
@@ -190,7 +265,7 @@ bool BeagleTranslator::saveInFile(string path) {
     //if (!fd) return false;
     //for (string col : beagleModelFile) {
     //    fwrite(col.c_str(), 1, col.size()+1, beagleFile);
-        //cout << col.c_str() << endl;
+    //    cout << col.c_str() << endl;
     //}
     //fclose(beagleFile);
     //close(fd);

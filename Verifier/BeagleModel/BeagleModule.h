@@ -21,6 +21,7 @@ namespace esc {
 
     public:
         string getLocation() {return this->location;}
+        list<Action*> getActions() {return this->actions;}
         void setLocation(string _location);
         void addActions(Action* _action);
     };
@@ -62,6 +63,9 @@ namespace esc {
         void addTransition(Transition* _transition);
         string getModuleName() {return this->moduleName;}
         InitStatement* getInitState() {return this->initStatement;}
+        list<BeagleVariable*> getVariables() {return this->variables;}
+        list<string> getLabels() {return this->labels;}
+        list<string> getLocations() {return this->locations;}
     };
 }
 #endif //VERIFIER_BEAGLEMODULE_H

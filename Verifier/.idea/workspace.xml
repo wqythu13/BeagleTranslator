@@ -16,22 +16,22 @@
   <component name="ChangeListManager">
     <list default="true" id="f4738a9b-05b4-4f7a-88e6-e203888683b0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BeagleModel/BeagleModule.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/BeagleModel/BeagleModule.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BeagleModel/BeagleModule.h" beforeDir="false" afterPath="$PROJECT_DIR$/BeagleModel/BeagleModule.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/FiniteStateMachine/Edge.h" beforeDir="false" afterPath="$PROJECT_DIR$/Model/FiniteStateMachine/Edge.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BeagleModel/BeagleVariable.h" beforeDir="false" afterPath="$PROJECT_DIR$/BeagleModel/BeagleVariable.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/FiniteStateMachine/Action/AssignmentAction.h" beforeDir="false" afterPath="$PROJECT_DIR$/Model/FiniteStateMachine/Action/AssignmentAction.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/FiniteStateMachine/Term/AttributeTerm.h" beforeDir="false" afterPath="$PROJECT_DIR$/Model/FiniteStateMachine/Term/AttributeTerm.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Translator/BeagleTranslator.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Translator/BeagleTranslator.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verifier.dir/BeagleModel/BeagleModule.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verifier.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verifier.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verifier.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verifier.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verifier.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verifier.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verifier.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verifier.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verifier.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verifier.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Verifier" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Verifier.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Verifier.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Translator/BeagleTranslator.h" beforeDir="false" afterPath="$PROJECT_DIR$/Translator/BeagleTranslator.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verifier.dir/BeagleModel/BeagleModel.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verifier.dir/BeagleModel/BeagleModule.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verifier.dir/BeagleModel/BeagleModule.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verifier.dir/BeagleModel/BeagleVariable.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verifier.dir/BeagleModel/BeagleVariable.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verifier.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verifier.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Action/Action.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Action/AssignmentAction.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Action/SignalAction.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verifier.dir/Translator/BeagleTranslator.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verifier.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verifier.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Verifier" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Verifier" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -109,28 +109,28 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="6536" />
-          <entry key="h" value="6053" />
+          <entry key="cpp" value="8476" />
+          <entry key="h" value="6392" />
           <entry key="txt" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Doxygen file" value="5" />
-          <entry key="ObjectiveC" value="12584" />
+          <entry key="ObjectiveC" value="14863" />
           <entry key="PLAIN_TEXT" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="cpp" value="65" />
-          <entry key="h" value="100" />
+          <entry key="h" value="106" />
           <entry key="md" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="ObjectiveC" value="165" />
+          <entry key="ObjectiveC" value="171" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
@@ -138,11 +138,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Translator/BeagleTranslator.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="101">
-              <caret line="170" column="9" selection-start-line="170" selection-start-column="9" selection-end-line="170" selection-end-column="9" />
+            <state relative-caret-position="190">
+              <caret line="241" column="40" selection-start-line="241" selection-start-column="40" selection-end-line="241" selection-end-column="40" />
               <folding>
                 <element signature="e#38#67#0" expanded="true" />
               </folding>
@@ -151,11 +151,42 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Model/FiniteStateMachine/Term/AttributeTerm.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+              <folding>
+                <element signature="e#104#121#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Model/FiniteStateMachine/Action/AssignmentAction.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="51" lean-forward="true" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BeagleModel/BeagleVariable.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="44" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Model/FiniteStateMachine/FiniteStateMachine.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="38" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
+            <state>
+              <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
               <folding>
+                <element signature="e#0#2#0" />
                 <element signature="e#114#129#0" expanded="true" />
               </folding>
             </state>
@@ -163,27 +194,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Model/FiniteStateMachine/Edge.h">
+        <entry file="file://$PROJECT_DIR$/Model/FiniteStateMachine/Action/Action.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Model/FiniteStateMachine/Guard/Guard.cpp">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Model/FiniteStateMachine/Guard/Guard.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="61" selection-start-line="18" selection-start-column="61" selection-end-line="18" selection-end-column="61" />
-              <folding>
-                <element signature="e#88#105#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="210">
+              <caret line="14" column="81" selection-start-line="14" selection-start-column="81" selection-end-line="14" selection-end-column="81" />
             </state>
           </provider>
         </entry>
@@ -191,8 +205,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BeagleModel/BeagleModule.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="17" column="12" lean-forward="true" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+            <state relative-caret-position="215">
+              <caret line="23" column="57" selection-start-line="23" selection-start-column="57" selection-end-line="23" selection-end-column="57" />
               <folding>
                 <element signature="e#101#118#0" expanded="true" />
               </folding>
@@ -203,29 +217,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BeagleModel/BeagleModule.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
+            <state relative-caret-position="266">
               <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Model/FiniteStateMachine/Expression.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="26" lean-forward="true" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-              <folding>
-                <element signature="e#98#115#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/BeagleModel/BeagleGuard.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+            <state>
+              <caret column="2" lean-forward="true" selection-start-column="2" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -255,7 +257,6 @@
         <option value="$PROJECT_DIR$/Translator/Translator.h" />
         <option value="$PROJECT_DIR$/Model/Process/Type.h" />
         <option value="$PROJECT_DIR$/Model/Process/Method.h" />
-        <option value="$PROJECT_DIR$/BeagleModel/BeagleVariable.h" />
         <option value="$PROJECT_DIR$/BeagleModel/BeagleVariable.cpp" />
         <option value="$PROJECT_DIR$/Model/FiniteStateMachine/Vertex.h" />
         <option value="$PROJECT_DIR$/Model/Process/Process.h" />
@@ -275,25 +276,26 @@
         <option value="$PROJECT_DIR$/Model/FiniteStateMachine/Action/Action.cpp" />
         <option value="$PROJECT_DIR$/Model/FiniteStateMachine/Term/ConstantTerm.h" />
         <option value="$PROJECT_DIR$/Model/FiniteStateMachine/Term/ConstantTerm.cpp" />
-        <option value="$PROJECT_DIR$/Translator/BeagleTranslator.h" />
         <option value="$PROJECT_DIR$/Model/FiniteStateMachine/Action/MethodAction.h" />
-        <option value="$PROJECT_DIR$/Model/FiniteStateMachine/Action/AssignmentAction.h" />
         <option value="$PROJECT_DIR$/Model/FiniteStateMachine/Action/AssignmentAction.cpp" />
         <option value="$PROJECT_DIR$/Model/FiniteStateMachine/Action/Action.h" />
         <option value="$PROJECT_DIR$/Model/FiniteStateMachine/Action/SignalAction.h" />
         <option value="$PROJECT_DIR$/Model/FiniteStateMachine/Action/SignalAction.cpp" />
         <option value="$PROJECT_DIR$/Model/Process/Attribute.cpp" />
         <option value="$PROJECT_DIR$/Model/Process/Signal.h" />
-        <option value="$PROJECT_DIR$/Model/FiniteStateMachine/Term/AttributeTerm.h" />
         <option value="$PROJECT_DIR$/Model/Process/Attribute.h" />
         <option value="$PROJECT_DIR$/Model/FiniteStateMachine/Expression.h" />
         <option value="$PROJECT_DIR$/BeagleModel/BeagleGuard.h" />
         <option value="$PROJECT_DIR$/Model/FiniteStateMachine/Edge.h" />
         <option value="$PROJECT_DIR$/Model/FiniteStateMachine/Guard/Guard.h" />
-        <option value="$PROJECT_DIR$/Translator/BeagleTranslator.cpp" />
         <option value="$PROJECT_DIR$/BeagleModel/BeagleModule.cpp" />
-        <option value="$PROJECT_DIR$/BeagleModel/BeagleModule.h" />
         <option value="$PROJECT_DIR$/BeagleModel/BeagleGuard.cpp" />
+        <option value="$PROJECT_DIR$/Translator/BeagleTranslator.h" />
+        <option value="$PROJECT_DIR$/BeagleModel/BeagleVariable.h" />
+        <option value="$PROJECT_DIR$/BeagleModel/BeagleModule.h" />
+        <option value="$PROJECT_DIR$/Model/FiniteStateMachine/Action/AssignmentAction.h" />
+        <option value="$PROJECT_DIR$/Model/FiniteStateMachine/Term/AttributeTerm.h" />
+        <option value="$PROJECT_DIR$/Translator/BeagleTranslator.cpp" />
       </list>
     </option>
   </component>
@@ -303,11 +305,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="65" />
-    <option name="y" value="-4" />
-    <option name="width" value="1855" />
-    <option name="height" value="1084" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="626" />
+    <option name="y" value="24" />
+    <option name="width" value="1380" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -426,7 +428,7 @@
       <workItem from="1575276160185" duration="10859000" />
       <workItem from="1575364980688" duration="56739000" />
       <workItem from="1576555118235" duration="1133000" />
-      <workItem from="1576566242591" duration="23161000" />
+      <workItem from="1576566242591" duration="37873000" />
     </task>
     <task id="LOCAL-00001" summary="add beagleProperty">
       <created>1575358846181</created>
@@ -460,7 +462,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="139815000" />
+    <option name="totallyTimeSpent" value="154527000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -472,10 +474,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
+    <frame x="626" y="24" width="1380" height="1048" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2636514" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.35724962" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -486,7 +488,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4997242" weight="0.3298647" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="8" visible="true" weight="0.32882413" />
+      <window_info active="true" anchor="bottom" id="Messages" order="8" visible="true" weight="0.32864866" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.3298647" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5002758" side_tool="true" weight="0.39854318" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.3298647" />
@@ -524,12 +526,12 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/Translator/BeagleTranslator.cpp</url>
-          <line>198</line>
+          <line>273</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/Translator/BeagleTranslator.cpp</url>
-          <line>184</line>
+          <line>259</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
@@ -569,13 +571,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BeagleModel/BeagleModel.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="52" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Model/Pragma/Property.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -587,13 +582,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BeagleModel/BeagleVariable.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
@@ -730,13 +718,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Model/FiniteStateMachine/Action/Action.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="81" lean-forward="true" selection-start-line="14" selection-start-column="81" selection-end-line="14" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Model/FiniteStateMachine/Action/SignalAction.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -781,13 +762,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Model/FiniteStateMachine/Action/AssignmentAction.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Model/Process/Attribute.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -802,30 +776,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Model/FiniteStateMachine/Term/AttributeTerm.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
-          <folding>
-            <element signature="e#104#121#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Model/Process/Attribute.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Translator/BeagleTranslator.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
-          <folding>
-            <element signature="e#111#134#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -837,19 +791,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Model/FiniteStateMachine/Expression.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Model/FiniteStateMachine/FiniteStateMachine.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="38" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
-          <folding>
-            <element signature="e#114#129#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Model/FiniteStateMachine/Guard/Guard.cpp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Model/FiniteStateMachine/Guard/Guard.h">
@@ -872,6 +813,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/BeagleModel/BeagleModel.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" column="52" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Model/FiniteStateMachine/Edge.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -879,30 +827,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Translator/BeagleTranslator.cpp">
+    <entry file="file://$PROJECT_DIR$/Model/FiniteStateMachine/Guard/Guard.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Translator/BeagleTranslator.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="170" column="9" selection-start-line="170" selection-start-column="9" selection-end-line="170" selection-end-column="9" />
+        <state relative-caret-position="390">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
           <folding>
-            <element signature="e#38#67#0" expanded="true" />
+            <element signature="e#111#134#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BeagleModel/BeagleVariable.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="44" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BeagleModel/BeagleModule.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="23" column="57" selection-start-line="23" selection-start-column="57" selection-end-line="23" selection-end-column="57" />
+          <folding>
+            <element signature="e#101#118#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BeagleModel/BeagleModule.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
+        <state relative-caret-position="266">
           <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BeagleModel/BeagleModule.h">
+    <entry file="file://$PROJECT_DIR$/BeagleModel/BeagleGuard.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="17" column="12" lean-forward="true" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
-          <folding>
-            <element signature="e#101#118#0" expanded="true" />
-          </folding>
+        <state>
+          <caret column="2" lean-forward="true" selection-start-column="2" selection-end-column="2" />
         </state>
       </provider>
     </entry>
@@ -913,10 +878,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BeagleModel/BeagleGuard.cpp">
+    <entry file="file://$PROJECT_DIR$/Model/FiniteStateMachine/Action/Action.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+        <state relative-caret-position="210">
+          <caret line="14" column="81" selection-start-line="14" selection-start-column="81" selection-end-line="14" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Model/FiniteStateMachine/FiniteStateMachine.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#2#0" />
+            <element signature="e#114#129#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Model/FiniteStateMachine/Action/AssignmentAction.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="51" lean-forward="true" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Model/FiniteStateMachine/Term/AttributeTerm.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+          <folding>
+            <element signature="e#104#121#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Translator/BeagleTranslator.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="241" column="40" selection-start-line="241" selection-start-column="40" selection-end-line="241" selection-end-column="40" />
+          <folding>
+            <element signature="e#38#67#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

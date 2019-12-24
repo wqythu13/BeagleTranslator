@@ -17,6 +17,7 @@ namespace esc {
     public:
         void setName(string _name);
         void setLen(int _len);
+        string getName() {return this->name;}
     };
 }
 

@@ -16,6 +16,7 @@ namespace esc {
         //AssignmentAction(const string& toParse);
         void setLhs(Attribute* _attribute);
         void setRhs(Term* _rhs);
+        AttributeTerm* getLhs() {return this->lhs;}
         string to_string() const;
         int getID();
     };
