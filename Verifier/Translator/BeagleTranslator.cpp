@@ -56,7 +56,7 @@ void BeagleTranslator::makeHeader() {
 }
 
 /// \brief make beagle modules from model processes
-/// 1. set the inti state from initialknowledge
+/// 1. set the init state from initialknowledge
 /// 2. add transitions converted by edges
 /// 2.1 get from & to locations
 /// 2.2 get assignment actions from edge's actions
@@ -220,7 +220,7 @@ void BeagleTranslator::generateBeagleModelFile()
         file.push_back(locationExp);
         file.push_back("");
         // add init state
-        file.push_back(tab+tab+"inti INIT;");
+        file.push_back(tab+tab+"init INIT;");
         InitStatement* initStatement = module->getInitState();
         exp = tab+tab+"from INIT to "+initStatement->getLocation();
         if (initStatement->getActions().empty())
@@ -246,6 +246,29 @@ void BeagleTranslator::generateBeagleModelFile()
         }
         // add module transitions
         file.push_back(tab+"end");
+        for (auto transition : module->getTransitions())
+        {
+            // add transition locations
+            exp = tab+tab+"from "+transition->getFromLoc()+" to "+transition->getToLoc();
+            // add transition label
+            if (transition->getLabel() != "")
+                exp += " on "+transition->getLabel();
+            BeagleGuard* guard = transition->getGuard();
+            // add transition guard
+            if (guard != NULL)
+            {
+                exp += " provided ("+guard->getLhs()->to_string()+guard->getOperator()->getOp()+guard->getRhs()->to_string()+")";
+            }
+            exp += " do {";
+            file.push_back(exp);
+            // add transition actions
+            for (auto action : transition->getActions())
+            {
+                exp = tab+tab+tab+action->to_string()+";";
+                file.push_back(exp);
+            }
+            file.push_back("};");
+        }
     }
     // get property from beagle model
     file.push_back("end");

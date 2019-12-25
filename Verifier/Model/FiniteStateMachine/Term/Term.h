@@ -13,7 +13,7 @@ namespace esc {
     public:
         //Term();
         //Term(const string& toParse);
-
+        virtual string to_string() const = 0;
         //bool isValidName(string _name);
         //bool containAMethodCall(); //< check if the term has a MethodTerm subclass
     };

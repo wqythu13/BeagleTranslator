@@ -3,3 +3,8 @@
 //
 
 #include "AttributeTerm.h"
+namespace esc {
+string AttributeTerm::to_string() const {
+    return this->attribute->getIdentifier();
+}
+}

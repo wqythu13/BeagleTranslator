@@ -19,7 +19,10 @@ void AssignmentAction::setRhs(esc::Term *_rhs) {
 }
 
 string AssignmentAction::to_string() const {
-    return "";
+    string exp = "";
+    exp += this->lhs->to_string()+"=";
+    exp += this->rhs->to_string();
+    return exp;
 }
 
 int AssignmentAction::getID() {

@@ -37,6 +37,8 @@ namespace esc {
         string getFromLoc() {return this->fromLocation;}
         string getToLoc() {return this->toLocation;}
         string getLabel() {return this->label;}
+        BeagleGuard* getGuard() {return this->guard;}
+        list<Action*> getActions() {return this->actions;}
         void setFromLoc(string _fromLocation);
         void setToLoc(string _toLocation);
         void setLabel(string _label);
@@ -66,6 +68,7 @@ namespace esc {
         list<BeagleVariable*> getVariables() {return this->variables;}
         list<string> getLabels() {return this->labels;}
         list<string> getLocations() {return this->locations;}
+        list<Transition*> getTransitions() {return this->transitions;}
     };
 }
 #endif //VERIFIER_BEAGLEMODULE_H

@@ -27,6 +27,9 @@ namespace esc {
         void setRhs(Term* _rhs);
         void setOp(Operator* _op);
         void setOpByString(string _op);
+        Term* getLhs() {return this->lhs;}
+        Term* getRhs() {return this->rhs;}
+        Operator* getOperator() { return this->op;}
     };
 }
 

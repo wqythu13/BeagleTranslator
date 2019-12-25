@@ -13,6 +13,7 @@ namespace esc {
     public:
         void setValue(int _value);
         int getValue() {return this->value;}
+        string to_string() const;
     };
 }
 #endif //VERIFIER_CONSTANTTERM_H

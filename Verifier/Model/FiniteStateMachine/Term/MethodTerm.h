@@ -12,6 +12,9 @@ namespace esc {
     private:
         list<Term*> args;
         Method* method;
+    public:
+        // TODO add method to_string
+        string to_string() const;
     };
 }
 
