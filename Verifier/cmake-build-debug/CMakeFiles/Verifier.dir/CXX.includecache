@@ -52,10 +52,6 @@ Action.h
 ../../Process/Signal.h
 /home/wqy/文档/BeagleTranslator/Verifier/Model/Process/Signal.h
 
-/home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Edge.cpp
-Edge.h
-/home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Edge.h
-
 /home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Edge.h
 Vertex.h
 /home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Vertex.h
@@ -69,10 +65,6 @@ string
 -
 Term/Term.h
 /home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Term/Term.h
-
-/home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/FiniteStateMachine.cpp
-FiniteStateMachine.h
-/home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/FiniteStateMachine.h
 
 /home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/FiniteStateMachine.h
 list
@@ -108,10 +100,6 @@ string
 list
 -
 
-/home/wqy/文档/BeagleTranslator/Verifier/Model/Model.cpp
-Model.h
-/home/wqy/文档/BeagleTranslator/Verifier/Model/Model.h
-
 /home/wqy/文档/BeagleTranslator/Verifier/Model/Model.h
 Process/Process.h
 /home/wqy/文档/BeagleTranslator/Verifier/Model/Process/Process.h
@@ -124,17 +112,9 @@ string
 list
 -
 
-/home/wqy/文档/BeagleTranslator/Verifier/Model/Pragma/InitialKnowledge.cpp
-InitialKnowledge.h
-/home/wqy/文档/BeagleTranslator/Verifier/Model/Pragma/InitialKnowledge.h
-
 /home/wqy/文档/BeagleTranslator/Verifier/Model/Pragma/InitialKnowledge.h
 ../Process/Process.h
 /home/wqy/文档/BeagleTranslator/Verifier/Model/Process/Process.h
-
-/home/wqy/文档/BeagleTranslator/Verifier/Model/Pragma/Property.cpp
-Property.h
-/home/wqy/文档/BeagleTranslator/Verifier/Model/Pragma/Property.h
 
 /home/wqy/文档/BeagleTranslator/Verifier/Model/Pragma/Property.h
 ../Process/Process.h
@@ -149,10 +129,6 @@ list
 -
 Attribute.h
 /home/wqy/文档/BeagleTranslator/Verifier/Model/Process/Attribute.h
-
-/home/wqy/文档/BeagleTranslator/Verifier/Model/Process/Process.cpp
-Process.h
-/home/wqy/文档/BeagleTranslator/Verifier/Model/Process/Process.h
 
 /home/wqy/文档/BeagleTranslator/Verifier/Model/Process/Process.h
 Method.h
@@ -209,12 +185,4 @@ vector
 /home/wqy/文档/BeagleTranslator/Verifier/Translator/Translator.h
 ../Model/Model.h
 /home/wqy/文档/BeagleTranslator/Verifier/Model/Model.h
-
-/home/wqy/文档/BeagleTranslator/Verifier/main.cpp
-iostream
--
-Translator/Translator.h
-/home/wqy/文档/BeagleTranslator/Verifier/Translator/Translator.h
-Translator/BeagleTranslator.h
-/home/wqy/文档/BeagleTranslator/Verifier/Translator/BeagleTranslator.h
 

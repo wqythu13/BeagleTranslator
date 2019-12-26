@@ -14,13 +14,20 @@ FiniteStateMachine* getAliceFST()
     aliceFST->setVertices(list<Vertex*>{Init, mM, sM, bF, error});
     aliceFST->setStartVertex(Init);
     // add FST edges
-
+    Edge* INIT2mM = new Edge(Init, mM);
+    Edge* mM2sM = new Edge(mM, sM);
+    Edge* sM2bF = new Edge(sM, bF);
+    Edge* bF2error = new Edge(bF, error);
+    aliceFST->setEdges(list<Edge*>{INIT2mM, mM2sM, sM2bF, bF2error});
     return aliceFST;
 }
 
 FiniteStateMachine* getBobFST()
 {
     FiniteStateMachine* bobFST = new FiniteStateMachine();
+    Vertex* Init = new Vertex("INIT");
+    bobFST->setVertices(list<Vertex*>{Init});
+    bobFST->setStartVertex(Init);
     return bobFST;
 }
 
@@ -70,7 +77,10 @@ Model* initModel()
 
     model->addProcess(bob);
     // set Properties
+    SafetyProperty* p1 = new SafetyProperty("");
+    model->setProperties(list<Property*>{p1});
     // set InitialKnowledge
+    model->setInitialKnowledges(list<InitialKnowledge*>{});
     return model;
 }
 
@@ -80,6 +90,7 @@ int main() {
     //beagleTranslator->generateBeagle();
     Model* model = initModel();
     BeagleTranslator beagleTranslator;
+    beagleTranslator.setModel(model);
     beagleTranslator.generateBeagle();
     const char *filePath = "./Beagle/beagle.elt";
     //std::cout << beagleTranslator.saveInFile(filePath);

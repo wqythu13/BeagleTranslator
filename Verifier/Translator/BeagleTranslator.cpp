@@ -117,8 +117,10 @@ void BeagleTranslator::makeModules() {
                 }
             }
             // set transition label from edge's signal action
-            if (signal->getInout() == true)
-                transition->setLabel(signal->getName());{
+            if (hasSignal)
+                transition->setLabel(signal->getName());
+            if (hasSignal && signal->getInout() == true) {
+                //transition->setLabel(signal->getName());
                 string srcProcessName = "";
                 bool hasSrcProcess = false;
                 Signal* srcSignal;
@@ -148,11 +150,13 @@ void BeagleTranslator::makeModules() {
             }
             // add transition guard
             Guard* guard = edge->getGuard();
-            BeagleGuard* beagleGuard = new BeagleGuard();
-            beagleGuard->setLhs(guard->getExpression()->getLhs());
-            beagleGuard->setRhs(guard->getExpression()->getRhs());
-            beagleGuard->setOpByString(guard->getExpression()->getOp());
-            transition->setGuard(beagleGuard);
+            if (guard) {
+                BeagleGuard *beagleGuard = new BeagleGuard();
+                beagleGuard->setLhs(guard->getExpression()->getLhs());
+                beagleGuard->setRhs(guard->getExpression()->getRhs());
+                beagleGuard->setOpByString(guard->getExpression()->getOp());
+                transition->setGuard(beagleGuard);
+            }
             // add transition into module
             module->addTransition(transition);
         }
@@ -163,11 +167,14 @@ void BeagleTranslator::makeModules() {
 void BeagleTranslator::makeProperties() {
     list<Property*> properties = this->model->getProperties();
     // add SafetyProperty from Pragma
-    char* safetyTypeID;
-    strcpy(safetyTypeID, typeid(SafetyProperty).name());
+    //char* safetyTypeID;
+    //strcpy(safetyTypeID, typeid(SafetyProperty).name());
+    //cout << properties.size() << endl;
+    //cout << properties.size() << endl;
+    if (properties.size() == 0) return;
     for (auto property : properties)
     {
-        if (strcmp(safetyTypeID, typeid(*property).name()) == 0)
+        //if (strcmp(safetyTypeID, typeid(*property).name()) == 0)
         {
             BeagleProperty* beagleProperty = new BeagleProperty();
             string propertyName = ((SafetyProperty*)property)->getSafetyProperty();

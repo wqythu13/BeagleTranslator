@@ -16,6 +16,8 @@ namespace esc {
         string safetyProperty;
 
     public:
+        SafetyProperty() : safetyProperty("") {}
+        SafetyProperty(string _safetyProperty) : safetyProperty(_safetyProperty) {}
         string getSafetyProperty() {return this->safetyProperty;}
         void setSafetyProperty(string _safetyProperty);
     };
