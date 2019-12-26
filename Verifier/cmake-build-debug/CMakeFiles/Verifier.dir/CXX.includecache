@@ -10,10 +10,6 @@
 ../Model/FiniteStateMachine/Term/Term.h
 /home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Term/Term.h
 
-/home/wqy/文档/BeagleTranslator/Verifier/BeagleModel/BeagleModel.cpp
-BeagleModel.h
-/home/wqy/文档/BeagleTranslator/Verifier/BeagleModel/BeagleModel.h
-
 /home/wqy/文档/BeagleTranslator/Verifier/BeagleModel/BeagleModel.h
 BeagleModule.h
 /home/wqy/文档/BeagleTranslator/Verifier/BeagleModel/BeagleModule.h
@@ -21,10 +17,6 @@ BeagleProperty.h
 /home/wqy/文档/BeagleTranslator/Verifier/BeagleModel/BeagleProperty.h
 list
 -
-
-/home/wqy/文档/BeagleTranslator/Verifier/BeagleModel/BeagleModule.cpp
-BeagleModule.h
-/home/wqy/文档/BeagleTranslator/Verifier/BeagleModel/BeagleModule.h
 
 /home/wqy/文档/BeagleTranslator/Verifier/BeagleModel/BeagleModule.h
 string
@@ -46,25 +38,13 @@ string
 string
 -
 
-/home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Action/Action.cpp
-Action.h
-/home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Action/Action.h
-
 /home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Action/Action.h
 ../Term/AttributeTerm.h
 /home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Term/AttributeTerm.h
 
-/home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Action/AssignmentAction.cpp
-AssignmentAction.h
-/home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Action/AssignmentAction.h
-
 /home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Action/AssignmentAction.h
 Action.h
 /home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Action/Action.h
-
-/home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Action/SignalAction.cpp
-SignalAction.h
-/home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Action/SignalAction.h
 
 /home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Action/SignalAction.h
 Action.h
@@ -108,10 +88,6 @@ string
 ../Expression.h
 /home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Expression.h
 
-/home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Term/AttributeTerm.cpp
-AttributeTerm.h
-/home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Term/AttributeTerm.h
-
 /home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Term/AttributeTerm.h
 Term.h
 /home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Term/Term.h
@@ -121,16 +97,6 @@ Term.h
 /home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Term/ConstantTerm.h
 Term.h
 /home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Term/Term.h
-
-/home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Term/MethodTerm.cpp
-MethodTerm.h
-/home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Term/MethodTerm.h
-
-/home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Term/MethodTerm.h
-Term.h
-/home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Term/Term.h
-../../Process/Method.h
-/home/wqy/文档/BeagleTranslator/Verifier/Model/Process/Method.h
 
 /home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Term/Term.h
 string
@@ -174,17 +140,9 @@ Property.h
 ../Process/Process.h
 /home/wqy/文档/BeagleTranslator/Verifier/Model/Process/Process.h
 
-/home/wqy/文档/BeagleTranslator/Verifier/Model/Process/Attribute.cpp
-Attribute.h
-/home/wqy/文档/BeagleTranslator/Verifier/Model/Process/Attribute.h
-
 /home/wqy/文档/BeagleTranslator/Verifier/Model/Process/Attribute.h
 Type.h
 /home/wqy/文档/BeagleTranslator/Verifier/Model/Process/Type.h
-
-/home/wqy/文档/BeagleTranslator/Verifier/Model/Process/Method.cpp
-Method.h
-/home/wqy/文档/BeagleTranslator/Verifier/Model/Process/Method.h
 
 /home/wqy/文档/BeagleTranslator/Verifier/Model/Process/Method.h
 list
@@ -204,17 +162,9 @@ Signal.h
 ../FiniteStateMachine/FiniteStateMachine.h
 /home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/FiniteStateMachine.h
 
-/home/wqy/文档/BeagleTranslator/Verifier/Model/Process/Signal.cpp
-Signal.h
-/home/wqy/文档/BeagleTranslator/Verifier/Model/Process/Signal.h
-
 /home/wqy/文档/BeagleTranslator/Verifier/Model/Process/Signal.h
 Attribute.h
 /home/wqy/文档/BeagleTranslator/Verifier/Model/Process/Attribute.h
-
-/home/wqy/文档/BeagleTranslator/Verifier/Model/Process/Type.cpp
-Type.h
-/home/wqy/文档/BeagleTranslator/Verifier/Model/Process/Type.h
 
 /home/wqy/文档/BeagleTranslator/Verifier/Model/Process/Type.h
 string

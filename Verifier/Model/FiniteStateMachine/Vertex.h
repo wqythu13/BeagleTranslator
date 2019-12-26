@@ -15,9 +15,12 @@ namespace esc {
     class Vertex{
     private:
         string name;
-        list<Edge*> nexts;
+        //list<Edge*> nexts;
     public:
+        Vertex() : name("") {}
+        Vertex(string _name) : name(_name) {}
         string getName(){return this->name;}
+        void setName(string _name);
     };
 }
 

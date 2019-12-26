@@ -23,6 +23,12 @@ namespace esc {
         list<Vertex*> getVertices() {return this->vertices;}
         list<Edge*> getEdges() {return this->edges;}
         Vertex* getStartVertex() {return this->startVertex;}
+        void setVertices(list<Vertex*> _vertices);
+        void addVertex(Vertex* _vertex);
+        void setEdges(list<Edge*> _edges);
+        void addEdge(Edge* _edge);
+        void setStartVertex(Vertex* _startVertex);
+
     };
 }
 #endif //VERIFIER_FINITESTATEMACHINE_H

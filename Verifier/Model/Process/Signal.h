@@ -10,10 +10,12 @@ namespace esc {
     class Signal {
     private:
         string name;
-        bool inout;
+        bool inout; /// true => in; false => out;
         Attribute* parameter;
 
     public:
+        Signal() : name(""), inout(false), parameter(NULL) {}
+        Signal(string _name, bool _inout, Attribute* _parameter) : name(_name), inout(_inout), parameter(_parameter) {}
         string getName() {return this->name;}
         bool getInout() {return this->inout;}
         Attribute* getParameter() {return this->parameter;}
