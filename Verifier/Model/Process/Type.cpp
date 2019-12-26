@@ -3,3 +3,8 @@
 //
 
 #include "Type.h"
+namespace esc {
+void Type::setName(string _typeName) {
+    this->typeName = _typeName;
+}
+}

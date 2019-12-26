@@ -12,7 +12,10 @@ namespace esc {
     private:
         string typeName;
     public:
+        Type() : typeName("") {}
+        Type(string _typeName) : typeName(_typeName) {}
         const string& getName() const;
+        void setName(string _typeName);
     };
 }
 

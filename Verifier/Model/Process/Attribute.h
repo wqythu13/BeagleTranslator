@@ -13,6 +13,8 @@ namespace esc {
         string identifier;
 
     public:
+        Attribute() : type(new Type("")), identifier("") {}
+        Attribute(Type* _type, string _identifier) : type(_type), identifier(_identifier) {}
         string getIdentifier() {return this->identifier;}
         Type* getType() {return this->type;}
         void setIdentifier(string _identifier);

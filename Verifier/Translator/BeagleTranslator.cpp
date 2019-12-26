@@ -315,3 +315,7 @@ void BeagleTranslator::generateBeagle() {
     makeProperties();
     //cout << "This is BeagleTransltor::generateBeagle()" << endl;
 }
+
+void BeagleTranslator::setModel(esc::Model *_model) {
+    this->model = _model;
+}

@@ -24,6 +24,12 @@ namespace esc {
         list<Attribute*> getAttributes() {return this->attributes;}
         FiniteStateMachine* getFST() {return this->fst;}
         list<Signal*> getSignals() {return this->signals;}
+        void setProcessName(string _processName);
+        void setAttributes(list<Attribute*> _attributes);
+        void addAttribute(Attribute* _attribute);
+        void setSignals(list<Signal*> _signals);
+        void addSignals(Signal* _signal);
+        void setFST(FiniteStateMachine* _fst);
     };
 }
 

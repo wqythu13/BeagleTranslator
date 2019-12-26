@@ -25,6 +25,13 @@ namespace esc {
         list<Process*> getProcesses() {return this->processes;}
         list<Property*> getProperties() {return this->properties;}
         list<InitialKnowledge*> getInitialKnowledge() {return this->initialKnowledges;}
+        void setName(string _name);
+        void setProcesses(list<Process*> _processes);
+        void addProcess(Process* _process);
+        void setProperties(list<Property*> _properties);
+        void addProperty(Property* _property);
+        void setInitialKnowledges(list<InitialKnowledge*> _initialKnowledges);
+        void addInitialKnowledge(InitialKnowledge* _initialKnowledge);
     };
 }
 

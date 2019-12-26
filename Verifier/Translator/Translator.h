@@ -14,6 +14,7 @@ namespace esc {
 
     public:
         Translator() {};
+        virtual void setModel(Model* _model) = 0;
     };
 }
 

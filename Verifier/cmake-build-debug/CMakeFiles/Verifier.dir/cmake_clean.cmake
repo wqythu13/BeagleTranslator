@@ -25,6 +25,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Verifier.dir/BeagleModel/BeagleGuard.cpp.o"
   "CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Guard/Guard.cpp.o"
   "CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Expression.cpp.o"
+  "CMakeFiles/Verifier.dir/Model/Model.cpp.o"
   "Verifier.pdb"
   "Verifier"
 )

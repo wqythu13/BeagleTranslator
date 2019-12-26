@@ -21,6 +21,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Term/MethodTerm.cpp" "/home/wqy/文档/BeagleTranslator/Verifier/cmake-build-debug/CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Term/MethodTerm.cpp.o"
   "/home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Term/Term.cpp" "/home/wqy/文档/BeagleTranslator/Verifier/cmake-build-debug/CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Term/Term.cpp.o"
   "/home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Vertex.cpp" "/home/wqy/文档/BeagleTranslator/Verifier/cmake-build-debug/CMakeFiles/Verifier.dir/Model/FiniteStateMachine/Vertex.cpp.o"
+  "/home/wqy/文档/BeagleTranslator/Verifier/Model/Model.cpp" "/home/wqy/文档/BeagleTranslator/Verifier/cmake-build-debug/CMakeFiles/Verifier.dir/Model/Model.cpp.o"
   "/home/wqy/文档/BeagleTranslator/Verifier/Model/Pragma/InitialKnowledge.cpp" "/home/wqy/文档/BeagleTranslator/Verifier/cmake-build-debug/CMakeFiles/Verifier.dir/Model/Pragma/InitialKnowledge.cpp.o"
   "/home/wqy/文档/BeagleTranslator/Verifier/Model/Pragma/Property.cpp" "/home/wqy/文档/BeagleTranslator/Verifier/cmake-build-debug/CMakeFiles/Verifier.dir/Model/Pragma/Property.cpp.o"
   "/home/wqy/文档/BeagleTranslator/Verifier/Model/Process/Attribute.cpp" "/home/wqy/文档/BeagleTranslator/Verifier/cmake-build-debug/CMakeFiles/Verifier.dir/Model/Process/Attribute.cpp.o"
