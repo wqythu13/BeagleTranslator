@@ -220,14 +220,14 @@ void BeagleTranslator::generateBeagleModelFile()
         list<string> locations = module->getLocations();
         for (auto location = locations.begin(); location != locations.end(); location++)
         {
-
-            locationExp += ", "+*location;
+            if (*location != "INIT")
+                locationExp += ", "+*location;
         }
         locationExp += ";";
         file.push_back(locationExp);
         file.push_back("");
         // add init state
-        file.push_back(tab+tab+"init INIT;");
+        /*file.push_back(tab+tab+"init INIT;");
         InitStatement* initStatement = module->getInitState();
         exp = tab+tab+"from INIT to "+initStatement->getLocation();
         if (initStatement->getActions().empty())
@@ -250,9 +250,8 @@ void BeagleTranslator::generateBeagleModelFile()
                 }
             }
             file.push_back(tab+tab+"};");
-        }
+        }*/
         // add module transitions
-        file.push_back(tab+"end");
         for (auto transition : module->getTransitions())
         {
             // add transition locations
@@ -274,11 +273,13 @@ void BeagleTranslator::generateBeagleModelFile()
                 exp = tab+tab+tab+action->to_string()+";";
                 file.push_back(exp);
             }
-            file.push_back("};");
+            file.push_back(tab+tab+"};");
         }
+        file.push_back(tab+"end");
     }
     // get property from beagle model
     file.push_back("end");
+    beagleModelFile = file;
 }
 
 /// \brief save the beagleModelFile into the file in path.
