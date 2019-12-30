@@ -184,6 +184,12 @@ void BeagleTranslator::makeProperties() {
     }
 }
 
+void printFile(vector<string> file)
+{
+    for (auto str : file)
+        cout << str << endl;
+}
+
 void BeagleTranslator::generateBeagleModelFile()
 {
     vector<string> file;
@@ -227,9 +233,9 @@ void BeagleTranslator::generateBeagleModelFile()
         file.push_back(locationExp);
         file.push_back("");
         // add init state
-        /*file.push_back(tab+tab+"init INIT;");
+        //file.push_back(tab+tab+"init INIT do");
         InitStatement* initStatement = module->getInitState();
-        exp = tab+tab+"from INIT to "+initStatement->getLocation();
+        exp = tab+tab+"init INIT";
         if (initStatement->getActions().empty())
         {
             exp += ";";
@@ -237,8 +243,8 @@ void BeagleTranslator::generateBeagleModelFile()
         }
         else
         {
-            file.push_back(exp+" do");
-            file.push_back(tab+tab+"{");
+            file.push_back(exp+" do {");
+            //file.push_back(tab+tab+"{");
             for (auto action : initStatement->getActions())
             {
                 if (action->getID() == 1)
@@ -250,7 +256,7 @@ void BeagleTranslator::generateBeagleModelFile()
                 }
             }
             file.push_back(tab+tab+"};");
-        }*/
+        }
         // add module transitions
         for (auto transition : module->getTransitions())
         {
@@ -280,6 +286,7 @@ void BeagleTranslator::generateBeagleModelFile()
     // get property from beagle model
     file.push_back("end");
     beagleModelFile = file;
+    printFile(file);
 }
 
 /// \brief save the beagleModelFile into the file in path.
