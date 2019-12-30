@@ -46,12 +46,6 @@ string
 Action.h
 /home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Action/Action.h
 
-/home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Action/SignalAction.h
-Action.h
-/home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Action/Action.h
-../../Process/Signal.h
-/home/wqy/文档/BeagleTranslator/Verifier/Model/Process/Signal.h
-
 /home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Edge.h
 Vertex.h
 /home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Vertex.h
@@ -85,10 +79,6 @@ Term.h
 /home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Term/Term.h
 ../../Process/Attribute.h
 /home/wqy/文档/BeagleTranslator/Verifier/Model/Process/Attribute.h
-
-/home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Term/ConstantTerm.h
-Term.h
-/home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Term/Term.h
 
 /home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Term/Term.h
 string
@@ -146,30 +136,6 @@ Attribute.h
 string
 -
 
-/home/wqy/文档/BeagleTranslator/Verifier/Translator/BeagleTranslator.cpp
-BeagleTranslator.h
-/home/wqy/文档/BeagleTranslator/Verifier/Translator/BeagleTranslator.h
-../Model/FiniteStateMachine/Term/ConstantTerm.h
-/home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Term/ConstantTerm.h
-../Model/FiniteStateMachine/Action/SignalAction.h
-/home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Action/SignalAction.h
-../BeagleModel/BeagleGuard.h
-/home/wqy/文档/BeagleTranslator/Verifier/BeagleModel/BeagleGuard.h
-iostream
--
-unistd.h
--
-sys/types.h
--
-sys/stat.h
--
-fcntl.h
--
-cstring
--
-typeinfo
--
-
 /home/wqy/文档/BeagleTranslator/Verifier/Translator/BeagleTranslator.h
 Translator.h
 /home/wqy/文档/BeagleTranslator/Verifier/Translator/Translator.h
@@ -185,4 +151,12 @@ vector
 /home/wqy/文档/BeagleTranslator/Verifier/Translator/Translator.h
 ../Model/Model.h
 /home/wqy/文档/BeagleTranslator/Verifier/Model/Model.h
+
+/home/wqy/文档/BeagleTranslator/Verifier/main.cpp
+iostream
+-
+Translator/Translator.h
+/home/wqy/文档/BeagleTranslator/Verifier/Translator/Translator.h
+Translator/BeagleTranslator.h
+/home/wqy/文档/BeagleTranslator/Verifier/Translator/BeagleTranslator.h
 

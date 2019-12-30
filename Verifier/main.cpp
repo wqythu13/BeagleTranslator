@@ -26,8 +26,18 @@ FiniteStateMachine* getBobFST()
 {
     FiniteStateMachine* bobFST = new FiniteStateMachine();
     Vertex* Init = new Vertex("INIT");
-    bobFST->setVertices(list<Vertex*>{Init});
+    Vertex* wFM = new Vertex("waitingForMessage");
+    Vertex* mD = new Vertex("messageDecrypt");
+    Vertex* mDed = new Vertex("messageDecrypted");
+    Vertex* sDR = new Vertex("secretDataReceived");
+    bobFST->setVertices(list<Vertex*>{Init, wFM, mD, mDed, sDR});
     bobFST->setStartVertex(Init);
+    //add FST edges
+    Edge* INIT2wFM = new Edge(Init, wFM);
+    Edge* wFM2mD = new Edge(wFM, mD);
+    Edge* mD2mDed = new Edge(mD, mDed);
+    Edge* mDed2sDR = new Edge(mDed, sDR);
+    bobFST->setEdges(list<Edge*>{INIT2wFM, wFM2mD, mD2mDed, mDed2sDR});
     return bobFST;
 }
 
