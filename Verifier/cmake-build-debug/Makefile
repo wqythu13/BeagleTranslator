@@ -798,6 +798,33 @@ Model/Process/Type.cpp.s:
 	$(MAKE) -f CMakeFiles/Verifier.dir/build.make CMakeFiles/Verifier.dir/Model/Process/Type.cpp.s
 .PHONY : Model/Process/Type.cpp.s
 
+ProverifModel/ProverifModel.o: ProverifModel/ProverifModel.cpp.o
+
+.PHONY : ProverifModel/ProverifModel.o
+
+# target to build an object file
+ProverifModel/ProverifModel.cpp.o:
+	$(MAKE) -f CMakeFiles/Verifier.dir/build.make CMakeFiles/Verifier.dir/ProverifModel/ProverifModel.cpp.o
+.PHONY : ProverifModel/ProverifModel.cpp.o
+
+ProverifModel/ProverifModel.i: ProverifModel/ProverifModel.cpp.i
+
+.PHONY : ProverifModel/ProverifModel.i
+
+# target to preprocess a source file
+ProverifModel/ProverifModel.cpp.i:
+	$(MAKE) -f CMakeFiles/Verifier.dir/build.make CMakeFiles/Verifier.dir/ProverifModel/ProverifModel.cpp.i
+.PHONY : ProverifModel/ProverifModel.cpp.i
+
+ProverifModel/ProverifModel.s: ProverifModel/ProverifModel.cpp.s
+
+.PHONY : ProverifModel/ProverifModel.s
+
+# target to generate assembly for a file
+ProverifModel/ProverifModel.cpp.s:
+	$(MAKE) -f CMakeFiles/Verifier.dir/build.make CMakeFiles/Verifier.dir/ProverifModel/ProverifModel.cpp.s
+.PHONY : ProverifModel/ProverifModel.cpp.s
+
 Translator/BeagleTranslator.o: Translator/BeagleTranslator.cpp.o
 
 .PHONY : Translator/BeagleTranslator.o
@@ -824,6 +851,33 @@ Translator/BeagleTranslator.s: Translator/BeagleTranslator.cpp.s
 Translator/BeagleTranslator.cpp.s:
 	$(MAKE) -f CMakeFiles/Verifier.dir/build.make CMakeFiles/Verifier.dir/Translator/BeagleTranslator.cpp.s
 .PHONY : Translator/BeagleTranslator.cpp.s
+
+Translator/ProverifTranslator.o: Translator/ProverifTranslator.cpp.o
+
+.PHONY : Translator/ProverifTranslator.o
+
+# target to build an object file
+Translator/ProverifTranslator.cpp.o:
+	$(MAKE) -f CMakeFiles/Verifier.dir/build.make CMakeFiles/Verifier.dir/Translator/ProverifTranslator.cpp.o
+.PHONY : Translator/ProverifTranslator.cpp.o
+
+Translator/ProverifTranslator.i: Translator/ProverifTranslator.cpp.i
+
+.PHONY : Translator/ProverifTranslator.i
+
+# target to preprocess a source file
+Translator/ProverifTranslator.cpp.i:
+	$(MAKE) -f CMakeFiles/Verifier.dir/build.make CMakeFiles/Verifier.dir/Translator/ProverifTranslator.cpp.i
+.PHONY : Translator/ProverifTranslator.cpp.i
+
+Translator/ProverifTranslator.s: Translator/ProverifTranslator.cpp.s
+
+.PHONY : Translator/ProverifTranslator.s
+
+# target to generate assembly for a file
+Translator/ProverifTranslator.cpp.s:
+	$(MAKE) -f CMakeFiles/Verifier.dir/build.make CMakeFiles/Verifier.dir/Translator/ProverifTranslator.cpp.s
+.PHONY : Translator/ProverifTranslator.cpp.s
 
 main.o: main.cpp.o
 
@@ -936,9 +990,15 @@ help:
 	@echo "... Model/Process/Type.o"
 	@echo "... Model/Process/Type.i"
 	@echo "... Model/Process/Type.s"
+	@echo "... ProverifModel/ProverifModel.o"
+	@echo "... ProverifModel/ProverifModel.i"
+	@echo "... ProverifModel/ProverifModel.s"
 	@echo "... Translator/BeagleTranslator.o"
 	@echo "... Translator/BeagleTranslator.i"
 	@echo "... Translator/BeagleTranslator.s"
+	@echo "... Translator/ProverifTranslator.o"
+	@echo "... Translator/ProverifTranslator.i"
+	@echo "... Translator/ProverifTranslator.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
