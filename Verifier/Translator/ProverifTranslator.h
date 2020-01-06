@@ -19,6 +19,7 @@ namespace esc {
         void makeHeader();
         void makeBlocks();
         bool saveInFile(string path);
+        void setModel(Model* _model);
     };
 }
 

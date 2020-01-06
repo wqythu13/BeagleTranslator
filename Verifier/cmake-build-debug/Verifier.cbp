@@ -234,10 +234,28 @@
 		<Unit filename="/home/wqy/文档/BeagleTranslator/Verifier/Model/Process/Type.h">
 			<Option target="Verifier"/>
 		</Unit>
+		<Unit filename="/home/wqy/文档/BeagleTranslator/Verifier/ProverifModel/ProverifDeclaration.cpp">
+			<Option target="Verifier"/>
+		</Unit>
+		<Unit filename="/home/wqy/文档/BeagleTranslator/Verifier/ProverifModel/ProverifDeclaration.h">
+			<Option target="Verifier"/>
+		</Unit>
 		<Unit filename="/home/wqy/文档/BeagleTranslator/Verifier/ProverifModel/ProverifModel.cpp">
 			<Option target="Verifier"/>
 		</Unit>
 		<Unit filename="/home/wqy/文档/BeagleTranslator/Verifier/ProverifModel/ProverifModel.h">
+			<Option target="Verifier"/>
+		</Unit>
+		<Unit filename="/home/wqy/文档/BeagleTranslator/Verifier/ProverifModel/ProverifProcess.cpp">
+			<Option target="Verifier"/>
+		</Unit>
+		<Unit filename="/home/wqy/文档/BeagleTranslator/Verifier/ProverifModel/ProverifProcess.h">
+			<Option target="Verifier"/>
+		</Unit>
+		<Unit filename="/home/wqy/文档/BeagleTranslator/Verifier/ProverifModel/ProverifVar.cpp">
+			<Option target="Verifier"/>
+		</Unit>
+		<Unit filename="/home/wqy/文档/BeagleTranslator/Verifier/ProverifModel/ProverifVar.h">
 			<Option target="Verifier"/>
 		</Unit>
 		<Unit filename="/home/wqy/文档/BeagleTranslator/Verifier/Translator/BeagleTranslator.cpp">

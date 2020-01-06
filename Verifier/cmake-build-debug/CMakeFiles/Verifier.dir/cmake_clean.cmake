@@ -28,6 +28,9 @@ file(REMOVE_RECURSE
   "CMakeFiles/Verifier.dir/Model/Model.cpp.o"
   "CMakeFiles/Verifier.dir/Translator/ProverifTranslator.cpp.o"
   "CMakeFiles/Verifier.dir/ProverifModel/ProverifModel.cpp.o"
+  "CMakeFiles/Verifier.dir/ProverifModel/ProverifProcess.cpp.o"
+  "CMakeFiles/Verifier.dir/ProverifModel/ProverifVar.cpp.o"
+  "CMakeFiles/Verifier.dir/ProverifModel/ProverifDeclaration.cpp.o"
   "Verifier.pdb"
   "Verifier"
 )

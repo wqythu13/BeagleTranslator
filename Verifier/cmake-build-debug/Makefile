@@ -798,6 +798,33 @@ Model/Process/Type.cpp.s:
 	$(MAKE) -f CMakeFiles/Verifier.dir/build.make CMakeFiles/Verifier.dir/Model/Process/Type.cpp.s
 .PHONY : Model/Process/Type.cpp.s
 
+ProverifModel/ProverifDeclaration.o: ProverifModel/ProverifDeclaration.cpp.o
+
+.PHONY : ProverifModel/ProverifDeclaration.o
+
+# target to build an object file
+ProverifModel/ProverifDeclaration.cpp.o:
+	$(MAKE) -f CMakeFiles/Verifier.dir/build.make CMakeFiles/Verifier.dir/ProverifModel/ProverifDeclaration.cpp.o
+.PHONY : ProverifModel/ProverifDeclaration.cpp.o
+
+ProverifModel/ProverifDeclaration.i: ProverifModel/ProverifDeclaration.cpp.i
+
+.PHONY : ProverifModel/ProverifDeclaration.i
+
+# target to preprocess a source file
+ProverifModel/ProverifDeclaration.cpp.i:
+	$(MAKE) -f CMakeFiles/Verifier.dir/build.make CMakeFiles/Verifier.dir/ProverifModel/ProverifDeclaration.cpp.i
+.PHONY : ProverifModel/ProverifDeclaration.cpp.i
+
+ProverifModel/ProverifDeclaration.s: ProverifModel/ProverifDeclaration.cpp.s
+
+.PHONY : ProverifModel/ProverifDeclaration.s
+
+# target to generate assembly for a file
+ProverifModel/ProverifDeclaration.cpp.s:
+	$(MAKE) -f CMakeFiles/Verifier.dir/build.make CMakeFiles/Verifier.dir/ProverifModel/ProverifDeclaration.cpp.s
+.PHONY : ProverifModel/ProverifDeclaration.cpp.s
+
 ProverifModel/ProverifModel.o: ProverifModel/ProverifModel.cpp.o
 
 .PHONY : ProverifModel/ProverifModel.o
@@ -824,6 +851,60 @@ ProverifModel/ProverifModel.s: ProverifModel/ProverifModel.cpp.s
 ProverifModel/ProverifModel.cpp.s:
 	$(MAKE) -f CMakeFiles/Verifier.dir/build.make CMakeFiles/Verifier.dir/ProverifModel/ProverifModel.cpp.s
 .PHONY : ProverifModel/ProverifModel.cpp.s
+
+ProverifModel/ProverifProcess.o: ProverifModel/ProverifProcess.cpp.o
+
+.PHONY : ProverifModel/ProverifProcess.o
+
+# target to build an object file
+ProverifModel/ProverifProcess.cpp.o:
+	$(MAKE) -f CMakeFiles/Verifier.dir/build.make CMakeFiles/Verifier.dir/ProverifModel/ProverifProcess.cpp.o
+.PHONY : ProverifModel/ProverifProcess.cpp.o
+
+ProverifModel/ProverifProcess.i: ProverifModel/ProverifProcess.cpp.i
+
+.PHONY : ProverifModel/ProverifProcess.i
+
+# target to preprocess a source file
+ProverifModel/ProverifProcess.cpp.i:
+	$(MAKE) -f CMakeFiles/Verifier.dir/build.make CMakeFiles/Verifier.dir/ProverifModel/ProverifProcess.cpp.i
+.PHONY : ProverifModel/ProverifProcess.cpp.i
+
+ProverifModel/ProverifProcess.s: ProverifModel/ProverifProcess.cpp.s
+
+.PHONY : ProverifModel/ProverifProcess.s
+
+# target to generate assembly for a file
+ProverifModel/ProverifProcess.cpp.s:
+	$(MAKE) -f CMakeFiles/Verifier.dir/build.make CMakeFiles/Verifier.dir/ProverifModel/ProverifProcess.cpp.s
+.PHONY : ProverifModel/ProverifProcess.cpp.s
+
+ProverifModel/ProverifVar.o: ProverifModel/ProverifVar.cpp.o
+
+.PHONY : ProverifModel/ProverifVar.o
+
+# target to build an object file
+ProverifModel/ProverifVar.cpp.o:
+	$(MAKE) -f CMakeFiles/Verifier.dir/build.make CMakeFiles/Verifier.dir/ProverifModel/ProverifVar.cpp.o
+.PHONY : ProverifModel/ProverifVar.cpp.o
+
+ProverifModel/ProverifVar.i: ProverifModel/ProverifVar.cpp.i
+
+.PHONY : ProverifModel/ProverifVar.i
+
+# target to preprocess a source file
+ProverifModel/ProverifVar.cpp.i:
+	$(MAKE) -f CMakeFiles/Verifier.dir/build.make CMakeFiles/Verifier.dir/ProverifModel/ProverifVar.cpp.i
+.PHONY : ProverifModel/ProverifVar.cpp.i
+
+ProverifModel/ProverifVar.s: ProverifModel/ProverifVar.cpp.s
+
+.PHONY : ProverifModel/ProverifVar.s
+
+# target to generate assembly for a file
+ProverifModel/ProverifVar.cpp.s:
+	$(MAKE) -f CMakeFiles/Verifier.dir/build.make CMakeFiles/Verifier.dir/ProverifModel/ProverifVar.cpp.s
+.PHONY : ProverifModel/ProverifVar.cpp.s
 
 Translator/BeagleTranslator.o: Translator/BeagleTranslator.cpp.o
 
@@ -990,9 +1071,18 @@ help:
 	@echo "... Model/Process/Type.o"
 	@echo "... Model/Process/Type.i"
 	@echo "... Model/Process/Type.s"
+	@echo "... ProverifModel/ProverifDeclaration.o"
+	@echo "... ProverifModel/ProverifDeclaration.i"
+	@echo "... ProverifModel/ProverifDeclaration.s"
 	@echo "... ProverifModel/ProverifModel.o"
 	@echo "... ProverifModel/ProverifModel.i"
 	@echo "... ProverifModel/ProverifModel.s"
+	@echo "... ProverifModel/ProverifProcess.o"
+	@echo "... ProverifModel/ProverifProcess.i"
+	@echo "... ProverifModel/ProverifProcess.s"
+	@echo "... ProverifModel/ProverifVar.o"
+	@echo "... ProverifModel/ProverifVar.i"
+	@echo "... ProverifModel/ProverifVar.s"
 	@echo "... Translator/BeagleTranslator.o"
 	@echo "... Translator/BeagleTranslator.i"
 	@echo "... Translator/BeagleTranslator.s"

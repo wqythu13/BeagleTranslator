@@ -3,3 +3,9 @@
 //
 
 #include "ProverifTranslator.h"
+
+namespace esc {
+void ProverifTranslator::setModel(esc::Model *_model) {
+    this->model = _model;
+}
+}
