@@ -240,6 +240,12 @@
 		<Unit filename="/home/wqy/文档/BeagleTranslator/Verifier/ProverifModel/ProverifDeclaration.h">
 			<Option target="Verifier"/>
 		</Unit>
+		<Unit filename="/home/wqy/文档/BeagleTranslator/Verifier/ProverifModel/ProverifFunc.cpp">
+			<Option target="Verifier"/>
+		</Unit>
+		<Unit filename="/home/wqy/文档/BeagleTranslator/Verifier/ProverifModel/ProverifFunc.h">
+			<Option target="Verifier"/>
+		</Unit>
 		<Unit filename="/home/wqy/文档/BeagleTranslator/Verifier/ProverifModel/ProverifModel.cpp">
 			<Option target="Verifier"/>
 		</Unit>
@@ -250,6 +256,12 @@
 			<Option target="Verifier"/>
 		</Unit>
 		<Unit filename="/home/wqy/文档/BeagleTranslator/Verifier/ProverifModel/ProverifProcess.h">
+			<Option target="Verifier"/>
+		</Unit>
+		<Unit filename="/home/wqy/文档/BeagleTranslator/Verifier/ProverifModel/ProverifReduc.cpp">
+			<Option target="Verifier"/>
+		</Unit>
+		<Unit filename="/home/wqy/文档/BeagleTranslator/Verifier/ProverifModel/ProverifReduc.h">
 			<Option target="Verifier"/>
 		</Unit>
 		<Unit filename="/home/wqy/文档/BeagleTranslator/Verifier/ProverifModel/ProverifVar.cpp">

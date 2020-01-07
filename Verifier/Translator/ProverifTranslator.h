@@ -18,6 +18,7 @@ namespace esc {
         void makingStartingProcess();
         void makeHeader();
         void makeBlocks();
+        void generateProverif();
         bool saveInFile(string path);
         void setModel(Model* _model);
     };

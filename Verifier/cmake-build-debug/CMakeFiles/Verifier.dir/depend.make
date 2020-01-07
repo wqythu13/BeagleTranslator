@@ -196,6 +196,23 @@ CMakeFiles/Verifier.dir/Model/Process/Signal.cpp.o: ../Model/Process/Type.h
 CMakeFiles/Verifier.dir/Model/Process/Type.cpp.o: ../Model/Process/Type.cpp
 CMakeFiles/Verifier.dir/Model/Process/Type.cpp.o: ../Model/Process/Type.h
 
+CMakeFiles/Verifier.dir/ProverifModel/ProverifDeclaration.cpp.o: ../ProverifModel/ProverifDeclaration.cpp
+CMakeFiles/Verifier.dir/ProverifModel/ProverifDeclaration.cpp.o: ../ProverifModel/ProverifDeclaration.h
+
+CMakeFiles/Verifier.dir/ProverifModel/ProverifModel.cpp.o: ../ProverifModel/ProverifDeclaration.h
+CMakeFiles/Verifier.dir/ProverifModel/ProverifModel.cpp.o: ../ProverifModel/ProverifModel.cpp
+CMakeFiles/Verifier.dir/ProverifModel/ProverifModel.cpp.o: ../ProverifModel/ProverifModel.h
+CMakeFiles/Verifier.dir/ProverifModel/ProverifModel.cpp.o: ../ProverifModel/ProverifProcess.h
+CMakeFiles/Verifier.dir/ProverifModel/ProverifModel.cpp.o: ../ProverifModel/ProverifVar.h
+
+CMakeFiles/Verifier.dir/ProverifModel/ProverifProcess.cpp.o: ../ProverifModel/ProverifDeclaration.h
+CMakeFiles/Verifier.dir/ProverifModel/ProverifProcess.cpp.o: ../ProverifModel/ProverifProcess.cpp
+CMakeFiles/Verifier.dir/ProverifModel/ProverifProcess.cpp.o: ../ProverifModel/ProverifProcess.h
+CMakeFiles/Verifier.dir/ProverifModel/ProverifProcess.cpp.o: ../ProverifModel/ProverifVar.h
+
+CMakeFiles/Verifier.dir/ProverifModel/ProverifVar.cpp.o: ../ProverifModel/ProverifVar.cpp
+CMakeFiles/Verifier.dir/ProverifModel/ProverifVar.cpp.o: ../ProverifModel/ProverifVar.h
+
 CMakeFiles/Verifier.dir/Translator/BeagleTranslator.cpp.o: ../BeagleModel/BeagleGuard.h
 CMakeFiles/Verifier.dir/Translator/BeagleTranslator.cpp.o: ../BeagleModel/BeagleModel.h
 CMakeFiles/Verifier.dir/Translator/BeagleTranslator.cpp.o: ../BeagleModel/BeagleModule.h
@@ -223,6 +240,30 @@ CMakeFiles/Verifier.dir/Translator/BeagleTranslator.cpp.o: ../Model/Process/Type
 CMakeFiles/Verifier.dir/Translator/BeagleTranslator.cpp.o: ../Translator/BeagleTranslator.cpp
 CMakeFiles/Verifier.dir/Translator/BeagleTranslator.cpp.o: ../Translator/BeagleTranslator.h
 CMakeFiles/Verifier.dir/Translator/BeagleTranslator.cpp.o: ../Translator/Translator.h
+
+CMakeFiles/Verifier.dir/Translator/ProverifTranslator.cpp.o: ../Model/FiniteStateMachine/Action/Action.h
+CMakeFiles/Verifier.dir/Translator/ProverifTranslator.cpp.o: ../Model/FiniteStateMachine/Edge.h
+CMakeFiles/Verifier.dir/Translator/ProverifTranslator.cpp.o: ../Model/FiniteStateMachine/Expression.h
+CMakeFiles/Verifier.dir/Translator/ProverifTranslator.cpp.o: ../Model/FiniteStateMachine/FiniteStateMachine.h
+CMakeFiles/Verifier.dir/Translator/ProverifTranslator.cpp.o: ../Model/FiniteStateMachine/Guard/Guard.h
+CMakeFiles/Verifier.dir/Translator/ProverifTranslator.cpp.o: ../Model/FiniteStateMachine/Term/AttributeTerm.h
+CMakeFiles/Verifier.dir/Translator/ProverifTranslator.cpp.o: ../Model/FiniteStateMachine/Term/Term.h
+CMakeFiles/Verifier.dir/Translator/ProverifTranslator.cpp.o: ../Model/FiniteStateMachine/Vertex.h
+CMakeFiles/Verifier.dir/Translator/ProverifTranslator.cpp.o: ../Model/Model.h
+CMakeFiles/Verifier.dir/Translator/ProverifTranslator.cpp.o: ../Model/Pragma/InitialKnowledge.h
+CMakeFiles/Verifier.dir/Translator/ProverifTranslator.cpp.o: ../Model/Pragma/Property.h
+CMakeFiles/Verifier.dir/Translator/ProverifTranslator.cpp.o: ../Model/Process/Attribute.h
+CMakeFiles/Verifier.dir/Translator/ProverifTranslator.cpp.o: ../Model/Process/Method.h
+CMakeFiles/Verifier.dir/Translator/ProverifTranslator.cpp.o: ../Model/Process/Process.h
+CMakeFiles/Verifier.dir/Translator/ProverifTranslator.cpp.o: ../Model/Process/Signal.h
+CMakeFiles/Verifier.dir/Translator/ProverifTranslator.cpp.o: ../Model/Process/Type.h
+CMakeFiles/Verifier.dir/Translator/ProverifTranslator.cpp.o: ../ProverifModel/ProverifDeclaration.h
+CMakeFiles/Verifier.dir/Translator/ProverifTranslator.cpp.o: ../ProverifModel/ProverifModel.h
+CMakeFiles/Verifier.dir/Translator/ProverifTranslator.cpp.o: ../ProverifModel/ProverifProcess.h
+CMakeFiles/Verifier.dir/Translator/ProverifTranslator.cpp.o: ../ProverifModel/ProverifVar.h
+CMakeFiles/Verifier.dir/Translator/ProverifTranslator.cpp.o: ../Translator/ProverifTranslator.cpp
+CMakeFiles/Verifier.dir/Translator/ProverifTranslator.cpp.o: ../Translator/ProverifTranslator.h
+CMakeFiles/Verifier.dir/Translator/ProverifTranslator.cpp.o: ../Translator/Translator.h
 
 CMakeFiles/Verifier.dir/main.cpp.o: ../BeagleModel/BeagleGuard.h
 CMakeFiles/Verifier.dir/main.cpp.o: ../BeagleModel/BeagleModel.h

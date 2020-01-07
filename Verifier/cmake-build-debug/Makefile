@@ -825,6 +825,33 @@ ProverifModel/ProverifDeclaration.cpp.s:
 	$(MAKE) -f CMakeFiles/Verifier.dir/build.make CMakeFiles/Verifier.dir/ProverifModel/ProverifDeclaration.cpp.s
 .PHONY : ProverifModel/ProverifDeclaration.cpp.s
 
+ProverifModel/ProverifFunc.o: ProverifModel/ProverifFunc.cpp.o
+
+.PHONY : ProverifModel/ProverifFunc.o
+
+# target to build an object file
+ProverifModel/ProverifFunc.cpp.o:
+	$(MAKE) -f CMakeFiles/Verifier.dir/build.make CMakeFiles/Verifier.dir/ProverifModel/ProverifFunc.cpp.o
+.PHONY : ProverifModel/ProverifFunc.cpp.o
+
+ProverifModel/ProverifFunc.i: ProverifModel/ProverifFunc.cpp.i
+
+.PHONY : ProverifModel/ProverifFunc.i
+
+# target to preprocess a source file
+ProverifModel/ProverifFunc.cpp.i:
+	$(MAKE) -f CMakeFiles/Verifier.dir/build.make CMakeFiles/Verifier.dir/ProverifModel/ProverifFunc.cpp.i
+.PHONY : ProverifModel/ProverifFunc.cpp.i
+
+ProverifModel/ProverifFunc.s: ProverifModel/ProverifFunc.cpp.s
+
+.PHONY : ProverifModel/ProverifFunc.s
+
+# target to generate assembly for a file
+ProverifModel/ProverifFunc.cpp.s:
+	$(MAKE) -f CMakeFiles/Verifier.dir/build.make CMakeFiles/Verifier.dir/ProverifModel/ProverifFunc.cpp.s
+.PHONY : ProverifModel/ProverifFunc.cpp.s
+
 ProverifModel/ProverifModel.o: ProverifModel/ProverifModel.cpp.o
 
 .PHONY : ProverifModel/ProverifModel.o
@@ -878,6 +905,33 @@ ProverifModel/ProverifProcess.s: ProverifModel/ProverifProcess.cpp.s
 ProverifModel/ProverifProcess.cpp.s:
 	$(MAKE) -f CMakeFiles/Verifier.dir/build.make CMakeFiles/Verifier.dir/ProverifModel/ProverifProcess.cpp.s
 .PHONY : ProverifModel/ProverifProcess.cpp.s
+
+ProverifModel/ProverifReduc.o: ProverifModel/ProverifReduc.cpp.o
+
+.PHONY : ProverifModel/ProverifReduc.o
+
+# target to build an object file
+ProverifModel/ProverifReduc.cpp.o:
+	$(MAKE) -f CMakeFiles/Verifier.dir/build.make CMakeFiles/Verifier.dir/ProverifModel/ProverifReduc.cpp.o
+.PHONY : ProverifModel/ProverifReduc.cpp.o
+
+ProverifModel/ProverifReduc.i: ProverifModel/ProverifReduc.cpp.i
+
+.PHONY : ProverifModel/ProverifReduc.i
+
+# target to preprocess a source file
+ProverifModel/ProverifReduc.cpp.i:
+	$(MAKE) -f CMakeFiles/Verifier.dir/build.make CMakeFiles/Verifier.dir/ProverifModel/ProverifReduc.cpp.i
+.PHONY : ProverifModel/ProverifReduc.cpp.i
+
+ProverifModel/ProverifReduc.s: ProverifModel/ProverifReduc.cpp.s
+
+.PHONY : ProverifModel/ProverifReduc.s
+
+# target to generate assembly for a file
+ProverifModel/ProverifReduc.cpp.s:
+	$(MAKE) -f CMakeFiles/Verifier.dir/build.make CMakeFiles/Verifier.dir/ProverifModel/ProverifReduc.cpp.s
+.PHONY : ProverifModel/ProverifReduc.cpp.s
 
 ProverifModel/ProverifVar.o: ProverifModel/ProverifVar.cpp.o
 
@@ -1074,12 +1128,18 @@ help:
 	@echo "... ProverifModel/ProverifDeclaration.o"
 	@echo "... ProverifModel/ProverifDeclaration.i"
 	@echo "... ProverifModel/ProverifDeclaration.s"
+	@echo "... ProverifModel/ProverifFunc.o"
+	@echo "... ProverifModel/ProverifFunc.i"
+	@echo "... ProverifModel/ProverifFunc.s"
 	@echo "... ProverifModel/ProverifModel.o"
 	@echo "... ProverifModel/ProverifModel.i"
 	@echo "... ProverifModel/ProverifModel.s"
 	@echo "... ProverifModel/ProverifProcess.o"
 	@echo "... ProverifModel/ProverifProcess.i"
 	@echo "... ProverifModel/ProverifProcess.s"
+	@echo "... ProverifModel/ProverifReduc.o"
+	@echo "... ProverifModel/ProverifReduc.i"
+	@echo "... ProverifModel/ProverifReduc.s"
 	@echo "... ProverifModel/ProverifVar.o"
 	@echo "... ProverifModel/ProverifVar.i"
 	@echo "... ProverifModel/ProverifVar.s"

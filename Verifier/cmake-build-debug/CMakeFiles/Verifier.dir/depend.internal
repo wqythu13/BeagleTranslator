@@ -196,6 +196,23 @@ CMakeFiles/Verifier.dir/Model/Process/Signal.cpp.o
 CMakeFiles/Verifier.dir/Model/Process/Type.cpp.o
  /home/wqy/文档/BeagleTranslator/Verifier/Model/Process/Type.cpp
  /home/wqy/文档/BeagleTranslator/Verifier/Model/Process/Type.h
+CMakeFiles/Verifier.dir/ProverifModel/ProverifDeclaration.cpp.o
+ /home/wqy/文档/BeagleTranslator/Verifier/ProverifModel/ProverifDeclaration.cpp
+ /home/wqy/文档/BeagleTranslator/Verifier/ProverifModel/ProverifDeclaration.h
+CMakeFiles/Verifier.dir/ProverifModel/ProverifModel.cpp.o
+ /home/wqy/文档/BeagleTranslator/Verifier/ProverifModel/ProverifDeclaration.h
+ /home/wqy/文档/BeagleTranslator/Verifier/ProverifModel/ProverifModel.cpp
+ /home/wqy/文档/BeagleTranslator/Verifier/ProverifModel/ProverifModel.h
+ /home/wqy/文档/BeagleTranslator/Verifier/ProverifModel/ProverifProcess.h
+ /home/wqy/文档/BeagleTranslator/Verifier/ProverifModel/ProverifVar.h
+CMakeFiles/Verifier.dir/ProverifModel/ProverifProcess.cpp.o
+ /home/wqy/文档/BeagleTranslator/Verifier/ProverifModel/ProverifDeclaration.h
+ /home/wqy/文档/BeagleTranslator/Verifier/ProverifModel/ProverifProcess.cpp
+ /home/wqy/文档/BeagleTranslator/Verifier/ProverifModel/ProverifProcess.h
+ /home/wqy/文档/BeagleTranslator/Verifier/ProverifModel/ProverifVar.h
+CMakeFiles/Verifier.dir/ProverifModel/ProverifVar.cpp.o
+ /home/wqy/文档/BeagleTranslator/Verifier/ProverifModel/ProverifVar.cpp
+ /home/wqy/文档/BeagleTranslator/Verifier/ProverifModel/ProverifVar.h
 CMakeFiles/Verifier.dir/Translator/BeagleTranslator.cpp.o
  /home/wqy/文档/BeagleTranslator/Verifier/BeagleModel/BeagleGuard.h
  /home/wqy/文档/BeagleTranslator/Verifier/BeagleModel/BeagleModel.h
@@ -223,6 +240,30 @@ CMakeFiles/Verifier.dir/Translator/BeagleTranslator.cpp.o
  /home/wqy/文档/BeagleTranslator/Verifier/Model/Process/Type.h
  /home/wqy/文档/BeagleTranslator/Verifier/Translator/BeagleTranslator.cpp
  /home/wqy/文档/BeagleTranslator/Verifier/Translator/BeagleTranslator.h
+ /home/wqy/文档/BeagleTranslator/Verifier/Translator/Translator.h
+CMakeFiles/Verifier.dir/Translator/ProverifTranslator.cpp.o
+ /home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Action/Action.h
+ /home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Edge.h
+ /home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Expression.h
+ /home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/FiniteStateMachine.h
+ /home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Guard/Guard.h
+ /home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Term/AttributeTerm.h
+ /home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Term/Term.h
+ /home/wqy/文档/BeagleTranslator/Verifier/Model/FiniteStateMachine/Vertex.h
+ /home/wqy/文档/BeagleTranslator/Verifier/Model/Model.h
+ /home/wqy/文档/BeagleTranslator/Verifier/Model/Pragma/InitialKnowledge.h
+ /home/wqy/文档/BeagleTranslator/Verifier/Model/Pragma/Property.h
+ /home/wqy/文档/BeagleTranslator/Verifier/Model/Process/Attribute.h
+ /home/wqy/文档/BeagleTranslator/Verifier/Model/Process/Method.h
+ /home/wqy/文档/BeagleTranslator/Verifier/Model/Process/Process.h
+ /home/wqy/文档/BeagleTranslator/Verifier/Model/Process/Signal.h
+ /home/wqy/文档/BeagleTranslator/Verifier/Model/Process/Type.h
+ /home/wqy/文档/BeagleTranslator/Verifier/ProverifModel/ProverifDeclaration.h
+ /home/wqy/文档/BeagleTranslator/Verifier/ProverifModel/ProverifModel.h
+ /home/wqy/文档/BeagleTranslator/Verifier/ProverifModel/ProverifProcess.h
+ /home/wqy/文档/BeagleTranslator/Verifier/ProverifModel/ProverifVar.h
+ /home/wqy/文档/BeagleTranslator/Verifier/Translator/ProverifTranslator.cpp
+ /home/wqy/文档/BeagleTranslator/Verifier/Translator/ProverifTranslator.h
  /home/wqy/文档/BeagleTranslator/Verifier/Translator/Translator.h
 CMakeFiles/Verifier.dir/main.cpp.o
  /home/wqy/文档/BeagleTranslator/Verifier/BeagleModel/BeagleGuard.h
