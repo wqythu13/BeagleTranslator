@@ -11,7 +11,12 @@ void ProverifTranslator::makingStartingProcess() {
 
 void ProverifTranslator::makeHeader() {
     //TODO add regular Header & user defined function
-
+    string bitstring = "bitstring";
+    ProverifModel* pModel = this->proverifModel;
+    pModel->addDeclaration(new ProverifFunc("pk", list<string>{bitstring}, bitstring));
+    pModel->addDeclaration(new ProverifFunc("aencrypt", list<string>{bitstring, bitstring}, bitstring));
+    pModel->addDeclaration(new ProverifReduc(list<ProverifVar*>{new ProverifVar("x", bitstring), new ProverifVar("y", bitstring)}, "adecrypt (aencrypt (x, pk (y)), y) = x"));
+    pModel->addDeclaration(new ProverifFunc("sign", list<string>{bitstring, bitstring}, bitstring));
     // user defined function
 
 }

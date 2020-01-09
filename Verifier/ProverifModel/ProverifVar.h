@@ -15,6 +15,7 @@ namespace esc {
         bool isPrivate;
     public:
         ProverifVar() : name("") , type(""), isPrivate(false) {}
+        ProverifVar(string _name, string _type) : name(_name), type(_type), isPrivate(false) {}
         ProverifVar(string _name, string _type, bool _isPrivate) : name(_name), type(_type), isPrivate(_isPrivate) {}
     };
 }

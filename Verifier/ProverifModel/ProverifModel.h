@@ -6,6 +6,7 @@
 #define VERIFIER_PROVERIFMODEL_H
 #include <list>
 #include "ProverifProcess.h"
+#include "ProverifDeclaration.h"
 using std::list;
 
 namespace esc {
@@ -13,6 +14,7 @@ namespace esc {
     private:
         ProverifProcess* mainProcess;
         list<ProverifProcess*> processes;
+        list<ProverifDeclaration*> declarations;
 
     public:
         ProverifProcess* getMainProcess() {return this->mainProcess;}
@@ -20,6 +22,7 @@ namespace esc {
         void setMainProcess(ProverifProcess* _mainProcess);
         void setProcesses(list<ProverifProcess*> _processes);
         void addProcess(ProverifProcess* _process);
+        void addDeclaration(ProverifDeclaration* _d);
 
     };
 }

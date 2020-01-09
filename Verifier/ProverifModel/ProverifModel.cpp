@@ -15,4 +15,8 @@ void ProverifModel::setProcesses(list<esc::ProverifProcess *> _processes) {
 void ProverifModel::addProcess(esc::ProverifProcess *_process) {
     this->processes.push_back(_process);
 }
+
+void ProverifModel::addDeclaration(esc::ProverifDeclaration *_d) {
+    this->declarations.push_back(_d);
+}
 }

@@ -12,6 +12,8 @@ namespace esc {
     private:
         string declaration;
 
+    public:
+        virtual string toString() = 0;
     };
 }
 #endif //VERIFIER_PROVERIFDECLARATION_H

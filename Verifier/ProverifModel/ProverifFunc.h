@@ -17,8 +17,15 @@ namespace esc {
         string name;
         list<string> types;
         string returnType;
+        ProverifReduc* reduc;
         bool isPrivate;
-        //ProverifReduc* proverifReduc;
+
+    public:
+        ProverifFunc(string _name, list<string> _types, string _returnType) : name(_name), types(_types), returnType(_returnType), reduc(NULL), isPrivate(false) {}
+        ProverifFunc(string _name, list<string> _types, string _returnType, ProverifReduc* _reduc) : name(_name), types(_types), returnType(_returnType), reduc(_reduc), isPrivate(false) {}
+        ProverifFunc(string _name, list<string> _types, string _returnType, bool _isPrivate) : name(_name), types(_types), returnType(_returnType), reduc(NULL), isPrivate(_isPrivate) {}
+        ProverifFunc(string _name, list<string> _types, string _returnType, ProverifReduc* _reduc, bool _isPrivate) : name(_name), types(_types), returnType(_returnType), reduc(_reduc), isPrivate(_isPrivate) {}
+        string toString();
     };
 }
 

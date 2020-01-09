@@ -6,6 +6,7 @@
 #define VERIFIER_PROVERIFTRANSLATOR_H
 #include "Translator.h"
 #include "../ProverifModel/ProverifModel.h"
+#include "../ProverifModel/ProverifFunc.h"
 #include <string>
 using std::string;
 
