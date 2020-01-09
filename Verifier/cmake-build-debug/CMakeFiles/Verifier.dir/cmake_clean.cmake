@@ -33,6 +33,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Verifier.dir/ProverifModel/ProverifDeclaration.cpp.o"
   "CMakeFiles/Verifier.dir/ProverifModel/ProverifFunc.cpp.o"
   "CMakeFiles/Verifier.dir/ProverifModel/ProverifReduc.cpp.o"
+  "CMakeFiles/Verifier.dir/ProverifModel/ProverifComment.cpp.o"
+  "CMakeFiles/Verifier.dir/ProverifModel/ProverifConst.cpp.o"
   "Verifier.pdb"
   "Verifier"
 )

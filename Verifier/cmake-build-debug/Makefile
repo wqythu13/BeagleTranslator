@@ -798,6 +798,60 @@ Model/Process/Type.cpp.s:
 	$(MAKE) -f CMakeFiles/Verifier.dir/build.make CMakeFiles/Verifier.dir/Model/Process/Type.cpp.s
 .PHONY : Model/Process/Type.cpp.s
 
+ProverifModel/ProverifComment.o: ProverifModel/ProverifComment.cpp.o
+
+.PHONY : ProverifModel/ProverifComment.o
+
+# target to build an object file
+ProverifModel/ProverifComment.cpp.o:
+	$(MAKE) -f CMakeFiles/Verifier.dir/build.make CMakeFiles/Verifier.dir/ProverifModel/ProverifComment.cpp.o
+.PHONY : ProverifModel/ProverifComment.cpp.o
+
+ProverifModel/ProverifComment.i: ProverifModel/ProverifComment.cpp.i
+
+.PHONY : ProverifModel/ProverifComment.i
+
+# target to preprocess a source file
+ProverifModel/ProverifComment.cpp.i:
+	$(MAKE) -f CMakeFiles/Verifier.dir/build.make CMakeFiles/Verifier.dir/ProverifModel/ProverifComment.cpp.i
+.PHONY : ProverifModel/ProverifComment.cpp.i
+
+ProverifModel/ProverifComment.s: ProverifModel/ProverifComment.cpp.s
+
+.PHONY : ProverifModel/ProverifComment.s
+
+# target to generate assembly for a file
+ProverifModel/ProverifComment.cpp.s:
+	$(MAKE) -f CMakeFiles/Verifier.dir/build.make CMakeFiles/Verifier.dir/ProverifModel/ProverifComment.cpp.s
+.PHONY : ProverifModel/ProverifComment.cpp.s
+
+ProverifModel/ProverifConst.o: ProverifModel/ProverifConst.cpp.o
+
+.PHONY : ProverifModel/ProverifConst.o
+
+# target to build an object file
+ProverifModel/ProverifConst.cpp.o:
+	$(MAKE) -f CMakeFiles/Verifier.dir/build.make CMakeFiles/Verifier.dir/ProverifModel/ProverifConst.cpp.o
+.PHONY : ProverifModel/ProverifConst.cpp.o
+
+ProverifModel/ProverifConst.i: ProverifModel/ProverifConst.cpp.i
+
+.PHONY : ProverifModel/ProverifConst.i
+
+# target to preprocess a source file
+ProverifModel/ProverifConst.cpp.i:
+	$(MAKE) -f CMakeFiles/Verifier.dir/build.make CMakeFiles/Verifier.dir/ProverifModel/ProverifConst.cpp.i
+.PHONY : ProverifModel/ProverifConst.cpp.i
+
+ProverifModel/ProverifConst.s: ProverifModel/ProverifConst.cpp.s
+
+.PHONY : ProverifModel/ProverifConst.s
+
+# target to generate assembly for a file
+ProverifModel/ProverifConst.cpp.s:
+	$(MAKE) -f CMakeFiles/Verifier.dir/build.make CMakeFiles/Verifier.dir/ProverifModel/ProverifConst.cpp.s
+.PHONY : ProverifModel/ProverifConst.cpp.s
+
 ProverifModel/ProverifDeclaration.o: ProverifModel/ProverifDeclaration.cpp.o
 
 .PHONY : ProverifModel/ProverifDeclaration.o
@@ -1125,6 +1179,12 @@ help:
 	@echo "... Model/Process/Type.o"
 	@echo "... Model/Process/Type.i"
 	@echo "... Model/Process/Type.s"
+	@echo "... ProverifModel/ProverifComment.o"
+	@echo "... ProverifModel/ProverifComment.i"
+	@echo "... ProverifModel/ProverifComment.s"
+	@echo "... ProverifModel/ProverifConst.o"
+	@echo "... ProverifModel/ProverifConst.i"
+	@echo "... ProverifModel/ProverifConst.s"
 	@echo "... ProverifModel/ProverifDeclaration.o"
 	@echo "... ProverifModel/ProverifDeclaration.i"
 	@echo "... ProverifModel/ProverifDeclaration.s"

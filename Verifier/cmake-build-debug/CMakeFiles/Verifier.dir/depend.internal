@@ -196,9 +196,23 @@ CMakeFiles/Verifier.dir/Model/Process/Signal.cpp.o
 CMakeFiles/Verifier.dir/Model/Process/Type.cpp.o
  /home/wqy/文档/BeagleTranslator/Verifier/Model/Process/Type.cpp
  /home/wqy/文档/BeagleTranslator/Verifier/Model/Process/Type.h
+CMakeFiles/Verifier.dir/ProverifModel/ProverifComment.cpp.o
+ /home/wqy/文档/BeagleTranslator/Verifier/ProverifModel/ProverifComment.cpp
+ /home/wqy/文档/BeagleTranslator/Verifier/ProverifModel/ProverifComment.h
+ /home/wqy/文档/BeagleTranslator/Verifier/ProverifModel/ProverifDeclaration.h
+CMakeFiles/Verifier.dir/ProverifModel/ProverifConst.cpp.o
+ /home/wqy/文档/BeagleTranslator/Verifier/ProverifModel/ProverifConst.cpp
+ /home/wqy/文档/BeagleTranslator/Verifier/ProverifModel/ProverifConst.h
+ /home/wqy/文档/BeagleTranslator/Verifier/ProverifModel/ProverifDeclaration.h
 CMakeFiles/Verifier.dir/ProverifModel/ProverifDeclaration.cpp.o
  /home/wqy/文档/BeagleTranslator/Verifier/ProverifModel/ProverifDeclaration.cpp
  /home/wqy/文档/BeagleTranslator/Verifier/ProverifModel/ProverifDeclaration.h
+CMakeFiles/Verifier.dir/ProverifModel/ProverifFunc.cpp.o
+ /home/wqy/文档/BeagleTranslator/Verifier/ProverifModel/ProverifDeclaration.h
+ /home/wqy/文档/BeagleTranslator/Verifier/ProverifModel/ProverifFunc.cpp
+ /home/wqy/文档/BeagleTranslator/Verifier/ProverifModel/ProverifFunc.h
+ /home/wqy/文档/BeagleTranslator/Verifier/ProverifModel/ProverifReduc.h
+ /home/wqy/文档/BeagleTranslator/Verifier/ProverifModel/ProverifVar.h
 CMakeFiles/Verifier.dir/ProverifModel/ProverifModel.cpp.o
  /home/wqy/文档/BeagleTranslator/Verifier/ProverifModel/ProverifDeclaration.h
  /home/wqy/文档/BeagleTranslator/Verifier/ProverifModel/ProverifModel.cpp
@@ -209,6 +223,11 @@ CMakeFiles/Verifier.dir/ProverifModel/ProverifProcess.cpp.o
  /home/wqy/文档/BeagleTranslator/Verifier/ProverifModel/ProverifDeclaration.h
  /home/wqy/文档/BeagleTranslator/Verifier/ProverifModel/ProverifProcess.cpp
  /home/wqy/文档/BeagleTranslator/Verifier/ProverifModel/ProverifProcess.h
+ /home/wqy/文档/BeagleTranslator/Verifier/ProverifModel/ProverifVar.h
+CMakeFiles/Verifier.dir/ProverifModel/ProverifReduc.cpp.o
+ /home/wqy/文档/BeagleTranslator/Verifier/ProverifModel/ProverifDeclaration.h
+ /home/wqy/文档/BeagleTranslator/Verifier/ProverifModel/ProverifReduc.cpp
+ /home/wqy/文档/BeagleTranslator/Verifier/ProverifModel/ProverifReduc.h
  /home/wqy/文档/BeagleTranslator/Verifier/ProverifModel/ProverifVar.h
 CMakeFiles/Verifier.dir/ProverifModel/ProverifVar.cpp.o
  /home/wqy/文档/BeagleTranslator/Verifier/ProverifModel/ProverifVar.cpp
@@ -259,8 +278,10 @@ CMakeFiles/Verifier.dir/Translator/ProverifTranslator.cpp.o
  /home/wqy/文档/BeagleTranslator/Verifier/Model/Process/Signal.h
  /home/wqy/文档/BeagleTranslator/Verifier/Model/Process/Type.h
  /home/wqy/文档/BeagleTranslator/Verifier/ProverifModel/ProverifDeclaration.h
+ /home/wqy/文档/BeagleTranslator/Verifier/ProverifModel/ProverifFunc.h
  /home/wqy/文档/BeagleTranslator/Verifier/ProverifModel/ProverifModel.h
  /home/wqy/文档/BeagleTranslator/Verifier/ProverifModel/ProverifProcess.h
+ /home/wqy/文档/BeagleTranslator/Verifier/ProverifModel/ProverifReduc.h
  /home/wqy/文档/BeagleTranslator/Verifier/ProverifModel/ProverifVar.h
  /home/wqy/文档/BeagleTranslator/Verifier/Translator/ProverifTranslator.cpp
  /home/wqy/文档/BeagleTranslator/Verifier/Translator/ProverifTranslator.h

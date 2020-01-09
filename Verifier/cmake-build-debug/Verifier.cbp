@@ -234,6 +234,18 @@
 		<Unit filename="/home/wqy/文档/BeagleTranslator/Verifier/Model/Process/Type.h">
 			<Option target="Verifier"/>
 		</Unit>
+		<Unit filename="/home/wqy/文档/BeagleTranslator/Verifier/ProverifModel/ProverifComment.cpp">
+			<Option target="Verifier"/>
+		</Unit>
+		<Unit filename="/home/wqy/文档/BeagleTranslator/Verifier/ProverifModel/ProverifComment.h">
+			<Option target="Verifier"/>
+		</Unit>
+		<Unit filename="/home/wqy/文档/BeagleTranslator/Verifier/ProverifModel/ProverifConst.cpp">
+			<Option target="Verifier"/>
+		</Unit>
+		<Unit filename="/home/wqy/文档/BeagleTranslator/Verifier/ProverifModel/ProverifConst.h">
+			<Option target="Verifier"/>
+		</Unit>
 		<Unit filename="/home/wqy/文档/BeagleTranslator/Verifier/ProverifModel/ProverifDeclaration.cpp">
 			<Option target="Verifier"/>
 		</Unit>

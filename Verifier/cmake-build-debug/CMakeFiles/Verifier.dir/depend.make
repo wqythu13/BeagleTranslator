@@ -196,8 +196,22 @@ CMakeFiles/Verifier.dir/Model/Process/Signal.cpp.o: ../Model/Process/Type.h
 CMakeFiles/Verifier.dir/Model/Process/Type.cpp.o: ../Model/Process/Type.cpp
 CMakeFiles/Verifier.dir/Model/Process/Type.cpp.o: ../Model/Process/Type.h
 
+CMakeFiles/Verifier.dir/ProverifModel/ProverifComment.cpp.o: ../ProverifModel/ProverifComment.cpp
+CMakeFiles/Verifier.dir/ProverifModel/ProverifComment.cpp.o: ../ProverifModel/ProverifComment.h
+CMakeFiles/Verifier.dir/ProverifModel/ProverifComment.cpp.o: ../ProverifModel/ProverifDeclaration.h
+
+CMakeFiles/Verifier.dir/ProverifModel/ProverifConst.cpp.o: ../ProverifModel/ProverifConst.cpp
+CMakeFiles/Verifier.dir/ProverifModel/ProverifConst.cpp.o: ../ProverifModel/ProverifConst.h
+CMakeFiles/Verifier.dir/ProverifModel/ProverifConst.cpp.o: ../ProverifModel/ProverifDeclaration.h
+
 CMakeFiles/Verifier.dir/ProverifModel/ProverifDeclaration.cpp.o: ../ProverifModel/ProverifDeclaration.cpp
 CMakeFiles/Verifier.dir/ProverifModel/ProverifDeclaration.cpp.o: ../ProverifModel/ProverifDeclaration.h
+
+CMakeFiles/Verifier.dir/ProverifModel/ProverifFunc.cpp.o: ../ProverifModel/ProverifDeclaration.h
+CMakeFiles/Verifier.dir/ProverifModel/ProverifFunc.cpp.o: ../ProverifModel/ProverifFunc.cpp
+CMakeFiles/Verifier.dir/ProverifModel/ProverifFunc.cpp.o: ../ProverifModel/ProverifFunc.h
+CMakeFiles/Verifier.dir/ProverifModel/ProverifFunc.cpp.o: ../ProverifModel/ProverifReduc.h
+CMakeFiles/Verifier.dir/ProverifModel/ProverifFunc.cpp.o: ../ProverifModel/ProverifVar.h
 
 CMakeFiles/Verifier.dir/ProverifModel/ProverifModel.cpp.o: ../ProverifModel/ProverifDeclaration.h
 CMakeFiles/Verifier.dir/ProverifModel/ProverifModel.cpp.o: ../ProverifModel/ProverifModel.cpp
@@ -209,6 +223,11 @@ CMakeFiles/Verifier.dir/ProverifModel/ProverifProcess.cpp.o: ../ProverifModel/Pr
 CMakeFiles/Verifier.dir/ProverifModel/ProverifProcess.cpp.o: ../ProverifModel/ProverifProcess.cpp
 CMakeFiles/Verifier.dir/ProverifModel/ProverifProcess.cpp.o: ../ProverifModel/ProverifProcess.h
 CMakeFiles/Verifier.dir/ProverifModel/ProverifProcess.cpp.o: ../ProverifModel/ProverifVar.h
+
+CMakeFiles/Verifier.dir/ProverifModel/ProverifReduc.cpp.o: ../ProverifModel/ProverifDeclaration.h
+CMakeFiles/Verifier.dir/ProverifModel/ProverifReduc.cpp.o: ../ProverifModel/ProverifReduc.cpp
+CMakeFiles/Verifier.dir/ProverifModel/ProverifReduc.cpp.o: ../ProverifModel/ProverifReduc.h
+CMakeFiles/Verifier.dir/ProverifModel/ProverifReduc.cpp.o: ../ProverifModel/ProverifVar.h
 
 CMakeFiles/Verifier.dir/ProverifModel/ProverifVar.cpp.o: ../ProverifModel/ProverifVar.cpp
 CMakeFiles/Verifier.dir/ProverifModel/ProverifVar.cpp.o: ../ProverifModel/ProverifVar.h
@@ -258,8 +277,10 @@ CMakeFiles/Verifier.dir/Translator/ProverifTranslator.cpp.o: ../Model/Process/Pr
 CMakeFiles/Verifier.dir/Translator/ProverifTranslator.cpp.o: ../Model/Process/Signal.h
 CMakeFiles/Verifier.dir/Translator/ProverifTranslator.cpp.o: ../Model/Process/Type.h
 CMakeFiles/Verifier.dir/Translator/ProverifTranslator.cpp.o: ../ProverifModel/ProverifDeclaration.h
+CMakeFiles/Verifier.dir/Translator/ProverifTranslator.cpp.o: ../ProverifModel/ProverifFunc.h
 CMakeFiles/Verifier.dir/Translator/ProverifTranslator.cpp.o: ../ProverifModel/ProverifModel.h
 CMakeFiles/Verifier.dir/Translator/ProverifTranslator.cpp.o: ../ProverifModel/ProverifProcess.h
+CMakeFiles/Verifier.dir/Translator/ProverifTranslator.cpp.o: ../ProverifModel/ProverifReduc.h
 CMakeFiles/Verifier.dir/Translator/ProverifTranslator.cpp.o: ../ProverifModel/ProverifVar.h
 CMakeFiles/Verifier.dir/Translator/ProverifTranslator.cpp.o: ../Translator/ProverifTranslator.cpp
 CMakeFiles/Verifier.dir/Translator/ProverifTranslator.cpp.o: ../Translator/ProverifTranslator.h

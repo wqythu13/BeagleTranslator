@@ -20,7 +20,7 @@ namespace esc {
         bool isPrivate;
 
     public:
-        ProverifReduc(list<ProverifVar*> _vars, string _formula) : vars(_vars), formula(_formula), otherwise(NULL), isPrivate(false) {}
+        ProverifReduc(list<ProverifVar*> _vars, string _formula) : vars(_vars), formula(_formula), otherwise(nullptr), isPrivate(false) {}
         ProverifReduc(list<ProverifVar*> _vars, string _formula, bool _isPrivate) : vars(_vars), formula(_formula), otherwise(NULL), isPrivate(_isPrivate) {}
         ProverifReduc(list<ProverifVar*> _vars, string _formula, ProverifReduc* _otherwise) : vars(_vars), formula(_formula), otherwise(_otherwise), isPrivate(false) {}
         ProverifReduc(list<ProverifVar*> _vars, string _formula, ProverifReduc* _otherwise, bool _isPrivate) : vars(_vars), formula(_formula), otherwise(_otherwise), isPrivate(_isPrivate) {}
