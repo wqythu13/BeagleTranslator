@@ -252,6 +252,12 @@
 		<Unit filename="/home/wqy/文档/BeagleTranslator/Verifier/ProverifModel/ProverifDeclaration.h">
 			<Option target="Verifier"/>
 		</Unit>
+		<Unit filename="/home/wqy/文档/BeagleTranslator/Verifier/ProverifModel/ProverifEquation.cpp">
+			<Option target="Verifier"/>
+		</Unit>
+		<Unit filename="/home/wqy/文档/BeagleTranslator/Verifier/ProverifModel/ProverifEquation.h">
+			<Option target="Verifier"/>
+		</Unit>
 		<Unit filename="/home/wqy/文档/BeagleTranslator/Verifier/ProverifModel/ProverifFunc.cpp">
 			<Option target="Verifier"/>
 		</Unit>

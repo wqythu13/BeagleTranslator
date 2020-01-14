@@ -100,19 +100,11 @@ Attribute.h
 string
 -
 
-/home/wqy/文档/BeagleTranslator/Verifier/ProverifModel/ProverifComment.cpp
-ProverifComment.h
-/home/wqy/文档/BeagleTranslator/Verifier/ProverifModel/ProverifComment.h
-
 /home/wqy/文档/BeagleTranslator/Verifier/ProverifModel/ProverifComment.h
 ProverifDeclaration.h
 /home/wqy/文档/BeagleTranslator/Verifier/ProverifModel/ProverifDeclaration.h
 string
 -
-
-/home/wqy/文档/BeagleTranslator/Verifier/ProverifModel/ProverifConst.cpp
-ProverifConst.h
-/home/wqy/文档/BeagleTranslator/Verifier/ProverifModel/ProverifConst.h
 
 /home/wqy/文档/BeagleTranslator/Verifier/ProverifModel/ProverifConst.h
 ProverifDeclaration.h
@@ -120,17 +112,9 @@ ProverifDeclaration.h
 string
 -
 
-/home/wqy/文档/BeagleTranslator/Verifier/ProverifModel/ProverifDeclaration.cpp
-ProverifDeclaration.h
-/home/wqy/文档/BeagleTranslator/Verifier/ProverifModel/ProverifDeclaration.h
-
 /home/wqy/文档/BeagleTranslator/Verifier/ProverifModel/ProverifDeclaration.h
 string
 -
-
-/home/wqy/文档/BeagleTranslator/Verifier/ProverifModel/ProverifFunc.cpp
-ProverifFunc.h
-/home/wqy/文档/BeagleTranslator/Verifier/ProverifModel/ProverifFunc.h
 
 /home/wqy/文档/BeagleTranslator/Verifier/ProverifModel/ProverifFunc.h
 ProverifReduc.h
@@ -142,10 +126,6 @@ string
 list
 -
 
-/home/wqy/文档/BeagleTranslator/Verifier/ProverifModel/ProverifModel.cpp
-ProverifModel.h
-/home/wqy/文档/BeagleTranslator/Verifier/ProverifModel/ProverifModel.h
-
 /home/wqy/文档/BeagleTranslator/Verifier/ProverifModel/ProverifModel.h
 list
 -
@@ -153,10 +133,6 @@ ProverifProcess.h
 /home/wqy/文档/BeagleTranslator/Verifier/ProverifModel/ProverifProcess.h
 ProverifDeclaration.h
 /home/wqy/文档/BeagleTranslator/Verifier/ProverifModel/ProverifDeclaration.h
-
-/home/wqy/文档/BeagleTranslator/Verifier/ProverifModel/ProverifProcess.cpp
-ProverifProcess.h
-/home/wqy/文档/BeagleTranslator/Verifier/ProverifModel/ProverifProcess.h
 
 /home/wqy/文档/BeagleTranslator/Verifier/ProverifModel/ProverifProcess.h
 string
@@ -167,10 +143,6 @@ ProverifVar.h
 /home/wqy/文档/BeagleTranslator/Verifier/ProverifModel/ProverifVar.h
 ProverifDeclaration.h
 /home/wqy/文档/BeagleTranslator/Verifier/ProverifModel/ProverifDeclaration.h
-
-/home/wqy/文档/BeagleTranslator/Verifier/ProverifModel/ProverifReduc.cpp
-ProverifReduc.h
-/home/wqy/文档/BeagleTranslator/Verifier/ProverifModel/ProverifReduc.h
 
 /home/wqy/文档/BeagleTranslator/Verifier/ProverifModel/ProverifReduc.h
 ProverifVar.h
@@ -189,6 +161,10 @@ string
 /home/wqy/文档/BeagleTranslator/Verifier/Translator/ProverifTranslator.cpp
 ProverifTranslator.h
 /home/wqy/文档/BeagleTranslator/Verifier/Translator/ProverifTranslator.h
+../ProverifModel/ProverifComment.h
+/home/wqy/文档/BeagleTranslator/Verifier/ProverifModel/ProverifComment.h
+../ProverifModel/ProverifConst.h
+/home/wqy/文档/BeagleTranslator/Verifier/ProverifModel/ProverifConst.h
 
 /home/wqy/文档/BeagleTranslator/Verifier/Translator/ProverifTranslator.h
 Translator.h

@@ -276,6 +276,8 @@ CMakeFiles/Verifier.dir/Translator/ProverifTranslator.cpp.o: ../Model/Process/Me
 CMakeFiles/Verifier.dir/Translator/ProverifTranslator.cpp.o: ../Model/Process/Process.h
 CMakeFiles/Verifier.dir/Translator/ProverifTranslator.cpp.o: ../Model/Process/Signal.h
 CMakeFiles/Verifier.dir/Translator/ProverifTranslator.cpp.o: ../Model/Process/Type.h
+CMakeFiles/Verifier.dir/Translator/ProverifTranslator.cpp.o: ../ProverifModel/ProverifComment.h
+CMakeFiles/Verifier.dir/Translator/ProverifTranslator.cpp.o: ../ProverifModel/ProverifConst.h
 CMakeFiles/Verifier.dir/Translator/ProverifTranslator.cpp.o: ../ProverifModel/ProverifDeclaration.h
 CMakeFiles/Verifier.dir/Translator/ProverifTranslator.cpp.o: ../ProverifModel/ProverifFunc.h
 CMakeFiles/Verifier.dir/Translator/ProverifTranslator.cpp.o: ../ProverifModel/ProverifModel.h

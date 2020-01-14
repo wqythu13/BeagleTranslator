@@ -15,23 +15,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4738a9b-05b4-4f7a-88e6-e203888683b0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ProverifModel/ProverifComment.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProverifModel/ProverifComment.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProverifModel/ProverifConst.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProverifModel/ProverifConst.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProverifModel/ProverifDeclaration.h" beforeDir="false" afterPath="$PROJECT_DIR$/ProverifModel/ProverifDeclaration.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProverifModel/ProverifReduc.h" beforeDir="false" afterPath="$PROJECT_DIR$/ProverifModel/ProverifReduc.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Translator/ProverifTranslator.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Translator/ProverifTranslator.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verifier.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verifier.dir/CXX.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verifier.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verifier.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verifier.dir/Translator/ProverifTranslator.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verifier.dir/Translator/ProverifTranslator.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verifier.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verifier.dir/build.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verifier.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verifier.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verifier.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verifier.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verifier.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verifier.dir/depend.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verifier.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verifier.dir/link.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verifier.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verifier.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Verifier" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Verifier" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Verifier" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Verifier.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Verifier.cbp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -110,8 +109,8 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="13856" />
-          <entry key="h" value="12052" />
+          <entry key="cpp" value="14961" />
+          <entry key="h" value="12371" />
           <entry key="txt" value="39" />
         </counts>
       </usages-collector>
@@ -119,15 +118,15 @@
         <counts>
           <entry key="CMakeLists.txt" value="12" />
           <entry key="Doxygen file" value="5" />
-          <entry key="ObjectiveC" value="25903" />
+          <entry key="ObjectiveC" value="27327" />
           <entry key="PLAIN_TEXT" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="Build All (disassembly)" value="1" />
-          <entry key="cpp" value="103" />
-          <entry key="h" value="167" />
+          <entry key="cpp" value="107" />
+          <entry key="h" value="172" />
           <entry key="md" value="1" />
           <entry key="tcc" value="1" />
           <entry key="txt" value="1" />
@@ -137,7 +136,7 @@
         <counts>
           <entry key="CMakeLists.txt" value="1" />
           <entry key="Disassembly" value="1" />
-          <entry key="ObjectiveC" value="271" />
+          <entry key="ObjectiveC" value="280" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
@@ -145,20 +144,59 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Translator/ProverifTranslator.h">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Translator/ProverifTranslator.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
+            <state relative-caret-position="357">
+              <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
+              <folding>
+                <element signature="e#36#67#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Translator/ProverifTranslator.cpp">
+        <entry file="file://$PROJECT_DIR$/ProverifModel/ProverifEquation.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
+            <state relative-caret-position="300">
+              <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+              <folding>
+                <element signature="e#109#141#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ProverifModel/ProverifReduc.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="52" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="52" />
+              <folding>
+                <element signature="e#102#126#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ProverifModel/ProverifFunc.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+              <folding>
+                <element signature="e#100#126#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BeagleModel/BeagleGuard.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="295">
+              <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -181,55 +219,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ProverifModel/ProverifConst.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
-              <folding>
-                <element signature="e#102#134#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ProverifModel/ProverifVar.h">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
               <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ProverifModel/ProverifFunc.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
-              <folding>
-                <element signature="e#100#126#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ProverifModel/ProverifDeclaration.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ProverifModel/ProverifReduc.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="52" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="52" />
-              <folding>
-                <element signature="e#102#126#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -245,7 +238,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Model/FiniteStateMachine/Action/MethodAction.h" />
         <option value="$PROJECT_DIR$/Model/FiniteStateMachine/Action/Action.h" />
         <option value="$PROJECT_DIR$/Model/FiniteStateMachine/Action/SignalAction.h" />
         <option value="$PROJECT_DIR$/Model/FiniteStateMachine/Action/SignalAction.cpp" />
@@ -291,11 +283,12 @@
         <option value="$PROJECT_DIR$/ProverifModel/ProverifModel.cpp" />
         <option value="$PROJECT_DIR$/Translator/ProverifTranslator.h" />
         <option value="$PROJECT_DIR$/ProverifModel/ProverifVar.h" />
-        <option value="$PROJECT_DIR$/Translator/ProverifTranslator.cpp" />
         <option value="$PROJECT_DIR$/ProverifModel/ProverifComment.h" />
         <option value="$PROJECT_DIR$/ProverifModel/ProverifConst.h" />
         <option value="$PROJECT_DIR$/ProverifModel/ProverifReduc.h" />
         <option value="$PROJECT_DIR$/ProverifModel/ProverifDeclaration.h" />
+        <option value="$PROJECT_DIR$/ProverifModel/ProverifEquation.h" />
+        <option value="$PROJECT_DIR$/Translator/ProverifTranslator.cpp" />
       </list>
     </option>
   </component>
@@ -332,6 +325,11 @@
               <item name="Verifier" type="b2602c69:ProjectViewProjectNode" />
               <item name="Verifier" type="462c0819:PsiDirectoryNode" />
               <item name="BeagleModel" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Verifier" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Verifier" type="462c0819:PsiDirectoryNode" />
+              <item name="Model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Verifier" type="b2602c69:ProjectViewProjectNode" />
@@ -390,7 +388,7 @@
       <workItem from="1575276160185" duration="10859000" />
       <workItem from="1575364980688" duration="56739000" />
       <workItem from="1576555118235" duration="1133000" />
-      <workItem from="1576566242591" duration="116947000" />
+      <workItem from="1576566242591" duration="128621000" />
     </task>
     <task id="LOCAL-00001" summary="add beagleProperty">
       <created>1575358846181</created>
@@ -424,7 +422,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="233601000" />
+    <option name="totallyTimeSpent" value="245275000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -439,18 +437,18 @@
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2636514" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2636514" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3298647" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32882413" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32882413" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4997242" weight="0.38293445" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4997242" weight="0.32882413" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Messages" order="8" visible="true" weight="0.33922997" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.33922997" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49917263" weight="0.31737775" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5008274" side_tool="true" weight="0.31737775" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.32882413" />
@@ -524,23 +522,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Model/FiniteStateMachine/Term/MethodTerm.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="64" selection-start-line="5" selection-start-column="64" selection-end-line="5" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Model/Process/Type.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="39" lean-forward="true" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Model/Model.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
@@ -562,13 +543,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BeagleModel/BeagleModule.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -686,21 +660,8 @@
     <entry file="file://$PROJECT_DIR$/BeagleModel/BeagleProperty.h">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/ProverifModel/ProverifDeclaration.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/ProverifModel/ProverifVar.cpp">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BeagleModel/BeagleModule.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="65" column="57" lean-forward="true" selection-start-line="65" selection-start-column="57" selection-end-line="65" selection-end-column="57" />
-          <folding>
-            <element signature="e#101#118#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BeagleModel/BeagleModel.h">
       <provider selected="true" editor-type-id="text-editor">
@@ -722,9 +683,6 @@
           <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BeagleModel/BeagleGuard.h">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Model/FiniteStateMachine/Edge.h">
       <provider selected="true" editor-type-id="text-editor">
@@ -817,24 +775,13 @@
     <entry file="file://$PROJECT_DIR$/ProverifModel/ProverifFunc.cpp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/ProverifModel/ProverifVar.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Translator/ProverifTranslator.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ProverifModel/ProverifComment.cpp">
+    <entry file="file://$PROJECT_DIR$/ProverifModel/ProverifConst.cpp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/ProverifModel/ProverifConst.cpp">
+    <entry file="file://$PROJECT_DIR$/BeagleModel/BeagleGuard.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProverifModel/ProverifDeclaration.cpp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/ProverifModel/ProverifConst.h">
@@ -847,12 +794,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ProverifModel/ProverifDeclaration.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BeagleModel/BeagleGuard.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProverifModel/ProverifVar.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BeagleModel/BeagleModule.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ProverifModel/ProverifComment.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="22" selection-start-line="22" selection-end-line="22" />
           <folding>
             <element signature="e#106#138#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BeagleModel/BeagleModule.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="65" column="57" lean-forward="true" selection-start-line="65" selection-start-column="57" selection-end-line="65" selection-end-column="57" />
+          <folding>
+            <element signature="e#101#118#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -867,6 +852,12 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ProverifModel/ProverifEquation.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProverifModel/ProverifComment.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/ProverifModel/ProverifReduc.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -877,10 +868,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ProverifModel/ProverifDeclaration.h">
+    <entry file="file://$PROJECT_DIR$/ProverifModel/ProverifEquation.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="300">
+          <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+          <folding>
+            <element signature="e#109#141#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Translator/ProverifTranslator.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
+          <folding>
+            <element signature="e#36#67#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

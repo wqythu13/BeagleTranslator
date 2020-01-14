@@ -277,6 +277,8 @@ CMakeFiles/Verifier.dir/Translator/ProverifTranslator.cpp.o
  /home/wqy/文档/BeagleTranslator/Verifier/Model/Process/Process.h
  /home/wqy/文档/BeagleTranslator/Verifier/Model/Process/Signal.h
  /home/wqy/文档/BeagleTranslator/Verifier/Model/Process/Type.h
+ /home/wqy/文档/BeagleTranslator/Verifier/ProverifModel/ProverifComment.h
+ /home/wqy/文档/BeagleTranslator/Verifier/ProverifModel/ProverifConst.h
  /home/wqy/文档/BeagleTranslator/Verifier/ProverifModel/ProverifDeclaration.h
  /home/wqy/文档/BeagleTranslator/Verifier/ProverifModel/ProverifFunc.h
  /home/wqy/文档/BeagleTranslator/Verifier/ProverifModel/ProverifModel.h
