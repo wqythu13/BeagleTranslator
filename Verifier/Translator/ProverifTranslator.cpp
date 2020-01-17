@@ -56,7 +56,7 @@ void ProverifTranslator::makeHeader() {
     pModel->addDeclaration(new ProverifFunc("hash", list<string>{bitstring}, bitstring));
     // TODO add user defined function
 
-    // TODO add channel&query defintion
+    // TODO add channel&query definition
 }
 
 void ProverifTranslator::makeBlocks() {
